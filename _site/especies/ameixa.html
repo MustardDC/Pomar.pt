@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Guia cultivo ameixeira - similar ao pessego, variedades portuguesas, poda e cuidados">
+    <meta name="keywords" content="fruticultura, portugal, açores, pomar, árvores de fruto, ">
+    <meta name="author" content="Pomar.PT">
+
+    <title>Ameixa | Pomar.PT</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/assets/css/style.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome para ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Favicon (placeholder) -->
+    <link rel="icon" type="image/png" href="/assets/images/favicon.png">
+</head>
+<body>
+    <header class="site-header">
+    <div class="container">
+        <div class="header-content">
+            <!-- Logo -->
+            <div class="logo">
+                <a href="/">
+                    <i class="fas fa-seedling"></i>
+                    <span class="logo-text">Pomar.PT</span>
+                </a>
+            </div>
+
+            <!-- Menu Toggle (Mobile) -->
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <!-- Navigation -->
+            <nav class="main-nav" id="mainNav">
+                <ul class="nav-list">
+                    <li><a href="/" class="nav-link">Início</a></li>
+
+                    <!-- Dropdown Espécies -->
+                    <li class="dropdown">
+                        <a href="#" class="nav-link dropdown-toggle">
+                            Espécies <i class="fas fa-chevron-down"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/especies/maca"><i class="fas fa-apple-alt"></i> Maçã</a></li>
+                            <li><a href="/especies/pera">🍐 Pera</a></li>
+                            <li><a href="/especies/pessego">🍑 Pessego</a></li>
+                            <li><a href="/especies/ameixa">Ameixa</a></li>
+                            <li><a href="/especies/videira"><i class="fas fa-wine-bottle"></i> Videira</a></li>
+                            <li><a href="/especies/laranja">🍊 Laranja</a></li>
+                            <li><a href="/especies/limao">🍋 Limão</a></li>
+                            <li><a href="/especies/mirtilo">Mirtilo</a></li>
+                            <li><a href="/especies/framboesa">Framboesa</a></li>
+                            <li><a href="/especies/morango">🍓 Morango</a></li>
+                        </ul>
+                    </li>
+
+                    <!-- Dropdown Práticas -->
+                    <li class="dropdown">
+                        <a href="#" class="nav-link dropdown-toggle">
+                            Práticas <i class="fas fa-chevron-down"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/praticas/plantacao"><i class="fas fa-seedling"></i> Plantação</a></li>
+                            <li><a href="/praticas/adubacao">Adubação</a></li>
+                            <li><a href="/praticas/podas"><i class="fas fa-cut"></i> Podas</a></li>
+                            <li><a href="/praticas/enxertos">Enxertos</a></li>
+                            <li><a href="/praticas/doencas"><i class="fas fa-bug"></i> Doenças</a></li>
+                            <li><a href="/praticas/colheita">Colheita</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="/ferramentas" class="nav-link">Ferramentas</a></li>
+                    <li><a href="/glossario" class="nav-link">Glossário</a></li>
+                    <li><a href="/recursos" class="nav-link">Recursos</a></li>
+
+                    <!-- Busca -->
+                    <li class="nav-search">
+                        <button class="search-btn" id="searchBtn" aria-label="Buscar">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Search Overlay (escondido por padrão) -->
+    <div class="search-overlay" id="searchOverlay">
+        <div class="search-container">
+            <input type="text" class="search-input" id="searchInput" placeholder="Procurar espécies, técnicas, doenças...">
+            <button class="search-close" id="searchClose">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+    </div>
+</header>
+
+
+    <main class="main-content">
+        <div class="especie-page">
+    <div class="container">
+        <!-- Breadcrumbs -->
+        <nav class="breadcrumbs">
+            <a href="/">Início</a>
+            <span>/</span>
+            <a href="/especies/maca">Espécies</a>
+            <span>/</span>
+            <span>Ameixa</span>
+        </nav>
+
+        <!-- Header da Espécie -->
+        <header class="especie-header">
+            <div class="especie-icon-large">🫐</div>
+            <div>
+                <h1>Ameixa</h1>
+                <p class="especie-nome-cientifico">
+                    <em>Prunus domestica</em>
+                </p>
+                <div class="especie-tags">
+                    
+                    <span class="tag">Subtropical</span>
+                    
+                    <span class="tag">Sul Portugal</span>
+                    
+                    <span class="tag">Adaptável</span>
+                    
+                </div>
+            </div>
+        </header>
+
+        <!-- Navegação Rápida -->
+        <nav class="quick-nav">
+            <h3>Navegação Rápida</h3>
+            <ul>
+                <li><a href="#clima"><i class="fas fa-cloud-sun"></i> Clima</a></li>
+                <li><a href="#variedades"><i class="fas fa-list"></i> Variedades</a></li>
+                <li><a href="#plantacao"><i class="fas fa-seedling"></i> Plantação</a></li>
+                <li><a href="#poda"><i class="fas fa-cut"></i> Poda</a></li>
+                <li><a href="#doencas"><i class="fas fa-bug"></i> Doenças</a></li>
+                <li><a href="#colheita"><i class="fas fa-apple-alt"></i> Colheita</a></li>
+            </ul>
+        </nav>
+
+        <!-- Conteúdo Principal -->
+        <div class="especie-content">
+            <h2 id="clima">🌍 Clima</h2>
+
+<p>Similar ao pessego, clima <strong>subtropical a temperado</strong>.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Região</th>
+      <th>Adequação</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Sul/Algarve</strong></td>
+      <td>⭐⭐⭐⭐⭐</td>
+    </tr>
+    <tr>
+      <td><strong>Centro</strong></td>
+      <td>⭐⭐⭐⭐</td>
+    </tr>
+    <tr>
+      <td><strong>Açores</strong></td>
+      <td>⭐⭐⭐⭐</td>
+    </tr>
+    <tr>
+      <td><strong>Norte</strong></td>
+      <td>⭐⭐⭐</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Horas frio:</strong> 300-900h (adaptável)</p>
+
+<hr />
+
+<h2 id="variedades">🌱 Variedades</h2>
+
+<p><strong>Rainha Claudia (Greengage)</strong></p>
+<ul>
+  <li>Cor: Verde-amarela</li>
+  <li>Sabor: Muito doce, aromática</li>
+  <li>Uso: Fresco, compotas</li>
+</ul>
+
+<p><strong>Stanley</strong></p>
+<ul>
+  <li>Cor: Roxo-escuro</li>
+  <li>Tamanho: Grande</li>
+  <li>Uso: Fresco, secar (ameixa seca)</li>
+</ul>
+
+<p><strong>D’Agen</strong></p>
+<ul>
+  <li>Uso: Ameixa seca (prune)</li>
+  <li>Produção: Elevada</li>
+</ul>
+
+<hr />
+
+<h2 id="poda">✂️ Poda</h2>
+
+<p><strong>Similar ao pessego</strong> (mesma família - Prunus)</p>
+
+<ul>
+  <li><strong>Época:</strong> Fevereiro (cedo)</li>
+  <li><strong>Intensidade:</strong> Agressiva (30-40%)</li>
+  <li><strong>Razão:</strong> Frutificação em madeira ano anterior</li>
+  <li><strong>Estrutura:</strong> Vaso aberto</li>
+</ul>
+
+<hr />
+
+<h2 id="doencas">🐛 Doenças</h2>
+
+<p><strong>Cancro Bacteriano</strong> - Mesmo problema do pessego</p>
+<ul>
+  <li>Prevenção: Poda seca, desinfecção tesoura</li>
+  <li>Sintoma: Halo amarelo, goma</li>
+</ul>
+
+<p><strong>Monília</strong> - Podridão fruto</p>
+<ul>
+  <li>Sintoma: Fruto apodrece com círculos</li>
+  <li>Prevenção: Ventilação, remover frutos infectados</li>
+</ul>
+
+<hr />
+
+<h2 id="colheita">🍇 Colheita</h2>
+
+<p><strong>Timing:</strong> Julho-setembro</p>
+
+<p><strong>Índices:</strong></p>
+<ul>
+  <li>Cor desenvolvida</li>
+  <li>Polpa mole ao toque</li>
+  <li>Sabor doce</li>
+</ul>
+
+<p><strong>Armazenamento:</strong> 1-2 semanas (refrigerado)</p>
+
+<hr />
+
+<p><strong>Nota:</strong> Ameixa é essencialmente similar ao pessego em cuidados. Consultar página de <a href="/especies/pessego">Pessego</a> para detalhes completos.</p>
+
+<p><strong>Fonte:</strong> COMPILACAO_ARVORES_FRUTO_VINHAS.md</p>
+
+        </div>
+
+        <!-- Navegação entre espécies -->
+        <nav class="especies-nav">
+            <h3>Ver outras espécies</h3>
+            <div class="especies-nav-grid">
+                <a href="/especies/maca" class="especie-nav-item">🍎 Maçã</a>
+                <a href="/especies/pera" class="especie-nav-item">🍐 Pera</a>
+                <a href="/especies/pessego" class="especie-nav-item">🍑 Pessego</a>
+                <a href="/especies/videira" class="especie-nav-item">🍇 Videira</a>
+                <a href="/especies/laranja" class="especie-nav-item">🍊 Laranja</a>
+                <a href="/especies/limao" class="especie-nav-item">🍋 Limão</a>
+            </div>
+        </nav>
+    </div>
+</div>
+
+<style>
+/* Breadcrumbs */
+.breadcrumbs {
+    padding: 20px 0;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.breadcrumbs a {
+    color: var(--verde-secundario);
+}
+
+.breadcrumbs span {
+    margin: 0 8px;
+    color: #999;
+}
+
+/* Header da Espécie */
+.especie-header {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 30px;
+    background: linear-gradient(135deg, var(--verde-principal) 0%, var(--verde-secundario) 100%);
+    color: var(--branco);
+    border-radius: 12px;
+    margin-bottom: 30px;
+}
+
+.especie-icon-large {
+    font-size: 6rem;
+}
+
+.especie-header h1 {
+    color: var(--branco);
+    margin-bottom: 5px;
+}
+
+.especie-nome-cientifico {
+    font-size: 1.1rem;
+    color: var(--amarelo-fruto);
+    margin-bottom: 10px;
+}
+
+.especie-tags {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.tag {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+}
+
+/* Quick Nav */
+.quick-nav {
+    background-color: var(--cinza-claro);
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.quick-nav h3 {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+
+.quick-nav ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+}
+
+.quick-nav a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px;
+    background-color: var(--branco);
+    border-radius: 6px;
+    transition: var(--transition);
+}
+
+.quick-nav a:hover {
+    background-color: var(--verde-claro);
+    color: var(--branco);
+}
+
+/* Conteúdo */
+.especie-content {
+    background-color: var(--branco);
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    line-height: 1.8;
+}
+
+.especie-content h2 {
+    border-left: 4px solid var(--verde-principal);
+    padding-left: 15px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.especie-content h3 {
+    color: var(--verde-secundario);
+    margin-top: 30px;
+}
+
+/* Navegação entre espécies */
+.especies-nav {
+    margin-top: 50px;
+    padding: 30px;
+    background-color: var(--cinza-claro);
+    border-radius: 12px;
+}
+
+.especies-nav h3 {
+    margin-bottom: 20px;
+}
+
+.especies-nav-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 15px;
+}
+
+.especie-nav-item {
+    padding: 15px;
+    background-color: var(--branco);
+    border-radius: 8px;
+    text-align: center;
+    font-weight: 600;
+    transition: var(--transition);
+}
+
+.especie-nav-item:hover {
+    background-color: var(--verde-secundario);
+    color: var(--branco);
+    transform: translateY(-3px);
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+    .especie-header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .especie-icon-large {
+        font-size: 4rem;
+    }
+
+    .especie-content {
+        padding: 20px;
+    }
+}
+</style>
+
+    </main>
+
+    <footer class="site-footer">
+    <div class="container">
+        <div class="footer-content">
+            <!-- Coluna 1: Sobre -->
+            <div class="footer-col">
+                <h3>Sobre o Pomar.PT</h3>
+                <p>Guia completo de fruticultura para Portugal e Açores. Informação técnica, prática e acessível para agricultores amadores e profissionais.</p>
+                <div class="footer-social">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <!-- Coluna 2: Links Rápidos -->
+            <div class="footer-col">
+                <h3>Links Rápidos</h3>
+                <ul class="footer-links">
+                    <li><a href="/">Início</a></li>
+                    <li><a href="/especies/maca">Espécies</a></li>
+                    <li><a href="/praticas/plantacao">Práticas</a></li>
+                    <li><a href="/ferramentas">Ferramentas</a></li>
+                    <li><a href="/glossario">Glossário</a></li>
+                    <li><a href="/recursos">Recursos</a></li>
+                </ul>
+            </div>
+
+            <!-- Coluna 3: Recursos -->
+            <div class="footer-col">
+                <h3>Recursos Úteis</h3>
+                <ul class="footer-links">
+                    <li><a href="https://agricultura.azores.gov.pt/" target="_blank" rel="noopener">DRAAC Açores</a></li>
+                    <li><a href="https://www.iniav.pt/" target="_blank" rel="noopener">INIAV</a></li>
+                    <li><a href="https://www.utad.pt/" target="_blank" rel="noopener">UTAD</a></li>
+                    <li><a href="https://www.ipma.pt/" target="_blank" rel="noopener">IPMA - Clima</a></li>
+                </ul>
+            </div>
+
+            <!-- Coluna 4: Contacto -->
+            <div class="footer-col">
+                <h3>Contacto</h3>
+                <ul class="footer-contact">
+                    <li>
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:info@pomar.pt">info@pomar.pt</a>
+                    </li>
+                    <li>
+                        <i class="fas fa-map-marker-alt"></i>
+                        Portugal e Açores
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Copyright -->
+        <div class="footer-bottom">
+            <p>&copy; 2026 Pomar.PT - Guia de Fruticultura Portugal e Açores. Todos os direitos reservados.</p>
+            <p class="footer-disclaimer">Informação compilada de fontes credíveis. Consulte especialistas para situações específicas.</p>
+        </div>
+    </div>
+</footer>
+
+<!-- Botão voltar ao topo -->
+<button class="back-to-top" id="backToTop" aria-label="Voltar ao topo">
+    <i class="fas fa-chevron-up"></i>
+</button>
+
+
+    <!-- JavaScript -->
+    <script src="/assets/js/main.js"></script>
+</body>
+</html>

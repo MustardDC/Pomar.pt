@@ -1,0 +1,55 @@
+# Configuração do Site - Pomar.PT
+# Guia de Fruticultura Portugal e Açores
+
+# Informações do Site
+title: "Pomar.PT"
+description: "Guia Completo de Fruticultura para Portugal e Açores - 10 espécies detalhadas, calendários regionais, técnicas de poda, enxertos e muito mais"
+baseurl: "" # Deixar vazio para GitHub Pages com domínio custom
+url: "" # Será preenchido com URL do GitHub Pages
+
+# Autor
+author:
+  name: "Pomar.PT"
+  email: ""
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Configurações de pastas
+collections:
+  especies:
+    output: true
+    permalink: /especies/:name/
+  praticas:
+    output: true
+    permalink: /praticas/:name/
+
+# Valores padrão
+defaults:
+  - scope:
+      path: ""
+      type: "especies"
+    values:
+      layout: "especie"
+  - scope:
+      path: ""
+      type: "praticas"
+    values:
+      layout: "default"
+
+# Exclude from processing
+exclude:
+  - README.md
+  - PROGRESS.md
+  - compilacao_arvores_fruto_vinhas.md
+  - tabelas_calendarios_praticos.md
+  - indice_mestre_referencias.md
+  - links_recursos_verificados.md
+  - leia-me_comece_aqui.md
+
+# Configurações SEO
+lang: pt-PT
+timezone: Atlantic/Azores

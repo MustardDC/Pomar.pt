@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Guia framboesa - sistema de canas bienal, poda pós-colheita crítica, variedades biferas, cultura intensiva">
+    <meta name="keywords" content="fruticultura, portugal, açores, pomar, árvores de fruto, ">
+    <meta name="author" content="Pomar.PT">
+
+    <title>Framboesa | Pomar.PT</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/assets/css/style.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome para ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Favicon (placeholder) -->
+    <link rel="icon" type="image/png" href="/assets/images/favicon.png">
+</head>
+<body>
+    <header class="site-header">
+    <div class="container">
+        <div class="header-content">
+            <!-- Logo -->
+            <div class="logo">
+                <a href="/">
+                    <i class="fas fa-seedling"></i>
+                    <span class="logo-text">Pomar.PT</span>
+                </a>
+            </div>
+
+            <!-- Menu Toggle (Mobile) -->
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <!-- Navigation -->
+            <nav class="main-nav" id="mainNav">
+                <ul class="nav-list">
+                    <li><a href="/" class="nav-link">Início</a></li>
+
+                    <!-- Dropdown Espécies -->
+                    <li class="dropdown">
+                        <a href="#" class="nav-link dropdown-toggle">
+                            Espécies <i class="fas fa-chevron-down"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/especies/maca"><i class="fas fa-apple-alt"></i> Maçã</a></li>
+                            <li><a href="/especies/pera">🍐 Pera</a></li>
+                            <li><a href="/especies/pessego">🍑 Pessego</a></li>
+                            <li><a href="/especies/ameixa">Ameixa</a></li>
+                            <li><a href="/especies/videira"><i class="fas fa-wine-bottle"></i> Videira</a></li>
+                            <li><a href="/especies/laranja">🍊 Laranja</a></li>
+                            <li><a href="/especies/limao">🍋 Limão</a></li>
+                            <li><a href="/especies/mirtilo">Mirtilo</a></li>
+                            <li><a href="/especies/framboesa">Framboesa</a></li>
+                            <li><a href="/especies/morango">🍓 Morango</a></li>
+                        </ul>
+                    </li>
+
+                    <!-- Dropdown Práticas -->
+                    <li class="dropdown">
+                        <a href="#" class="nav-link dropdown-toggle">
+                            Práticas <i class="fas fa-chevron-down"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/praticas/plantacao"><i class="fas fa-seedling"></i> Plantação</a></li>
+                            <li><a href="/praticas/adubacao">Adubação</a></li>
+                            <li><a href="/praticas/podas"><i class="fas fa-cut"></i> Podas</a></li>
+                            <li><a href="/praticas/enxertos">Enxertos</a></li>
+                            <li><a href="/praticas/doencas"><i class="fas fa-bug"></i> Doenças</a></li>
+                            <li><a href="/praticas/colheita">Colheita</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="/ferramentas" class="nav-link">Ferramentas</a></li>
+                    <li><a href="/glossario" class="nav-link">Glossário</a></li>
+                    <li><a href="/recursos" class="nav-link">Recursos</a></li>
+
+                    <!-- Busca -->
+                    <li class="nav-search">
+                        <button class="search-btn" id="searchBtn" aria-label="Buscar">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Search Overlay (escondido por padrão) -->
+    <div class="search-overlay" id="searchOverlay">
+        <div class="search-container">
+            <input type="text" class="search-input" id="searchInput" placeholder="Procurar espécies, técnicas, doenças...">
+            <button class="search-close" id="searchClose">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+    </div>
+</header>
+
+
+    <main class="main-content">
+        <div class="especie-page">
+    <div class="container">
+        <!-- Breadcrumbs -->
+        <nav class="breadcrumbs">
+            <a href="/">Início</a>
+            <span>/</span>
+            <a href="/especies/maca">Espécies</a>
+            <span>/</span>
+            <span>Framboesa</span>
+        </nav>
+
+        <!-- Header da Espécie -->
+        <header class="especie-header">
+            <div class="especie-icon-large">🍓</div>
+            <div>
+                <h1>Framboesa</h1>
+                <p class="especie-nome-cientifico">
+                    <em>Rubus idaeus</em>
+                </p>
+                <div class="especie-tags">
+                    
+                    <span class="tag">Pequeno Fruto</span>
+                    
+                    <span class="tag">Canas</span>
+                    
+                    <span class="tag">Todo Portugal</span>
+                    
+                    <span class="tag">Poda Especial</span>
+                    
+                </div>
+            </div>
+        </header>
+
+        <!-- Navegação Rápida -->
+        <nav class="quick-nav">
+            <h3>Navegação Rápida</h3>
+            <ul>
+                <li><a href="#clima"><i class="fas fa-cloud-sun"></i> Clima</a></li>
+                <li><a href="#variedades"><i class="fas fa-list"></i> Variedades</a></li>
+                <li><a href="#plantacao"><i class="fas fa-seedling"></i> Plantação</a></li>
+                <li><a href="#poda"><i class="fas fa-cut"></i> Poda</a></li>
+                <li><a href="#doencas"><i class="fas fa-bug"></i> Doenças</a></li>
+                <li><a href="#colheita"><i class="fas fa-apple-alt"></i> Colheita</a></li>
+            </ul>
+        </nav>
+
+        <!-- Conteúdo Principal -->
+        <div class="especie-content">
+            <h2 id="clima">🌍 Clima Adequado</h2>
+
+<p>Framboesa é <strong>muito adaptável</strong> - excelente em todo Portugal!</p>
+
+<h3 id="requisitos">Requisitos</h3>
+<ul>
+  <li><strong>Horas frio:</strong> Moderado (adaptável)</li>
+  <li><strong>Humidade:</strong> Beneficia humidade</li>
+  <li><strong>Temperatura:</strong> Prefere frescos verões (Norte ideal)</li>
+</ul>
+
+<h3 id="adequação-por-região">Adequação por Região</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Região</th>
+      <th>Adequação</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Norte</strong></td>
+      <td>⭐⭐⭐⭐⭐ Perfeito</td>
+    </tr>
+    <tr>
+      <td><strong>Açores</strong></td>
+      <td>⭐⭐⭐⭐⭐ Excelente</td>
+    </tr>
+    <tr>
+      <td><strong>Centro</strong></td>
+      <td>⭐⭐⭐⭐ Muito Bom</td>
+    </tr>
+    <tr>
+      <td><strong>Sul</strong></td>
+      <td>⭐⭐⭐ Bom (com rega/sombra parcial)</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h2 id="variedades">🌱 Variedades</h2>
+
+<h3 id="não-biferas-verão">Não-Biferas (Verão)</h3>
+
+<p><strong>Tulameen</strong></p>
+<ul>
+  <li>Época: Junho-julho (verão)</li>
+  <li>Fruto: Grande, firme</li>
+  <li>Sabor: Excelente</li>
+  <li>Produção: Elevada</li>
+</ul>
+
+<p><strong>Glen Ample</strong></p>
+<ul>
+  <li>Fruto: Muito grande</li>
+  <li>Vigor: Alto</li>
+  <li>Sem espinhos (vantagem!)</li>
+</ul>
+
+<h3 id="biferas-2-produçõesano-">Biferas (2 Produções/Ano) ⭐</h3>
+
+<p><strong>Polka</strong></p>
+<ul>
+  <li><strong>Produção 1:</strong> Junho-julho (canas velhas)</li>
+  <li><strong>Produção 2:</strong> Setembro-outubro (canas novas!)</li>
+  <li>Vantagem: Colheita escalonada</li>
+  <li>Muito popular Portugal</li>
+</ul>
+
+<p><strong>Heritage</strong></p>
+<ul>
+  <li>Bifera clássica</li>
+  <li>Rusticidade elevada</li>
+  <li>Produção estável</li>
+</ul>
+
+<hr />
+
+<h2 id="canas">🌿 SISTEMA DE CANAS (CRÍTICO ENTENDER)</h2>
+
+<h3 id="️-particularidade-essencial-framboesa">⚠️ PARTICULARIDADE ESSENCIAL FRAMBOESA</h3>
+
+<p>Framboesa <strong>NÃO é árvore</strong> - é sistema de <strong>canas bienais</strong>!</p>
+
+<h3 id="como-funciona">Como Funciona?</h3>
+
+<p><strong>Sistema de 2 anos:</strong></p>
+
+<p><strong>Ano 1 (Cana nova = “Primocane”):</strong></p>
+<ul>
+  <li>Cana cresce do solo (verde, vigorosa)</li>
+  <li>Cresce até 1.5-2m altura</li>
+  <li><strong>NÃO produz fruto</strong> (só crescimento)</li>
+  <li>Acumula reservas</li>
+</ul>
+
+<p><strong>Ano 2 (Cana velha = “Floricane”):</strong></p>
+<ul>
+  <li>Mesma cana (agora madura)</li>
+  <li><strong>PRODUZ frutos</strong> (junho-julho)</li>
+  <li>Após frutificação: <strong>MORRE</strong> (seca)</li>
+</ul>
+
+<p><strong>Ano 3 (Cana morta):</strong></p>
+<ul>
+  <li>Cana seca, improdutiva</li>
+  <li><strong>Deve ser removida</strong> (poda)</li>
+</ul>
+
+<h3 id="implicação-prática">Implicação Prática</h3>
+
+<p>Em framboesa adulta há SEMPRE:</p>
+<ul>
+  <li>Canas ano 1 (novas, crescendo)</li>
+  <li>Canas ano 2 (velhas, produzindo)</li>
+  <li>Canas ano 3 (mortas, para remover)</li>
+</ul>
+
+<p><strong>Gestão:</strong> Ciclo contínuo de renovação</p>
+
+<hr />
+
+<h2 id="poda">✂️ PODA PÓS-COLHEITA (CRÍTICA!)</h2>
+
+<h3 id="️-poda-mais-importante-do-ano">⚠️ PODA MAIS IMPORTANTE DO ANO</h3>
+
+<p><strong>Época:</strong> Agosto-setembro (LOGO APÓS colheita)</p>
+
+<h3 id="operações">Operações</h3>
+
+<p><strong>1. Remover TODAS canas que produziram:</strong></p>
+<ul>
+  <li>Identificar: Canas com frutos (ano 2)</li>
+  <li>Cortar: Base (rente ao solo)</li>
+  <li>Remover: Completamente (não deixar tocos)</li>
+  <li><strong>Razão:</strong> Morreram biologicamente após frutificar</li>
+</ul>
+
+<p><strong>2. Selecionar canas novas (ano 1):</strong></p>
+<ul>
+  <li>Deixar: 5-8 canas mais vigorosas por planta</li>
+  <li>Remover: Excesso canas fracas</li>
+  <li>Espaçamento: 10-15cm entre canas</li>
+</ul>
+
+<p><strong>3. Despontar canas novas (opcional):</strong></p>
+<ul>
+  <li>Cortar ponta 20cm (estimula ramificação)</li>
+  <li>Altura final: 1.5-1.8m</li>
+</ul>
+
+<h3 id="resultado">Resultado</h3>
+
+<p>Após poda:</p>
+<ul>
+  <li>5-8 canas vigorosas (ano 1)</li>
+  <li>Próximo ano: Estas produzem</li>
+  <li>Ciclo renova</li>
+</ul>
+
+<h3 id="porquê-tão-crítica">PORQUÊ TÃO CRÍTICA?</h3>
+
+<p>❌ <strong>Sem poda pós-colheita:</strong></p>
+<ul>
+  <li>Canas mortas acumulam</li>
+  <li>Doença (botrytis, antracnose)</li>
+  <li>Produção colapsa 2-3 anos</li>
+  <li>Framboeseira vira “matagal” improdutivo</li>
+</ul>
+
+<hr />
+
+<h2 id="plantacao">🌾 Plantação</h2>
+
+<h3 id="espaçamento">Espaçamento</h3>
+<ul>
+  <li><strong>Entre plantas:</strong> 0.5-1m</li>
+  <li><strong>Entre linhas:</strong> 1.5-2m</li>
+  <li><strong>Densidade:</strong> 2500-4000 plantas/hectare</li>
+</ul>
+
+<h3 id="sistema-suporte-recomendado">Sistema Suporte (Recomendado)</h3>
+
+<p><strong>Espaldeira simples:</strong></p>
+<ul>
+  <li>2 postes extremos (2m altura)</li>
+  <li>Arame 1.5m altura</li>
+  <li>Atar canas ao arame</li>
+  <li>Facilita colheita, ventilação</li>
+</ul>
+
+<h3 id="passo-a-passo">Passo-a-Passo</h3>
+
+<ol>
+  <li>Linha bem drenada</li>
+  <li>Solo rico matéria orgânica</li>
+  <li>Plantar rizoma 5cm profundidade</li>
+  <li>Regar 5L</li>
+  <li>Mulch palha 10cm</li>
+</ol>
+
+<hr />
+
+<h2 id="adubacao">🥄 Adubação</h2>
+
+<p><strong>Moderada:</strong></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Nutriente</th>
+      <th>Quantidade/m² linha</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>N</td>
+      <td>80-100g</td>
+    </tr>
+    <tr>
+      <td>P</td>
+      <td>50g</td>
+    </tr>
+    <tr>
+      <td>K</td>
+      <td>80g</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Calendário:</strong></p>
+<ul>
+  <li><strong>Março:</strong> NPK 12-08-10, 150g/m²</li>
+  <li><strong>Maio:</strong> NPK 10-10-10, 100g/m²</li>
+  <li><strong>Agosto (pós-colheita):</strong> NPK 08-08-15, 100g/m²</li>
+</ul>
+
+<hr />
+
+<h2 id="doencas">🐛 Doenças Comuns</h2>
+
+<h3 id="botrytis-podridão-cinza">Botrytis (Podridão Cinza)</h3>
+
+<p><strong>Sintomas:</strong></p>
+<ul>
+  <li>Fruto apodrece (cinza)</li>
+  <li>Clima húmido favorece</li>
+</ul>
+
+<p><strong>Prevenção:</strong></p>
+<ul>
+  <li><strong>Poda pós-colheita</strong> (ventilação!)</li>
+  <li>Remover frutos infectados</li>
+  <li>Não regar por cima</li>
+</ul>
+
+<h3 id="antracnose">Antracnose</h3>
+
+<p><strong>Sintomas:</strong></p>
+<ul>
+  <li>Manchas roxas em canas</li>
+  <li>Lesões alongadas</li>
+</ul>
+
+<p><strong>Prevenção:</strong></p>
+<ul>
+  <li>Cálda bordalesa preventiva</li>
+  <li>Poda canas infectadas</li>
+</ul>
+
+<hr />
+
+<h2 id="colheita">🍓 Colheita</h2>
+
+<h3 id="índices">Índices</h3>
+<ul>
+  <li><strong>Cor:</strong> Vermelha profunda (NÃO-climatérica!)</li>
+  <li><strong>Toque:</strong> Mole, solta facilmente</li>
+  <li><strong>Sabor:</strong> Doce, aromático</li>
+</ul>
+
+<h3 id="timing">Timing</h3>
+<ul>
+  <li><strong>Verão:</strong> Junho-julho</li>
+  <li><strong>Bifera:</strong> + setembro-outubro</li>
+</ul>
+
+<h3 id="técnica">Técnica</h3>
+<ul>
+  <li>Colher de 2-3 dias (perecível!)</li>
+  <li>Cesto raso</li>
+  <li>NÃO lavar antes armazenar</li>
+</ul>
+
+<h3 id="armazenamento">Armazenamento</h3>
+<ul>
+  <li><strong>Temperatura:</strong> 0-2°C</li>
+  <li><strong>Duração:</strong> 2-3 dias (MUITO perecível!)</li>
+  <li><strong>Consumo:</strong> Fresco imediato ideal</li>
+</ul>
+
+<hr />
+
+<h2 id="-calendário-anual">📅 Calendário Anual</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Mês</th>
+      <th>Operação</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Janeiro-Fevereiro</strong></td>
+      <td>Repouso</td>
+    </tr>
+    <tr>
+      <td><strong>Março</strong></td>
+      <td>Brotação canas novas, adubação</td>
+    </tr>
+    <tr>
+      <td><strong>Abril-Maio</strong></td>
+      <td>Crescimento canas, floração canas velhas</td>
+    </tr>
+    <tr>
+      <td><strong>Junho-Julho</strong></td>
+      <td><strong>COLHEITA</strong> (canas ano 2)</td>
+    </tr>
+    <tr>
+      <td><strong>Agosto-Setembro</strong></td>
+      <td><strong>PODA PÓS-COLHEITA</strong> ⚠️ (crítica!)</td>
+    </tr>
+    <tr>
+      <td><strong>Setembro-Outubro</strong></td>
+      <td>Colheita biferas (canas ano 1)</td>
+    </tr>
+    <tr>
+      <td><strong>Novembro-Dezembro</strong></td>
+      <td>Preparação inverno</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h2 id="-dicas-práticas">💡 Dicas Práticas</h2>
+
+<p>✅ <strong>Faça:</strong> Poda pós-colheita RELIGIOSA (agosto!)
+✅ <strong>Faça:</strong> Remover TODAS canas que produziram
+✅ <strong>Faça:</strong> Deixar apenas 5-8 canas novas
+✅ <strong>Faça:</strong> Sistema suporte (espaldeira)</p>
+
+<p>❌ <strong>Não Faça:</strong> Ignorar poda (vira matagal!)
+❌ <strong>Não Faça:</strong> Deixar canas mortas (doença)
+❌ <strong>Não Faça:</strong> Plantar sem drenagem (apodrecimento)
+❌ <strong>Não Faça:</strong> Regar por cima (botrytis)</p>
+
+<hr />
+
+<h2 id="-resumo-pontos-críticos">🌟 RESUMO PONTOS CRÍTICOS</h2>
+
+<h3 id="3-conceitos-essenciais-framboesa">3 Conceitos Essenciais Framboesa:</h3>
+
+<p><strong>1. SISTEMA DE CANAS BIENAL</strong></p>
+<ul>
+  <li>Ano 1: Cana cresce (não produz)</li>
+  <li>Ano 2: Cana produz (depois morre)</li>
+  <li>Ciclo contínuo</li>
+</ul>
+
+<p><strong>2. PODA PÓS-COLHEITA OBRIGATÓRIA</strong></p>
+<ul>
+  <li>Agosto-setembro</li>
+  <li>Remover TODAS canas que produziram</li>
+  <li>Deixar 5-8 canas novas</li>
+</ul>
+
+<p><strong>3. CULTURA PERECÍVEL</strong></p>
+<ul>
+  <li>Colher de 2-3 dias</li>
+  <li>Consumo/venda imediato</li>
+  <li>Armazenamento 2-3 dias MAX</li>
+</ul>
+
+<hr />
+
+<h2 id="-potencial">📊 Potencial</h2>
+
+<p><strong>Vantagens:</strong></p>
+<ul>
+  <li>Produção elevada (2-3 kg/planta)</li>
+  <li>Preço mercado alto</li>
+  <li>Colheita escalonada (biferas)</li>
+  <li>Cultura intensiva rentável</li>
+</ul>
+
+<p><strong>Açores:</strong> Excelente potencial (clima+humidade)</p>
+
+<hr />
+
+<h2 id="-biferas-vs-não-biferas">🆚 BIFERAS vs NÃO-BIFERAS</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Aspecto</th>
+      <th>Não-Bifera</th>
+      <th>Bifera</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Produção</strong></td>
+      <td>1x/ano (verão)</td>
+      <td>2x/ano (verão+outono)</td>
+    </tr>
+    <tr>
+      <td><strong>Canas ano 1</strong></td>
+      <td>Não produzem</td>
+      <td>Produzem outono!</td>
+    </tr>
+    <tr>
+      <td><strong>Poda</strong></td>
+      <td>Simples</td>
+      <td>Mais complexa</td>
+    </tr>
+    <tr>
+      <td><strong>Produção total</strong></td>
+      <td>Moderada</td>
+      <td>Elevada</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Recomendação:</strong> Polka (bifera) para maximizar produção</p>
+
+<hr />
+
+<p><strong>Particularidade:</strong> Framboesa é a única fruta com sistema de canas bienal - compreender isto é essencial para sucesso!</p>
+
+<p><strong>Fonte:</strong> COMPILACAO_ARVORES_FRUTO_VINHAS.md</p>
+
+        </div>
+
+        <!-- Navegação entre espécies -->
+        <nav class="especies-nav">
+            <h3>Ver outras espécies</h3>
+            <div class="especies-nav-grid">
+                <a href="/especies/maca" class="especie-nav-item">🍎 Maçã</a>
+                <a href="/especies/pera" class="especie-nav-item">🍐 Pera</a>
+                <a href="/especies/pessego" class="especie-nav-item">🍑 Pessego</a>
+                <a href="/especies/videira" class="especie-nav-item">🍇 Videira</a>
+                <a href="/especies/laranja" class="especie-nav-item">🍊 Laranja</a>
+                <a href="/especies/limao" class="especie-nav-item">🍋 Limão</a>
+            </div>
+        </nav>
+    </div>
+</div>
+
+<style>
+/* Breadcrumbs */
+.breadcrumbs {
+    padding: 20px 0;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.breadcrumbs a {
+    color: var(--verde-secundario);
+}
+
+.breadcrumbs span {
+    margin: 0 8px;
+    color: #999;
+}
+
+/* Header da Espécie */
+.especie-header {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 30px;
+    background: linear-gradient(135deg, var(--verde-principal) 0%, var(--verde-secundario) 100%);
+    color: var(--branco);
+    border-radius: 12px;
+    margin-bottom: 30px;
+}
+
+.especie-icon-large {
+    font-size: 6rem;
+}
+
+.especie-header h1 {
+    color: var(--branco);
+    margin-bottom: 5px;
+}
+
+.especie-nome-cientifico {
+    font-size: 1.1rem;
+    color: var(--amarelo-fruto);
+    margin-bottom: 10px;
+}
+
+.especie-tags {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.tag {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+}
+
+/* Quick Nav */
+.quick-nav {
+    background-color: var(--cinza-claro);
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.quick-nav h3 {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+
+.quick-nav ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+}
+
+.quick-nav a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px;
+    background-color: var(--branco);
+    border-radius: 6px;
+    transition: var(--transition);
+}
+
+.quick-nav a:hover {
+    background-color: var(--verde-claro);
+    color: var(--branco);
+}
+
+/* Conteúdo */
+.especie-content {
+    background-color: var(--branco);
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    line-height: 1.8;
+}
+
+.especie-content h2 {
+    border-left: 4px solid var(--verde-principal);
+    padding-left: 15px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.especie-content h3 {
+    color: var(--verde-secundario);
+    margin-top: 30px;
+}
+
+/* Navegação entre espécies */
+.especies-nav {
+    margin-top: 50px;
+    padding: 30px;
+    background-color: var(--cinza-claro);
+    border-radius: 12px;
+}
+
+.especies-nav h3 {
+    margin-bottom: 20px;
+}
+
+.especies-nav-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 15px;
+}
+
+.especie-nav-item {
+    padding: 15px;
+    background-color: var(--branco);
+    border-radius: 8px;
+    text-align: center;
+    font-weight: 600;
+    transition: var(--transition);
+}
+
+.especie-nav-item:hover {
+    background-color: var(--verde-secundario);
+    color: var(--branco);
+    transform: translateY(-3px);
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+    .especie-header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .especie-icon-large {
+        font-size: 4rem;
+    }
+
+    .especie-content {
+        padding: 20px;
+    }
+}
+</style>
+
+    </main>
+
+    <footer class="site-footer">
+    <div class="container">
+        <div class="footer-content">
+            <!-- Coluna 1: Sobre -->
+            <div class="footer-col">
+                <h3>Sobre o Pomar.PT</h3>
+                <p>Guia completo de fruticultura para Portugal e Açores. Informação técnica, prática e acessível para agricultores amadores e profissionais.</p>
+                <div class="footer-social">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <!-- Coluna 2: Links Rápidos -->
+            <div class="footer-col">
+                <h3>Links Rápidos</h3>
+                <ul class="footer-links">
+                    <li><a href="/">Início</a></li>
+                    <li><a href="/especies/maca">Espécies</a></li>
+                    <li><a href="/praticas/plantacao">Práticas</a></li>
+                    <li><a href="/ferramentas">Ferramentas</a></li>
+                    <li><a href="/glossario">Glossário</a></li>
+                    <li><a href="/recursos">Recursos</a></li>
+                </ul>
+            </div>
+
+            <!-- Coluna 3: Recursos -->
+            <div class="footer-col">
+                <h3>Recursos Úteis</h3>
+                <ul class="footer-links">
+                    <li><a href="https://agricultura.azores.gov.pt/" target="_blank" rel="noopener">DRAAC Açores</a></li>
+                    <li><a href="https://www.iniav.pt/" target="_blank" rel="noopener">INIAV</a></li>
+                    <li><a href="https://www.utad.pt/" target="_blank" rel="noopener">UTAD</a></li>
+                    <li><a href="https://www.ipma.pt/" target="_blank" rel="noopener">IPMA - Clima</a></li>
+                </ul>
+            </div>
+
+            <!-- Coluna 4: Contacto -->
+            <div class="footer-col">
+                <h3>Contacto</h3>
+                <ul class="footer-contact">
+                    <li>
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:info@pomar.pt">info@pomar.pt</a>
+                    </li>
+                    <li>
+                        <i class="fas fa-map-marker-alt"></i>
+                        Portugal e Açores
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Copyright -->
+        <div class="footer-bottom">
+            <p>&copy; 2026 Pomar.PT - Guia de Fruticultura Portugal e Açores. Todos os direitos reservados.</p>
+            <p class="footer-disclaimer">Informação compilada de fontes credíveis. Consulte especialistas para situações específicas.</p>
+        </div>
+    </div>
+</footer>
+
+<!-- Botão voltar ao topo -->
+<button class="back-to-top" id="backToTop" aria-label="Voltar ao topo">
+    <i class="fas fa-chevron-up"></i>
+</button>
+
+
+    <!-- JavaScript -->
+    <script src="/assets/js/main.js"></script>
+</body>
+</html>

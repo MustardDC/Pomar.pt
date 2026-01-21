@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Guia completo para cultivo de videira em Portugal - variedades, poda, enxertos e produção de vinho e uva de mesa">
+    <meta name="keywords" content="fruticultura, portugal, açores, pomar, árvores de fruto, ">
+    <meta name="author" content="Pomar.PT">
+
+    <title>Videira | Pomar.PT</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/assets/css/style.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome para ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Favicon (placeholder) -->
+    <link rel="icon" type="image/png" href="/assets/images/favicon.png">
+</head>
+<body>
+    <header class="site-header">
+    <div class="container">
+        <div class="header-content">
+            <!-- Logo -->
+            <div class="logo">
+                <a href="/">
+                    <i class="fas fa-seedling"></i>
+                    <span class="logo-text">Pomar.PT</span>
+                </a>
+            </div>
+
+            <!-- Menu Toggle (Mobile) -->
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <!-- Navigation -->
+            <nav class="main-nav" id="mainNav">
+                <ul class="nav-list">
+                    <li><a href="/" class="nav-link">Início</a></li>
+
+                    <!-- Dropdown Espécies -->
+                    <li class="dropdown">
+                        <a href="#" class="nav-link dropdown-toggle">
+                            Espécies <i class="fas fa-chevron-down"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/especies/maca"><i class="fas fa-apple-alt"></i> Maçã</a></li>
+                            <li><a href="/especies/pera">🍐 Pera</a></li>
+                            <li><a href="/especies/pessego">🍑 Pessego</a></li>
+                            <li><a href="/especies/ameixa">Ameixa</a></li>
+                            <li><a href="/especies/videira"><i class="fas fa-wine-bottle"></i> Videira</a></li>
+                            <li><a href="/especies/laranja">🍊 Laranja</a></li>
+                            <li><a href="/especies/limao">🍋 Limão</a></li>
+                            <li><a href="/especies/mirtilo">Mirtilo</a></li>
+                            <li><a href="/especies/framboesa">Framboesa</a></li>
+                            <li><a href="/especies/morango">🍓 Morango</a></li>
+                        </ul>
+                    </li>
+
+                    <!-- Dropdown Práticas -->
+                    <li class="dropdown">
+                        <a href="#" class="nav-link dropdown-toggle">
+                            Práticas <i class="fas fa-chevron-down"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/praticas/plantacao"><i class="fas fa-seedling"></i> Plantação</a></li>
+                            <li><a href="/praticas/adubacao">Adubação</a></li>
+                            <li><a href="/praticas/podas"><i class="fas fa-cut"></i> Podas</a></li>
+                            <li><a href="/praticas/enxertos">Enxertos</a></li>
+                            <li><a href="/praticas/doencas"><i class="fas fa-bug"></i> Doenças</a></li>
+                            <li><a href="/praticas/colheita">Colheita</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="/ferramentas" class="nav-link">Ferramentas</a></li>
+                    <li><a href="/glossario" class="nav-link">Glossário</a></li>
+                    <li><a href="/recursos" class="nav-link">Recursos</a></li>
+
+                    <!-- Busca -->
+                    <li class="nav-search">
+                        <button class="search-btn" id="searchBtn" aria-label="Buscar">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Search Overlay (escondido por padrão) -->
+    <div class="search-overlay" id="searchOverlay">
+        <div class="search-container">
+            <input type="text" class="search-input" id="searchInput" placeholder="Procurar espécies, técnicas, doenças...">
+            <button class="search-close" id="searchClose">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+    </div>
+</header>
+
+
+    <main class="main-content">
+        <div class="especie-page">
+    <div class="container">
+        <!-- Breadcrumbs -->
+        <nav class="breadcrumbs">
+            <a href="/">Início</a>
+            <span>/</span>
+            <a href="/especies/maca">Espécies</a>
+            <span>/</span>
+            <span>Videira</span>
+        </nav>
+
+        <!-- Header da Espécie -->
+        <header class="especie-header">
+            <div class="especie-icon-large">🍇</div>
+            <div>
+                <h1>Videira</h1>
+                <p class="especie-nome-cientifico">
+                    <em>Vitis vinifera</em>
+                </p>
+                <div class="especie-tags">
+                    
+                    <span class="tag">Adaptável</span>
+                    
+                    <span class="tag">Todo Portugal</span>
+                    
+                    <span class="tag">Vinho</span>
+                    
+                    <span class="tag">Mesa</span>
+                    
+                </div>
+            </div>
+        </header>
+
+        <!-- Navegação Rápida -->
+        <nav class="quick-nav">
+            <h3>Navegação Rápida</h3>
+            <ul>
+                <li><a href="#clima"><i class="fas fa-cloud-sun"></i> Clima</a></li>
+                <li><a href="#variedades"><i class="fas fa-list"></i> Variedades</a></li>
+                <li><a href="#plantacao"><i class="fas fa-seedling"></i> Plantação</a></li>
+                <li><a href="#poda"><i class="fas fa-cut"></i> Poda</a></li>
+                <li><a href="#doencas"><i class="fas fa-bug"></i> Doenças</a></li>
+                <li><a href="#colheita"><i class="fas fa-apple-alt"></i> Colheita</a></li>
+            </ul>
+        </nav>
+
+        <!-- Conteúdo Principal -->
+        <div class="especie-content">
+            <h2 id="clima">🌍 Clima Adequado</h2>
+
+<p>A videira é <strong>uma das culturas mais adaptáveis</strong> de Portugal.</p>
+
+<h3 id="requisitos-climáticos">Requisitos Climáticos</h3>
+<ul>
+  <li><strong>Horas frio:</strong> 100-500h (muito baixo - adaptável)</li>
+  <li><strong>Precipitação:</strong> Tolerante (400-1500mm)</li>
+  <li><strong>Temperatura:</strong> Ampla tolerância</li>
+</ul>
+
+<h3 id="adequação-por-região">Adequação por Região</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Região</th>
+      <th>Adequação</th>
+      <th>Observações</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Açores</strong></td>
+      <td>⭐⭐⭐⭐⭐ Excelente</td>
+      <td>Clima perfeito, humidade boa</td>
+    </tr>
+    <tr>
+      <td><strong>Norte</strong></td>
+      <td>⭐⭐⭐⭐⭐ Excelente</td>
+      <td>Douro - região vinícola famosa</td>
+    </tr>
+    <tr>
+      <td><strong>Centro</strong></td>
+      <td>⭐⭐⭐⭐⭐ Excelente</td>
+      <td>Bairrada, Dão</td>
+    </tr>
+    <tr>
+      <td><strong>Sul</strong></td>
+      <td>⭐⭐⭐⭐⭐ Excelente</td>
+      <td>Alentejo - vinhos robustos</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Conclusão:</strong> Adequada para <strong>TODO Portugal</strong></p>
+
+<hr />
+
+<h2 id="variedades">🌱 Variedades</h2>
+
+<h3 id="vinho-tinto">Vinho Tinto</h3>
+<ul>
+  <li><strong>Touriga Franca</strong> - Douro, frutado</li>
+  <li><strong>Touriga Nacional</strong> - Douro, estruturado</li>
+  <li><strong>Trincadeira</strong> - Sul, aromático</li>
+  <li><strong>Aragonez</strong> - Alentejo, robusto</li>
+</ul>
+
+<h3 id="vinho-branco">Vinho Branco</h3>
+<ul>
+  <li><strong>Encruzado</strong> - Dão, elegante</li>
+  <li><strong>Arinto</strong> - Versátil, ácido</li>
+  <li><strong>Fernão Pires</strong> - Aromático</li>
+</ul>
+
+<h3 id="uva-de-mesa">Uva de Mesa</h3>
+<ul>
+  <li><strong>Itália</strong> - Branca, muito popular</li>
+  <li><strong>Red Globe</strong> - Vermelha, grande</li>
+  <li><strong>Benitaka</strong> - Rosada, doce</li>
+</ul>
+
+<hr />
+
+<h2 id="portaenxertos">🔗 Porta-Enxertos (CRÍTICO - Filoxera)</h2>
+
+<h3 id="história-da-filoxera">História da Filoxera</h3>
+<ul>
+  <li><strong>1860s:</strong> Praga devastou videiras europeias</li>
+  <li><strong>Solução:</strong> Porta-enxertos americanos (resistentes)</li>
+  <li><strong>Hoje:</strong> Enxertia obrigatória em zonas comerciais</li>
+</ul>
+
+<h3 id="porta-enxertos-comuns">Porta-Enxertos Comuns</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Porta-enxerto</th>
+      <th>Vigor</th>
+      <th>Solo Ideal</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>SO4</strong></td>
+      <td>Alto</td>
+      <td>Secos, calcários</td>
+    </tr>
+    <tr>
+      <td><strong>101-14</strong></td>
+      <td>Moderado</td>
+      <td>Variados</td>
+    </tr>
+    <tr>
+      <td><strong>Ripária</strong></td>
+      <td>Baixo</td>
+      <td>Frios, húmidos</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h2 id="poda">✂️ Poda (MUITO IMPORTANTE)</h2>
+
+<h3 id="poda-seca-inverno---drástica">Poda Seca (Inverno) - DRÁSTICA</h3>
+
+<p><strong>Época:</strong> Dezembro-janeiro</p>
+
+<p><strong>Intensidade:</strong> Remove <strong>80-90% dos ramos</strong> (parece drástica!)</p>
+
+<p><strong>Técnica:</strong></p>
+<ul>
+  <li>Deixar “fio curto” (2-3 gemas por ramo)</li>
+  <li>Determina produção do próximo ano</li>
+  <li><strong>Vinho:</strong> Poda muito curta = frutos concentrados açúcar</li>
+  <li><strong>Mesa:</strong> Poda mais longa = frutos maiores</li>
+</ul>
+
+<p><strong>Particularidade:</strong> Videira “sangra” (seiva sai) se cortar muito tarde primavera - normalmente não prejudica</p>
+
+<h3 id="poda-verde-verão">Poda Verde (Verão)</h3>
+
+<p><strong>Época:</strong> Junho-julho</p>
+
+<p><strong>Operações:</strong></p>
+<ul>
+  <li>Remover ladrões</li>
+  <li>Desbastar leve (ventilação)</li>
+  <li>Melhorar luz</li>
+  <li>Controlo vigor</li>
+</ul>
+
+<h3 id="sistemas-de-condução">Sistemas de Condução</h3>
+
+<p><strong>Cordon baixo:</strong> 1-1.5m altura (comum)
+<strong>Pérgola:</strong> Estrutura elevada (tradicional Açores)
+<strong>Espalier:</strong> Horizontal, produtivo
+<strong>Y ou Lira:</strong> Moderno, mecanizável</p>
+
+<hr />
+
+<h2 id="adubacao">🥄 Adubação</h2>
+
+<h3 id="vinho-muito-baixa">Vinho (MUITO BAIXA)</h3>
+
+<p><strong>Objetivo:</strong> Vigor reduzido = frutos concentrados</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Nutriente</th>
+      <th>Quantidade/ano</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>N (Azoto)</td>
+      <td>50-80g</td>
+    </tr>
+    <tr>
+      <td>P (Fósforo)</td>
+      <td>40g</td>
+    </tr>
+    <tr>
+      <td>K (Potássio)</td>
+      <td>80-120g</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Aplicações:</strong></p>
+<ul>
+  <li><strong>Março:</strong> NPK 08-15-20, 100g/videira</li>
+  <li><strong>Julho:</strong> NPK 05-05-20, 50g/videira (pós-colheita)</li>
+</ul>
+
+<h3 id="mesa-moderada">Mesa (MODERADA)</h3>
+
+<p>Adubação 2-3x superior ao vinho (frutos maiores desejado)</p>
+
+<hr />
+
+<h2 id="plantacao">🌾 Plantação</h2>
+
+<h3 id="espaçamento">Espaçamento</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Sistema</th>
+      <th>Espaçamento</th>
+      <th>Plantas/hectare</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Cordon baixo</strong></td>
+      <td>1-1.5 x 1.5-2.5m</td>
+      <td>2500-6000</td>
+    </tr>
+    <tr>
+      <td><strong>Pérgola</strong></td>
+      <td>Maior (variável)</td>
+      <td>1000-2000</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="passo-a-passo">Passo-a-Passo</h3>
+<ol>
+  <li>Cavar buraco 60×60cm</li>
+  <li>Solo + compost 50-50</li>
+  <li>Plantar enxerto 5cm acima solo</li>
+  <li>Tutor/estaca suporte</li>
+  <li>Rega 15L profunda</li>
+</ol>
+
+<hr />
+
+<h2 id="doencas">🐛 Doenças Comuns</h2>
+
+<h3 id="oídio">Oídio</h3>
+
+<p><strong>Sintomas:</strong> Pó branco folhas/frutos</p>
+
+<p><strong>Tratamento:</strong></p>
+<ul>
+  <li>Cálda enxofre 0.5%</li>
+  <li>Repetir 7-10 dias</li>
+</ul>
+
+<h3 id="míldio">Míldio</h3>
+
+<p><strong>Sintomas:</strong> Manchas oleosas folhas; podridão cachos</p>
+
+<p><strong>Prevenção:</strong></p>
+<ul>
+  <li>Cálda bordalesa preventiva (primavera)</li>
+  <li>Ventilação (poda verde)</li>
+</ul>
+
+<p><strong>Açores:</strong> Risco elevado (humidade)</p>
+
+<h3 id="botrytis-podridão-cinza">Botrytis (Podridão Cinza)</h3>
+
+<p><strong>Condições:</strong> Humidade elevada + ventilação fraca</p>
+
+<p><strong>Prevenção:</strong></p>
+<ul>
+  <li>Poda verde agressiva (abrir copa)</li>
+  <li>Desbaste cachos (não tocarem)</li>
+  <li>Rega gotejamento</li>
+</ul>
+
+<hr />
+
+<h2 id="colheita">🍇 Colheita</h2>
+
+<h3 id="timing">Timing</h3>
+<ul>
+  <li><strong>Época:</strong> Setembro-outubro</li>
+  <li><strong>Vindima:</strong> Geralmente setembro (vinho)</li>
+</ul>
+
+<h3 id="índices-de-maturidade-crítico">Índices de Maturidade (CRÍTICO)</h3>
+
+<p><strong>Brix (Açúcar) - Refractómetro:</strong></p>
+<ul>
+  <li><strong>Vinho:</strong> 18-22 °Brix (ideal)</li>
+  <li><strong>Mesa:</strong> 16-18 °Brix (doce)</li>
+</ul>
+
+<p><strong>Visual:</strong></p>
+<ul>
+  <li>Cor completamente desenvolvida</li>
+  <li>Grão destacado facilmente</li>
+</ul>
+
+<p><strong>Sabor:</strong></p>
+<ul>
+  <li>Doce, suculento (mesa)</li>
+  <li>Equilibrado açúcar/acidez (vinho)</li>
+</ul>
+
+<h3 id="armazenamento">Armazenamento</h3>
+<ul>
+  <li><strong>Temperatura:</strong> 0-1°C</li>
+  <li><strong>Humidade:</strong> 90-95%</li>
+  <li><strong>Duração:</strong> 3-6 semanas (mesa com SO2 mais tempo)</li>
+  <li><strong>Nota:</strong> Uva é <strong>não-climatérica</strong> (NÃO amadurece pós-colheita)</li>
+</ul>
+
+<p><strong>CRÍTICO:</strong> Colher <strong>madura</strong> (não melhora depois!)</p>
+
+<hr />
+
+<h2 id="-calendário-anual">📅 Calendário Anual</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Mês</th>
+      <th>Operação</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Dezembro-Janeiro</strong></td>
+      <td><strong>PODA SECA</strong> (80-90% ramos!)</td>
+    </tr>
+    <tr>
+      <td><strong>Fevereiro</strong></td>
+      <td>Bordalesa preventiva</td>
+    </tr>
+    <tr>
+      <td><strong>Março</strong></td>
+      <td>Brotação, primeira adubação</td>
+    </tr>
+    <tr>
+      <td><strong>Abril-Maio</strong></td>
+      <td>Floração</td>
+    </tr>
+    <tr>
+      <td><strong>Junho-Julho</strong></td>
+      <td><strong>PODA VERDE</strong>, desbaste</td>
+    </tr>
+    <tr>
+      <td><strong>Agosto</strong></td>
+      <td>Maturação (acompanhar Brix)</td>
+    </tr>
+    <tr>
+      <td><strong>Setembro-Outubro</strong></td>
+      <td><strong>VINDIMA/COLHEITA</strong></td>
+    </tr>
+    <tr>
+      <td><strong>Novembro</strong></td>
+      <td>Queda folhas, repouso</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h2 id="-dicas-práticas">💡 Dicas Práticas</h2>
+
+<p>✅ <strong>Faça:</strong> Poda seca drástica (não ter medo 80-90%)
+✅ <strong>Faça:</strong> Medir Brix (refractómetro €15-30)
+✅ <strong>Faça:</strong> Enxertar em porta-enxerto resistente filoxera</p>
+
+<p>❌ <strong>Não Faça:</strong> Excesso azoto vinho (vigor alto = vinho fraco)
+❌ <strong>Não Faça:</strong> Colher verde (uva não amadurece depois!)
+❌ <strong>Não Faça:</strong> Plantar sem porta-enxerto (filoxera)</p>
+
+<hr />
+
+<p><strong>Particularidade Videira:</strong> Cultura milenar em Portugal - conhecimento tradicional + moderno = excelência</p>
+
+<p><strong>Fonte:</strong> COMPILACAO_ARVORES_FRUTO_VINHAS.md</p>
+
+        </div>
+
+        <!-- Navegação entre espécies -->
+        <nav class="especies-nav">
+            <h3>Ver outras espécies</h3>
+            <div class="especies-nav-grid">
+                <a href="/especies/maca" class="especie-nav-item">🍎 Maçã</a>
+                <a href="/especies/pera" class="especie-nav-item">🍐 Pera</a>
+                <a href="/especies/pessego" class="especie-nav-item">🍑 Pessego</a>
+                <a href="/especies/videira" class="especie-nav-item">🍇 Videira</a>
+                <a href="/especies/laranja" class="especie-nav-item">🍊 Laranja</a>
+                <a href="/especies/limao" class="especie-nav-item">🍋 Limão</a>
+            </div>
+        </nav>
+    </div>
+</div>
+
+<style>
+/* Breadcrumbs */
+.breadcrumbs {
+    padding: 20px 0;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.breadcrumbs a {
+    color: var(--verde-secundario);
+}
+
+.breadcrumbs span {
+    margin: 0 8px;
+    color: #999;
+}
+
+/* Header da Espécie */
+.especie-header {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 30px;
+    background: linear-gradient(135deg, var(--verde-principal) 0%, var(--verde-secundario) 100%);
+    color: var(--branco);
+    border-radius: 12px;
+    margin-bottom: 30px;
+}
+
+.especie-icon-large {
+    font-size: 6rem;
+}
+
+.especie-header h1 {
+    color: var(--branco);
+    margin-bottom: 5px;
+}
+
+.especie-nome-cientifico {
+    font-size: 1.1rem;
+    color: var(--amarelo-fruto);
+    margin-bottom: 10px;
+}
+
+.especie-tags {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.tag {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+}
+
+/* Quick Nav */
+.quick-nav {
+    background-color: var(--cinza-claro);
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.quick-nav h3 {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+
+.quick-nav ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+}
+
+.quick-nav a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px;
+    background-color: var(--branco);
+    border-radius: 6px;
+    transition: var(--transition);
+}
+
+.quick-nav a:hover {
+    background-color: var(--verde-claro);
+    color: var(--branco);
+}
+
+/* Conteúdo */
+.especie-content {
+    background-color: var(--branco);
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    line-height: 1.8;
+}
+
+.especie-content h2 {
+    border-left: 4px solid var(--verde-principal);
+    padding-left: 15px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.especie-content h3 {
+    color: var(--verde-secundario);
+    margin-top: 30px;
+}
+
+/* Navegação entre espécies */
+.especies-nav {
+    margin-top: 50px;
+    padding: 30px;
+    background-color: var(--cinza-claro);
+    border-radius: 12px;
+}
+
+.especies-nav h3 {
+    margin-bottom: 20px;
+}
+
+.especies-nav-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 15px;
+}
+
+.especie-nav-item {
+    padding: 15px;
+    background-color: var(--branco);
+    border-radius: 8px;
+    text-align: center;
+    font-weight: 600;
+    transition: var(--transition);
+}
+
+.especie-nav-item:hover {
+    background-color: var(--verde-secundario);
+    color: var(--branco);
+    transform: translateY(-3px);
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+    .especie-header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .especie-icon-large {
+        font-size: 4rem;
+    }
+
+    .especie-content {
+        padding: 20px;
+    }
+}
+</style>
+
+    </main>
+
+    <footer class="site-footer">
+    <div class="container">
+        <div class="footer-content">
+            <!-- Coluna 1: Sobre -->
+            <div class="footer-col">
+                <h3>Sobre o Pomar.PT</h3>
+                <p>Guia completo de fruticultura para Portugal e Açores. Informação técnica, prática e acessível para agricultores amadores e profissionais.</p>
+                <div class="footer-social">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <!-- Coluna 2: Links Rápidos -->
+            <div class="footer-col">
+                <h3>Links Rápidos</h3>
+                <ul class="footer-links">
+                    <li><a href="/">Início</a></li>
+                    <li><a href="/especies/maca">Espécies</a></li>
+                    <li><a href="/praticas/plantacao">Práticas</a></li>
+                    <li><a href="/ferramentas">Ferramentas</a></li>
+                    <li><a href="/glossario">Glossário</a></li>
+                    <li><a href="/recursos">Recursos</a></li>
+                </ul>
+            </div>
+
+            <!-- Coluna 3: Recursos -->
+            <div class="footer-col">
+                <h3>Recursos Úteis</h3>
+                <ul class="footer-links">
+                    <li><a href="https://agricultura.azores.gov.pt/" target="_blank" rel="noopener">DRAAC Açores</a></li>
+                    <li><a href="https://www.iniav.pt/" target="_blank" rel="noopener">INIAV</a></li>
+                    <li><a href="https://www.utad.pt/" target="_blank" rel="noopener">UTAD</a></li>
+                    <li><a href="https://www.ipma.pt/" target="_blank" rel="noopener">IPMA - Clima</a></li>
+                </ul>
+            </div>
+
+            <!-- Coluna 4: Contacto -->
+            <div class="footer-col">
+                <h3>Contacto</h3>
+                <ul class="footer-contact">
+                    <li>
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:info@pomar.pt">info@pomar.pt</a>
+                    </li>
+                    <li>
+                        <i class="fas fa-map-marker-alt"></i>
+                        Portugal e Açores
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Copyright -->
+        <div class="footer-bottom">
+            <p>&copy; 2026 Pomar.PT - Guia de Fruticultura Portugal e Açores. Todos os direitos reservados.</p>
+            <p class="footer-disclaimer">Informação compilada de fontes credíveis. Consulte especialistas para situações específicas.</p>
+        </div>
+    </div>
+</footer>
+
+<!-- Botão voltar ao topo -->
+<button class="back-to-top" id="backToTop" aria-label="Voltar ao topo">
+    <i class="fas fa-chevron-up"></i>
+</button>
+
+
+    <!-- JavaScript -->
+    <script src="/assets/js/main.js"></script>
+</body>
+</html>

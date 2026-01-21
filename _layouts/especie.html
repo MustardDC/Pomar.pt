@@ -1,0 +1,226 @@
+---
+layout: default
+---
+
+<div class="especie-page">
+    <div class="container">
+        <!-- Breadcrumbs -->
+        <nav class="breadcrumbs">
+            <a href="{{ '/' | relative_url }}">Início</a>
+            <span>/</span>
+            <a href="{{ '/especies/maca' | relative_url }}">Espécies</a>
+            <span>/</span>
+            <span>{{ page.title }}</span>
+        </nav>
+
+        <!-- Header da Espécie -->
+        <header class="especie-header">
+            <div class="especie-icon-large">{{ page.emoji }}</div>
+            <div>
+                <h1>{{ page.title }}</h1>
+                <p class="especie-nome-cientifico">
+                    <em>{{ page.nome_cientifico }}</em>
+                </p>
+                <div class="especie-tags">
+                    {% for tag in page.tags %}
+                    <span class="tag">{{ tag }}</span>
+                    {% endfor %}
+                </div>
+            </div>
+        </header>
+
+        <!-- Navegação Rápida -->
+        <nav class="quick-nav">
+            <h3>Navegação Rápida</h3>
+            <ul>
+                <li><a href="#clima"><i class="fas fa-cloud-sun"></i> Clima</a></li>
+                <li><a href="#variedades"><i class="fas fa-list"></i> Variedades</a></li>
+                <li><a href="#plantacao"><i class="fas fa-seedling"></i> Plantação</a></li>
+                <li><a href="#poda"><i class="fas fa-cut"></i> Poda</a></li>
+                <li><a href="#doencas"><i class="fas fa-bug"></i> Doenças</a></li>
+                <li><a href="#colheita"><i class="fas fa-apple-alt"></i> Colheita</a></li>
+            </ul>
+        </nav>
+
+        <!-- Conteúdo Principal -->
+        <div class="especie-content">
+            {{ content }}
+        </div>
+
+        <!-- Navegação entre espécies -->
+        <nav class="especies-nav">
+            <h3>Ver outras espécies</h3>
+            <div class="especies-nav-grid">
+                <a href="/especies/maca" class="especie-nav-item">🍎 Maçã</a>
+                <a href="/especies/pera" class="especie-nav-item">🍐 Pera</a>
+                <a href="/especies/pessego" class="especie-nav-item">🍑 Pessego</a>
+                <a href="/especies/videira" class="especie-nav-item">🍇 Videira</a>
+                <a href="/especies/laranja" class="especie-nav-item">🍊 Laranja</a>
+                <a href="/especies/limao" class="especie-nav-item">🍋 Limão</a>
+            </div>
+        </nav>
+    </div>
+</div>
+
+<style>
+/* Breadcrumbs */
+.breadcrumbs {
+    padding: 20px 0;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.breadcrumbs a {
+    color: var(--verde-secundario);
+}
+
+.breadcrumbs span {
+    margin: 0 8px;
+    color: #999;
+}
+
+/* Header da Espécie */
+.especie-header {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 30px;
+    background: linear-gradient(135deg, var(--verde-principal) 0%, var(--verde-secundario) 100%);
+    color: var(--branco);
+    border-radius: 12px;
+    margin-bottom: 30px;
+}
+
+.especie-icon-large {
+    font-size: 6rem;
+}
+
+.especie-header h1 {
+    color: var(--branco);
+    margin-bottom: 5px;
+}
+
+.especie-nome-cientifico {
+    font-size: 1.1rem;
+    color: var(--amarelo-fruto);
+    margin-bottom: 10px;
+}
+
+.especie-tags {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.tag {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+}
+
+/* Quick Nav */
+.quick-nav {
+    background-color: var(--cinza-claro);
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.quick-nav h3 {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+
+.quick-nav ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+}
+
+.quick-nav a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px;
+    background-color: var(--branco);
+    border-radius: 6px;
+    transition: var(--transition);
+}
+
+.quick-nav a:hover {
+    background-color: var(--verde-claro);
+    color: var(--branco);
+}
+
+/* Conteúdo */
+.especie-content {
+    background-color: var(--branco);
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    line-height: 1.8;
+}
+
+.especie-content h2 {
+    border-left: 4px solid var(--verde-principal);
+    padding-left: 15px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.especie-content h3 {
+    color: var(--verde-secundario);
+    margin-top: 30px;
+}
+
+/* Navegação entre espécies */
+.especies-nav {
+    margin-top: 50px;
+    padding: 30px;
+    background-color: var(--cinza-claro);
+    border-radius: 12px;
+}
+
+.especies-nav h3 {
+    margin-bottom: 20px;
+}
+
+.especies-nav-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 15px;
+}
+
+.especie-nav-item {
+    padding: 15px;
+    background-color: var(--branco);
+    border-radius: 8px;
+    text-align: center;
+    font-weight: 600;
+    transition: var(--transition);
+}
+
+.especie-nav-item:hover {
+    background-color: var(--verde-secundario);
+    color: var(--branco);
+    transform: translateY(-3px);
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+    .especie-header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .especie-icon-large {
+        font-size: 4rem;
+    }
+
+    .especie-content {
+        padding: 20px;
+    }
+}
+</style>

@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Guia completo para cultivo de macieiras em Portugal - clima, variedades, plantação, poda e cuidados">
+    <meta name="keywords" content="fruticultura, portugal, açores, pomar, árvores de fruto, ">
+    <meta name="author" content="Pomar.PT">
+
+    <title>Maçã | Pomar.PT</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/assets/css/style.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome para ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Favicon (placeholder) -->
+    <link rel="icon" type="image/png" href="/assets/images/favicon.png">
+</head>
+<body>
+    <header class="site-header">
+    <div class="container">
+        <div class="header-content">
+            <!-- Logo -->
+            <div class="logo">
+                <a href="/">
+                    <i class="fas fa-seedling"></i>
+                    <span class="logo-text">Pomar.PT</span>
+                </a>
+            </div>
+
+            <!-- Menu Toggle (Mobile) -->
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <!-- Navigation -->
+            <nav class="main-nav" id="mainNav">
+                <ul class="nav-list">
+                    <li><a href="/" class="nav-link">Início</a></li>
+
+                    <!-- Dropdown Espécies -->
+                    <li class="dropdown">
+                        <a href="#" class="nav-link dropdown-toggle">
+                            Espécies <i class="fas fa-chevron-down"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/especies/maca"><i class="fas fa-apple-alt"></i> Maçã</a></li>
+                            <li><a href="/especies/pera">🍐 Pera</a></li>
+                            <li><a href="/especies/pessego">🍑 Pessego</a></li>
+                            <li><a href="/especies/ameixa">Ameixa</a></li>
+                            <li><a href="/especies/videira"><i class="fas fa-wine-bottle"></i> Videira</a></li>
+                            <li><a href="/especies/laranja">🍊 Laranja</a></li>
+                            <li><a href="/especies/limao">🍋 Limão</a></li>
+                            <li><a href="/especies/mirtilo">Mirtilo</a></li>
+                            <li><a href="/especies/framboesa">Framboesa</a></li>
+                            <li><a href="/especies/morango">🍓 Morango</a></li>
+                        </ul>
+                    </li>
+
+                    <!-- Dropdown Práticas -->
+                    <li class="dropdown">
+                        <a href="#" class="nav-link dropdown-toggle">
+                            Práticas <i class="fas fa-chevron-down"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/praticas/plantacao"><i class="fas fa-seedling"></i> Plantação</a></li>
+                            <li><a href="/praticas/adubacao">Adubação</a></li>
+                            <li><a href="/praticas/podas"><i class="fas fa-cut"></i> Podas</a></li>
+                            <li><a href="/praticas/enxertos">Enxertos</a></li>
+                            <li><a href="/praticas/doencas"><i class="fas fa-bug"></i> Doenças</a></li>
+                            <li><a href="/praticas/colheita">Colheita</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="/ferramentas" class="nav-link">Ferramentas</a></li>
+                    <li><a href="/glossario" class="nav-link">Glossário</a></li>
+                    <li><a href="/recursos" class="nav-link">Recursos</a></li>
+
+                    <!-- Busca -->
+                    <li class="nav-search">
+                        <button class="search-btn" id="searchBtn" aria-label="Buscar">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Search Overlay (escondido por padrão) -->
+    <div class="search-overlay" id="searchOverlay">
+        <div class="search-container">
+            <input type="text" class="search-input" id="searchInput" placeholder="Procurar espécies, técnicas, doenças...">
+            <button class="search-close" id="searchClose">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+    </div>
+</header>
+
+
+    <main class="main-content">
+        <div class="especie-page">
+    <div class="container">
+        <!-- Breadcrumbs -->
+        <nav class="breadcrumbs">
+            <a href="/">Início</a>
+            <span>/</span>
+            <a href="/especies/maca">Espécies</a>
+            <span>/</span>
+            <span>Maçã</span>
+        </nav>
+
+        <!-- Header da Espécie -->
+        <header class="especie-header">
+            <div class="especie-icon-large">🍎</div>
+            <div>
+                <h1>Maçã</h1>
+                <p class="especie-nome-cientifico">
+                    <em>Malus domestica</em>
+                </p>
+                <div class="especie-tags">
+                    
+                    <span class="tag">Temperada</span>
+                    
+                    <span class="tag">Norte Portugal</span>
+                    
+                    <span class="tag">Centro</span>
+                    
+                </div>
+            </div>
+        </header>
+
+        <!-- Navegação Rápida -->
+        <nav class="quick-nav">
+            <h3>Navegação Rápida</h3>
+            <ul>
+                <li><a href="#clima"><i class="fas fa-cloud-sun"></i> Clima</a></li>
+                <li><a href="#variedades"><i class="fas fa-list"></i> Variedades</a></li>
+                <li><a href="#plantacao"><i class="fas fa-seedling"></i> Plantação</a></li>
+                <li><a href="#poda"><i class="fas fa-cut"></i> Poda</a></li>
+                <li><a href="#doencas"><i class="fas fa-bug"></i> Doenças</a></li>
+                <li><a href="#colheita"><i class="fas fa-apple-alt"></i> Colheita</a></li>
+            </ul>
+        </nav>
+
+        <!-- Conteúdo Principal -->
+        <div class="especie-content">
+            <h2 id="clima">🌍 Clima Adequado</h2>
+
+<p>A maçã requer <strong>frio invernal significativo</strong> para produzir adequadamente.</p>
+
+<h3 id="requisitos-de-horas-frio">Requisitos de Horas Frio</h3>
+<ul>
+  <li><strong>Necessidade:</strong> 800-1600 horas &lt;7°C (conforme variedade)</li>
+  <li><strong>Crítico:</strong> Sem horas frio suficientes = sem floração = sem frutos</li>
+</ul>
+
+<h3 id="adaptação-por-região">Adaptação por Região</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Região</th>
+      <th>Adequação</th>
+      <th>Observações</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Norte Portugal</strong></td>
+      <td>⭐⭐⭐⭐⭐ Excelente</td>
+      <td>Braga, Trás-os-Montes - clima ideal</td>
+    </tr>
+    <tr>
+      <td><strong>Centro</strong></td>
+      <td>⭐⭐⭐⭐ Muito Bom</td>
+      <td>Guarda, Covilhã (altitude &gt;500m crítica)</td>
+    </tr>
+    <tr>
+      <td><strong>Açores</strong></td>
+      <td>⭐⭐⭐ Bom</td>
+      <td>Apenas variedades ultra-baixa-frio (Gala, Fuji)</td>
+    </tr>
+    <tr>
+      <td><strong>Sul</strong></td>
+      <td>⭐ Não recomendado</td>
+      <td>Frio insuficiente</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Temperatura ideal:</strong></p>
+<ul>
+  <li>Inverno: 0-7°C (acumulação frio)</li>
+  <li>Primavera: 15-20°C (floração)</li>
+  <li>Verão: 20-25°C (frutificação)</li>
+</ul>
+
+<hr />
+
+<h2 id="variedades">🌱 Variedades Recomendadas para Portugal</h2>
+
+<h3 id="variedades-comerciais">Variedades Comerciais</h3>
+
+<p><strong>Gala</strong></p>
+<ul>
+  <li>Horas frio: Baixa (400-600h)</li>
+  <li>Sabor: Doce, aromático</li>
+  <li>Armazenamento: Bom</li>
+  <li>Vigor: Moderado</li>
+  <li><strong>Recomendado:</strong> Norte, Açores</li>
+</ul>
+
+<p><strong>Fuji</strong></p>
+<ul>
+  <li>Horas frio: Ultra-baixa (200-400h)</li>
+  <li>Sabor: Muito doce, suculento</li>
+  <li>Armazenamento: Excelente (até 3 meses)</li>
+  <li>Vigor: Moderado</li>
+  <li><strong>Recomendado:</strong> Norte, Centro, Açores</li>
+</ul>
+
+<p><strong>Braeburn</strong></p>
+<ul>
+  <li>Horas frio: Moderada (600-800h)</li>
+  <li>Sabor: Intenso, equilibrado</li>
+  <li>Armazenamento: Muito bom</li>
+  <li>Textura: Crocante</li>
+  <li><strong>Recomendado:</strong> Norte, Centro</li>
+</ul>
+
+<p><strong>Golden Delicious</strong></p>
+<ul>
+  <li>Horas frio: Moderada (600-800h)</li>
+  <li>Sabor: Doce, clássico</li>
+  <li>Produção: Elevada</li>
+  <li><strong>Recomendado:</strong> Norte, Centro</li>
+</ul>
+
+<p><strong>Jonagold</strong></p>
+<ul>
+  <li>Horas frio: Alta (800-1000h)</li>
+  <li>Sabor: Muito bom (híbrida Jonathan × Golden)</li>
+  <li>Vigor: Reduzido (fácil manejo)</li>
+  <li><strong>Recomendado:</strong> Norte</li>
+</ul>
+
+<hr />
+
+<h2 id="portaenxertos">🌿 Porta-Enxertos (MUITO IMPORTANTE)</h2>
+
+<p>O porta-enxerto determina o <strong>tamanho final da árvore</strong> e <strong>precocidade de produção</strong>.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Porta-enxerto</th>
+      <th>Altura Final</th>
+      <th>Produção Inicia</th>
+      <th>Suporte</th>
+      <th>Espaçamento</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>M9 (Anão)</strong></td>
+      <td>2-3m</td>
+      <td>2-3 anos</td>
+      <td><strong>Obrigatório</strong></td>
+      <td>2,5-3m</td>
+    </tr>
+    <tr>
+      <td><strong>M26 (Semi-anão)</strong></td>
+      <td>3-4m</td>
+      <td>3-4 anos</td>
+      <td>Recomendado</td>
+      <td>3-4m</td>
+    </tr>
+    <tr>
+      <td><strong>MM106 (Meia-vida)</strong></td>
+      <td>5-6m</td>
+      <td>4-5 anos</td>
+      <td>Não</td>
+      <td>4-5m</td>
+    </tr>
+    <tr>
+      <td><strong>M7 (Vigorosa)</strong></td>
+      <td>6-7m</td>
+      <td>5+ anos</td>
+      <td>Não</td>
+      <td>5-6m</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Recomendação:</strong> M9 para pomares caseiros (fácil colheita, produção precoce)</p>
+
+<hr />
+
+<h2 id="plantacao">🌾 Plantação</h2>
+
+<h3 id="época-ideal">Época Ideal</h3>
+<ul>
+  <li><strong>Raiz nua:</strong> Novembro-março (período dormente)</li>
+  <li><strong>Vaso:</strong> Ano todo (melhor evitar verão)</li>
+</ul>
+
+<h3 id="passo-a-passo">Passo-a-Passo</h3>
+
+<ol>
+  <li><strong>Local:</strong> 6-8h luz solar direta; drenagem boa</li>
+  <li><strong>Buraco:</strong> 60×60×60cm</li>
+  <li><strong>Solo:</strong> Mistura 50% solo original + 50% compost</li>
+  <li><strong>Plantação:</strong> Ponto de enxerto 5-10cm <strong>acima</strong> do solo</li>
+  <li><strong>Tutor:</strong> Estaca de suporte (crítica para M9)</li>
+  <li><strong>Rega:</strong> 20L água profunda</li>
+  <li><strong>Mulch:</strong> 10cm palha à volta</li>
+</ol>
+
+<h3 id="cuidados-ano-1">Cuidados Ano 1</h3>
+<ul>
+  <li><strong>Remover TODAS as flores</strong> (estimula raízes)</li>
+  <li>Rega regular (1-2L/dia sem chuva)</li>
+  <li><strong>Não podar</strong> (deixar crescer)</li>
+</ul>
+
+<hr />
+
+<h2 id="poda">✂️ Poda</h2>
+
+<h3 id="poda-de-formação-anos-1-3">Poda de Formação (Anos 1-3)</h3>
+
+<p><strong>Estrutura: Taça Aberta</strong></p>
+
+<p><strong>Ano 1 (Inverno após plantação):</strong></p>
+<ul>
+  <li>Cortar a 60-80cm altura</li>
+  <li>Deixar 3-4 ramos principais bem distribuídos (120° separação)</li>
+  <li>Remover concorrentes</li>
+</ul>
+
+<p><strong>Ano 2:</strong></p>
+<ul>
+  <li>Encurtar ramos principais 30%</li>
+  <li>Estimular 2 ramos secundários por principal</li>
+  <li>Total: 6-8 ramos secundários</li>
+</ul>
+
+<p><strong>Ano 3:</strong></p>
+<ul>
+  <li>Finalizar estrutura</li>
+  <li>Árvore em “taça” completa</li>
+</ul>
+
+<h3 id="poda-de-produção-anual">Poda de Produção (Anual)</h3>
+
+<p><strong>Época:</strong> Fevereiro-março (antes brotação)</p>
+
+<p><strong>Operações:</strong></p>
+<ol>
+  <li>Remover ramos mortos, doentes</li>
+  <li>Remover ramos cruzados (fricam)</li>
+  <li>Remover “chupões” (ladrões verticais)</li>
+  <li>Desbastar interior 20-30% (luz)</li>
+  <li>Encurtar ramos compridos 20%</li>
+</ol>
+
+<p><strong>Intensidade:</strong> Ligeira (15-25% material removido)</p>
+
+<p><strong>CRÍTICO:</strong> Ramos frutíferos (verdasca) = muito curtos → <strong>NÃO CORTAR!</strong></p>
+
+<hr />
+
+<h2 id="adubacao">🥄 Adubação</h2>
+
+<h3 id="programa-anual">Programa Anual</h3>
+
+<p><strong>Fase Jovem (1-3 anos):</strong></p>
+<ul>
+  <li><strong>Março:</strong> NPK 12-08-10, 300g/árvore</li>
+  <li><strong>Maio:</strong> NPK 10-05-15, 200g/árvore</li>
+  <li><strong>Julho:</strong> NPK 08-08-12, 200g/árvore</li>
+</ul>
+
+<p><strong>Fase Produção (4+ anos):</strong></p>
+<ul>
+  <li><strong>Março:</strong> NPK 10-08-10, 200g/árvore</li>
+  <li><strong>Maio:</strong> NPK 08-12-12, 150g/árvore (P-K alto = floração)</li>
+  <li><strong>Julho:</strong> NPK 08-08-15, 150g/árvore (K = doçura)</li>
+</ul>
+
+<h3 id="cálculo-prático">Cálculo Prático</h3>
+<p>Se precisa 100g N puro com adubo NPK 10-08-10:</p>
+<ul>
+  <li>Fórmula: (100 / 10) × 100 = <strong>1000g (1kg) adubo</strong></li>
+</ul>
+
+<hr />
+
+<h2 id="doencas">🐛 Doenças Comuns</h2>
+
+<h3 id="sarna-muito-comum">Sarna (MUITO COMUM)</h3>
+
+<p><strong>Sintomas:</strong></p>
+<ul>
+  <li>Manchas castanho-escuras em folhas</li>
+  <li>Fruto com “casquinha” corticada</li>
+  <li>Fruto imprestável comercialmente</li>
+</ul>
+
+<p><strong>Condições favoráveis:</strong> Primavera húmida (12-18°C)</p>
+
+<p><strong>Prevenção (CRÍTICA):</strong></p>
+<ul>
+  <li><strong>Cálda bordalesa</strong> preventiva:
+    <ul>
+      <li><strong>Fevereiro-março:</strong> 1-2 pulverizações (ANTES floração)</li>
+      <li>Cobrir TODA a folha (frente + verso)</li>
+    </ul>
+  </li>
+  <li>Remoção folhas infectadas</li>
+</ul>
+
+<p><strong>Tratamento:</strong> Bordalesa 1% a cada 10 dias (difícil se já instalado)</p>
+
+<h3 id="oídio-pó-branco">Oídio (Pó Branco)</h3>
+
+<p><strong>Sintomas:</strong></p>
+<ul>
+  <li>Pó branco em folhas jovens</li>
+  <li>Folhas encarquilhadas</li>
+</ul>
+
+<p><strong>Tratamento:</strong></p>
+<ul>
+  <li>Cálda enxofre 0.5%</li>
+  <li>Repetir 7-10 dias</li>
+  <li><strong>Cuidado:</strong> NÃO aplicar &gt;25°C (queima folhas)</li>
+</ul>
+
+<h3 id="cancro-bacteriano">Cancro Bacteriano</h3>
+
+<p><strong>Prevenção:</strong></p>
+<ul>
+  <li>Poda seca, rápida (inverno cedo)</li>
+  <li>Desinfectar tesoura (álcool 70%) entre árvores</li>
+</ul>
+
+<hr />
+
+<h2 id="colheita">🍎 Colheita</h2>
+
+<h3 id="índices-de-maturidade">Índices de Maturidade</h3>
+
+<p><strong>Visual:</strong></p>
+<ul>
+  <li>Cor típica da variedade desenvolvida</li>
+  <li>Fundo verde claro (não escuro)</li>
+</ul>
+
+<p><strong>Toque:</strong></p>
+<ul>
+  <li>Polpa cede ligeiramente à pressão</li>
+</ul>
+
+<p><strong>Teste Clássico (Drop Test):</strong></p>
+<ul>
+  <li>Maçã solta da árvore com <strong>leve torcida</strong></li>
+  <li>Se resistir = não está madura</li>
+</ul>
+
+<p><strong>Timing:</strong> Setembro-outubro (variedade-dependente)</p>
+
+<h3 id="técnica-de-colheita">Técnica de Colheita</h3>
+<ul>
+  <li>Tesoura (não arrancar!)</li>
+  <li>Deixar pequeno talo</li>
+  <li>Não apertar fruto</li>
+  <li>Cesto ventilado (não plástico)</li>
+</ul>
+
+<h3 id="armazenamento">Armazenamento</h3>
+<ul>
+  <li><strong>Temperatura:</strong> 0-4°C</li>
+  <li><strong>Humidade:</strong> 90-95%</li>
+  <li><strong>Duração:</strong> 1-3 meses</li>
+  <li><strong>Nota:</strong> Maçã é climatérica (amadurece pós-colheita)</li>
+</ul>
+
+<hr />
+
+<h2 id="-calendário-anual-resumido">📅 Calendário Anual Resumido</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Mês</th>
+      <th>Operação</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Janeiro-Fevereiro</strong></td>
+      <td>Poda principal</td>
+    </tr>
+    <tr>
+      <td><strong>Fevereiro-Março</strong></td>
+      <td>Bordalesa preventiva (sarna)</td>
+    </tr>
+    <tr>
+      <td><strong>Março</strong></td>
+      <td>Primeira adubação (brotação)</td>
+    </tr>
+    <tr>
+      <td><strong>Abril-Maio</strong></td>
+      <td>Floração, monitorização pragas</td>
+    </tr>
+    <tr>
+      <td><strong>Maio</strong></td>
+      <td>Segunda adubação (P-K)</td>
+    </tr>
+    <tr>
+      <td><strong>Junho</strong></td>
+      <td>Desbaste frutos se excesso</td>
+    </tr>
+    <tr>
+      <td><strong>Julho</strong></td>
+      <td>Terceira adubação (K), poda verde</td>
+    </tr>
+    <tr>
+      <td><strong>Setembro-Outubro</strong></td>
+      <td><strong>COLHEITA</strong></td>
+    </tr>
+    <tr>
+      <td><strong>Novembro</strong></td>
+      <td>Plantação raiz nua</td>
+    </tr>
+    <tr>
+      <td><strong>Dezembro</strong></td>
+      <td>Repouso</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h2 id="-dicas-práticas">💡 Dicas Práticas</h2>
+
+<p>✅ <strong>Faça:</strong> Bordalesa preventiva (sarna = problema #1)
+✅ <strong>Faça:</strong> Remover flores ano 1 (força raízes)
+✅ <strong>Faça:</strong> Escolher porta-enxerto adequado (M9 caseiro)</p>
+
+<p>❌ <strong>Não Faça:</strong> Plantar sul Portugal (frio insuficiente)
+❌ <strong>Não Faça:</strong> Cortar ramos frutíferos curtos (verdasca)
+❌ <strong>Não Faça:</strong> Excesso azoto verão (reduz floração)</p>
+
+<hr />
+
+<p><strong>Fonte:</strong> Baseado em COMPILACAO_ARVORES_FRUTO_VINHAS.md</p>
+
+        </div>
+
+        <!-- Navegação entre espécies -->
+        <nav class="especies-nav">
+            <h3>Ver outras espécies</h3>
+            <div class="especies-nav-grid">
+                <a href="/especies/maca" class="especie-nav-item">🍎 Maçã</a>
+                <a href="/especies/pera" class="especie-nav-item">🍐 Pera</a>
+                <a href="/especies/pessego" class="especie-nav-item">🍑 Pessego</a>
+                <a href="/especies/videira" class="especie-nav-item">🍇 Videira</a>
+                <a href="/especies/laranja" class="especie-nav-item">🍊 Laranja</a>
+                <a href="/especies/limao" class="especie-nav-item">🍋 Limão</a>
+            </div>
+        </nav>
+    </div>
+</div>
+
+<style>
+/* Breadcrumbs */
+.breadcrumbs {
+    padding: 20px 0;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.breadcrumbs a {
+    color: var(--verde-secundario);
+}
+
+.breadcrumbs span {
+    margin: 0 8px;
+    color: #999;
+}
+
+/* Header da Espécie */
+.especie-header {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 30px;
+    background: linear-gradient(135deg, var(--verde-principal) 0%, var(--verde-secundario) 100%);
+    color: var(--branco);
+    border-radius: 12px;
+    margin-bottom: 30px;
+}
+
+.especie-icon-large {
+    font-size: 6rem;
+}
+
+.especie-header h1 {
+    color: var(--branco);
+    margin-bottom: 5px;
+}
+
+.especie-nome-cientifico {
+    font-size: 1.1rem;
+    color: var(--amarelo-fruto);
+    margin-bottom: 10px;
+}
+
+.especie-tags {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.tag {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+}
+
+/* Quick Nav */
+.quick-nav {
+    background-color: var(--cinza-claro);
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.quick-nav h3 {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+
+.quick-nav ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+}
+
+.quick-nav a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px;
+    background-color: var(--branco);
+    border-radius: 6px;
+    transition: var(--transition);
+}
+
+.quick-nav a:hover {
+    background-color: var(--verde-claro);
+    color: var(--branco);
+}
+
+/* Conteúdo */
+.especie-content {
+    background-color: var(--branco);
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    line-height: 1.8;
+}
+
+.especie-content h2 {
+    border-left: 4px solid var(--verde-principal);
+    padding-left: 15px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.especie-content h3 {
+    color: var(--verde-secundario);
+    margin-top: 30px;
+}
+
+/* Navegação entre espécies */
+.especies-nav {
+    margin-top: 50px;
+    padding: 30px;
+    background-color: var(--cinza-claro);
+    border-radius: 12px;
+}
+
+.especies-nav h3 {
+    margin-bottom: 20px;
+}
+
+.especies-nav-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 15px;
+}
+
+.especie-nav-item {
+    padding: 15px;
+    background-color: var(--branco);
+    border-radius: 8px;
+    text-align: center;
+    font-weight: 600;
+    transition: var(--transition);
+}
+
+.especie-nav-item:hover {
+    background-color: var(--verde-secundario);
+    color: var(--branco);
+    transform: translateY(-3px);
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+    .especie-header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .especie-icon-large {
+        font-size: 4rem;
+    }
+
+    .especie-content {
+        padding: 20px;
+    }
+}
+</style>
+
+    </main>
+
+    <footer class="site-footer">
+    <div class="container">
+        <div class="footer-content">
+            <!-- Coluna 1: Sobre -->
+            <div class="footer-col">
+                <h3>Sobre o Pomar.PT</h3>
+                <p>Guia completo de fruticultura para Portugal e Açores. Informação técnica, prática e acessível para agricultores amadores e profissionais.</p>
+                <div class="footer-social">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <!-- Coluna 2: Links Rápidos -->
+            <div class="footer-col">
+                <h3>Links Rápidos</h3>
+                <ul class="footer-links">
+                    <li><a href="/">Início</a></li>
+                    <li><a href="/especies/maca">Espécies</a></li>
+                    <li><a href="/praticas/plantacao">Práticas</a></li>
+                    <li><a href="/ferramentas">Ferramentas</a></li>
+                    <li><a href="/glossario">Glossário</a></li>
+                    <li><a href="/recursos">Recursos</a></li>
+                </ul>
+            </div>
+
+            <!-- Coluna 3: Recursos -->
+            <div class="footer-col">
+                <h3>Recursos Úteis</h3>
+                <ul class="footer-links">
+                    <li><a href="https://agricultura.azores.gov.pt/" target="_blank" rel="noopener">DRAAC Açores</a></li>
+                    <li><a href="https://www.iniav.pt/" target="_blank" rel="noopener">INIAV</a></li>
+                    <li><a href="https://www.utad.pt/" target="_blank" rel="noopener">UTAD</a></li>
+                    <li><a href="https://www.ipma.pt/" target="_blank" rel="noopener">IPMA - Clima</a></li>
+                </ul>
+            </div>
+
+            <!-- Coluna 4: Contacto -->
+            <div class="footer-col">
+                <h3>Contacto</h3>
+                <ul class="footer-contact">
+                    <li>
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:info@pomar.pt">info@pomar.pt</a>
+                    </li>
+                    <li>
+                        <i class="fas fa-map-marker-alt"></i>
+                        Portugal e Açores
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Copyright -->
+        <div class="footer-bottom">
+            <p>&copy; 2026 Pomar.PT - Guia de Fruticultura Portugal e Açores. Todos os direitos reservados.</p>
+            <p class="footer-disclaimer">Informação compilada de fontes credíveis. Consulte especialistas para situações específicas.</p>
+        </div>
+    </div>
+</footer>
+
+<!-- Botão voltar ao topo -->
+<button class="back-to-top" id="backToTop" aria-label="Voltar ao topo">
+    <i class="fas fa-chevron-up"></i>
+</button>
+
+
+    <!-- JavaScript -->
+    <script src="/assets/js/main.js"></script>
+</body>
+</html>

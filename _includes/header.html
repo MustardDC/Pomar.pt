@@ -1,0 +1,82 @@
+<header class="site-header">
+    <div class="container">
+        <div class="header-content">
+            <!-- Logo -->
+            <div class="logo">
+                <a href="{{ '/' | relative_url }}">
+                    <i class="fas fa-seedling"></i>
+                    <span class="logo-text">{{ site.title }}</span>
+                </a>
+            </div>
+
+            <!-- Menu Toggle (Mobile) -->
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <!-- Navigation -->
+            <nav class="main-nav" id="mainNav">
+                <ul class="nav-list">
+                    <li><a href="{{ '/' | relative_url }}" class="nav-link">Início</a></li>
+
+                    <!-- Dropdown Espécies -->
+                    <li class="dropdown">
+                        <a href="#" class="nav-link dropdown-toggle">
+                            Espécies <i class="fas fa-chevron-down"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="{{ '/especies/maca' | relative_url }}"><i class="fas fa-apple-alt"></i> Maçã</a></li>
+                            <li><a href="{{ '/especies/pera' | relative_url }}">🍐 Pera</a></li>
+                            <li><a href="{{ '/especies/pessego' | relative_url }}">🍑 Pessego</a></li>
+                            <li><a href="{{ '/especies/ameixa' | relative_url }}">Ameixa</a></li>
+                            <li><a href="{{ '/especies/videira' | relative_url }}"><i class="fas fa-wine-bottle"></i> Videira</a></li>
+                            <li><a href="{{ '/especies/laranja' | relative_url }}">🍊 Laranja</a></li>
+                            <li><a href="{{ '/especies/limao' | relative_url }}">🍋 Limão</a></li>
+                            <li><a href="{{ '/especies/mirtilo' | relative_url }}">Mirtilo</a></li>
+                            <li><a href="{{ '/especies/framboesa' | relative_url }}">Framboesa</a></li>
+                            <li><a href="{{ '/especies/morango' | relative_url }}">🍓 Morango</a></li>
+                        </ul>
+                    </li>
+
+                    <!-- Dropdown Práticas -->
+                    <li class="dropdown">
+                        <a href="#" class="nav-link dropdown-toggle">
+                            Práticas <i class="fas fa-chevron-down"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="{{ '/praticas/plantacao' | relative_url }}"><i class="fas fa-seedling"></i> Plantação</a></li>
+                            <li><a href="{{ '/praticas/adubacao' | relative_url }}">Adubação</a></li>
+                            <li><a href="{{ '/praticas/podas' | relative_url }}"><i class="fas fa-cut"></i> Podas</a></li>
+                            <li><a href="{{ '/praticas/enxertos' | relative_url }}">Enxertos</a></li>
+                            <li><a href="{{ '/praticas/doencas' | relative_url }}"><i class="fas fa-bug"></i> Doenças</a></li>
+                            <li><a href="{{ '/praticas/colheita' | relative_url }}">Colheita</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="{{ '/ferramentas' | relative_url }}" class="nav-link">Ferramentas</a></li>
+                    <li><a href="{{ '/glossario' | relative_url }}" class="nav-link">Glossário</a></li>
+                    <li><a href="{{ '/recursos' | relative_url }}" class="nav-link">Recursos</a></li>
+
+                    <!-- Busca -->
+                    <li class="nav-search">
+                        <button class="search-btn" id="searchBtn" aria-label="Buscar">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Search Overlay (escondido por padrão) -->
+    <div class="search-overlay" id="searchOverlay">
+        <div class="search-container">
+            <input type="text" class="search-input" id="searchInput" placeholder="Procurar espécies, técnicas, doenças...">
+            <button class="search-close" id="searchClose">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+    </div>
+</header>

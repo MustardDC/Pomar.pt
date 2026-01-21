@@ -1,0 +1,176 @@
+---
+layout: default
+---
+
+<div class="pratica-page">
+    <div class="container">
+        <!-- Breadcrumbs -->
+        <nav class="breadcrumbs">
+            <a href="{{ '/' | relative_url }}">Início</a>
+            <span>/</span>
+            <a href="{{ '/praticas/plantacao' | relative_url }}">Práticas</a>
+            <span>/</span>
+            <span>{{ page.title }}</span>
+        </nav>
+
+        <!-- Header da Prática -->
+        <header class="pratica-header">
+            <div class="pratica-icon-large">{{ page.icon }}</div>
+            <div>
+                <h1>{{ page.title }}</h1>
+                <p class="pratica-descricao">{{ page.description }}</p>
+                <div class="pratica-tags">
+                    {% for tag in page.tags %}
+                    <span class="tag">{{ tag }}</span>
+                    {% endfor %}
+                </div>
+            </div>
+        </header>
+
+        <!-- Navegação Rápida -->
+        {% if page.nav_items %}
+        <nav class="quick-nav">
+            <h3>Nesta Página</h3>
+            <ul>
+                {% for item in page.nav_items %}
+                <li><a href="#{{ item.id }}"><i class="{{ item.icon }}"></i> {{ item.title }}</a></li>
+                {% endfor %}
+            </ul>
+        </nav>
+        {% endif %}
+
+        <!-- Conteúdo Principal -->
+        <div class="pratica-content">
+            {{ content }}
+        </div>
+
+        <!-- Navegação entre práticas -->
+        <nav class="praticas-nav">
+            <h3>Outras práticas essenciais</h3>
+            <div class="praticas-nav-grid">
+                <a href="/praticas/plantacao" class="pratica-nav-item">
+                    <i class="fas fa-seedling"></i> Plantação
+                </a>
+                <a href="/praticas/adubacao" class="pratica-nav-item">
+                    <i class="fas fa-leaf"></i> Adubação
+                </a>
+                <a href="/praticas/podas" class="pratica-nav-item">
+                    <i class="fas fa-cut"></i> Podas
+                </a>
+                <a href="/praticas/enxertos" class="pratica-nav-item">
+                    <i class="fas fa-code-branch"></i> Enxertos
+                </a>
+                <a href="/praticas/doencas" class="pratica-nav-item">
+                    <i class="fas fa-bug"></i> Doenças e Pragas
+                </a>
+                <a href="/praticas/colheita" class="pratica-nav-item">
+                    <i class="fas fa-apple-alt"></i> Colheita
+                </a>
+            </div>
+        </nav>
+    </div>
+</div>
+
+<style>
+/* Reutiliza estilos de especie.html com pequenas adaptações */
+.pratica-header {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 30px;
+    background: linear-gradient(135deg, var(--verde-principal) 0%, var(--castanho-terra) 100%);
+    color: var(--branco);
+    border-radius: 12px;
+    margin-bottom: 30px;
+}
+
+.pratica-icon-large {
+    font-size: 5rem;
+}
+
+.pratica-header h1 {
+    color: var(--branco);
+    margin-bottom: 5px;
+}
+
+.pratica-descricao {
+    font-size: 1.1rem;
+    color: rgba(255,255,255,0.9);
+    margin-bottom: 10px;
+}
+
+.pratica-content {
+    background-color: var(--branco);
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    line-height: 1.8;
+}
+
+.pratica-content h2 {
+    border-left: 4px solid var(--castanho-terra);
+    padding-left: 15px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.praticas-nav {
+    margin-top: 50px;
+    padding: 30px;
+    background-color: var(--cinza-claro);
+    border-radius: 12px;
+}
+
+.praticas-nav h3 {
+    margin-bottom: 20px;
+}
+
+.praticas-nav-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 15px;
+}
+
+.pratica-nav-item {
+    padding: 20px;
+    background-color: var(--branco);
+    border-radius: 8px;
+    text-align: center;
+    font-weight: 600;
+    transition: var(--transition);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.pratica-nav-item i {
+    font-size: 2rem;
+    color: var(--verde-secundario);
+}
+
+.pratica-nav-item:hover {
+    background-color: var(--verde-secundario);
+    color: var(--branco);
+    transform: translateY(-3px);
+}
+
+.pratica-nav-item:hover i {
+    color: var(--branco);
+}
+
+@media (max-width: 768px) {
+    .pratica-header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .pratica-icon-large {
+        font-size: 3.5rem;
+    }
+
+    .pratica-content {
+        padding: 20px;
+    }
+}
+</style>

@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Guia completo para cultivo de pereiras em Portugal - variedades, amadurecimento pós-colheita, poda e cuidados específicos">
+    <meta name="keywords" content="fruticultura, portugal, açores, pomar, árvores de fruto, ">
+    <meta name="author" content="Pomar.PT">
+
+    <title>Pera | Pomar.PT</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/assets/css/style.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome para ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Favicon (placeholder) -->
+    <link rel="icon" type="image/png" href="/assets/images/favicon.png">
+</head>
+<body>
+    <header class="site-header">
+    <div class="container">
+        <div class="header-content">
+            <!-- Logo -->
+            <div class="logo">
+                <a href="/">
+                    <i class="fas fa-seedling"></i>
+                    <span class="logo-text">Pomar.PT</span>
+                </a>
+            </div>
+
+            <!-- Menu Toggle (Mobile) -->
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <!-- Navigation -->
+            <nav class="main-nav" id="mainNav">
+                <ul class="nav-list">
+                    <li><a href="/" class="nav-link">Início</a></li>
+
+                    <!-- Dropdown Espécies -->
+                    <li class="dropdown">
+                        <a href="#" class="nav-link dropdown-toggle">
+                            Espécies <i class="fas fa-chevron-down"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/especies/maca"><i class="fas fa-apple-alt"></i> Maçã</a></li>
+                            <li><a href="/especies/pera">🍐 Pera</a></li>
+                            <li><a href="/especies/pessego">🍑 Pessego</a></li>
+                            <li><a href="/especies/ameixa">Ameixa</a></li>
+                            <li><a href="/especies/videira"><i class="fas fa-wine-bottle"></i> Videira</a></li>
+                            <li><a href="/especies/laranja">🍊 Laranja</a></li>
+                            <li><a href="/especies/limao">🍋 Limão</a></li>
+                            <li><a href="/especies/mirtilo">Mirtilo</a></li>
+                            <li><a href="/especies/framboesa">Framboesa</a></li>
+                            <li><a href="/especies/morango">🍓 Morango</a></li>
+                        </ul>
+                    </li>
+
+                    <!-- Dropdown Práticas -->
+                    <li class="dropdown">
+                        <a href="#" class="nav-link dropdown-toggle">
+                            Práticas <i class="fas fa-chevron-down"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/praticas/plantacao"><i class="fas fa-seedling"></i> Plantação</a></li>
+                            <li><a href="/praticas/adubacao">Adubação</a></li>
+                            <li><a href="/praticas/podas"><i class="fas fa-cut"></i> Podas</a></li>
+                            <li><a href="/praticas/enxertos">Enxertos</a></li>
+                            <li><a href="/praticas/doencas"><i class="fas fa-bug"></i> Doenças</a></li>
+                            <li><a href="/praticas/colheita">Colheita</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="/ferramentas" class="nav-link">Ferramentas</a></li>
+                    <li><a href="/glossario" class="nav-link">Glossário</a></li>
+                    <li><a href="/recursos" class="nav-link">Recursos</a></li>
+
+                    <!-- Busca -->
+                    <li class="nav-search">
+                        <button class="search-btn" id="searchBtn" aria-label="Buscar">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Search Overlay (escondido por padrão) -->
+    <div class="search-overlay" id="searchOverlay">
+        <div class="search-container">
+            <input type="text" class="search-input" id="searchInput" placeholder="Procurar espécies, técnicas, doenças...">
+            <button class="search-close" id="searchClose">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+    </div>
+</header>
+
+
+    <main class="main-content">
+        <div class="especie-page">
+    <div class="container">
+        <!-- Breadcrumbs -->
+        <nav class="breadcrumbs">
+            <a href="/">Início</a>
+            <span>/</span>
+            <a href="/especies/maca">Espécies</a>
+            <span>/</span>
+            <span>Pera</span>
+        </nav>
+
+        <!-- Header da Espécie -->
+        <header class="especie-header">
+            <div class="especie-icon-large">🍐</div>
+            <div>
+                <h1>Pera</h1>
+                <p class="especie-nome-cientifico">
+                    <em>Pyrus communis</em>
+                </p>
+                <div class="especie-tags">
+                    
+                    <span class="tag">Temperada</span>
+                    
+                    <span class="tag">Norte Portugal</span>
+                    
+                    <span class="tag">Centro</span>
+                    
+                </div>
+            </div>
+        </header>
+
+        <!-- Navegação Rápida -->
+        <nav class="quick-nav">
+            <h3>Navegação Rápida</h3>
+            <ul>
+                <li><a href="#clima"><i class="fas fa-cloud-sun"></i> Clima</a></li>
+                <li><a href="#variedades"><i class="fas fa-list"></i> Variedades</a></li>
+                <li><a href="#plantacao"><i class="fas fa-seedling"></i> Plantação</a></li>
+                <li><a href="#poda"><i class="fas fa-cut"></i> Poda</a></li>
+                <li><a href="#doencas"><i class="fas fa-bug"></i> Doenças</a></li>
+                <li><a href="#colheita"><i class="fas fa-apple-alt"></i> Colheita</a></li>
+            </ul>
+        </nav>
+
+        <!-- Conteúdo Principal -->
+        <div class="especie-content">
+            <h2 id="clima">🌍 Clima Adequado</h2>
+
+<p>A pera requer <strong>menos frio que a maçã</strong>, sendo mais adaptável.</p>
+
+<h3 id="requisitos-de-horas-frio">Requisitos de Horas Frio</h3>
+<ul>
+  <li><strong>Necessidade:</strong> 600-1200 horas &lt;7°C</li>
+  <li><strong>Vantagem:</strong> Menos exigente que maçã (pode cultivar em mais regiões)</li>
+</ul>
+
+<h3 id="adaptação-por-região">Adaptação por Região</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Região</th>
+      <th>Adequação</th>
+      <th>Observações</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Norte Portugal</strong></td>
+      <td>⭐⭐⭐⭐⭐ Excelente</td>
+      <td>Clima ideal, produção tradicional</td>
+    </tr>
+    <tr>
+      <td><strong>Centro</strong></td>
+      <td>⭐⭐⭐⭐ Muito Bom</td>
+      <td>Adequado, altitude ajuda</td>
+    </tr>
+    <tr>
+      <td><strong>Açores</strong></td>
+      <td>⭐⭐⭐ Bom</td>
+      <td>Variedades baixa-frio possíveis</td>
+    </tr>
+    <tr>
+      <td><strong>Sul</strong></td>
+      <td>⭐⭐ Limitado</td>
+      <td>Apenas variedades específicas</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h2 id="variedades">🌱 Variedades Portuguesas</h2>
+
+<h3 id="rocha-a-rainha-portuguesa-">Rocha (A RAINHA PORTUGUESA) ⭐</h3>
+
+<ul>
+  <li><strong>Origem:</strong> Região Oeste Portugal (Sintra)</li>
+  <li><strong>Sabor:</strong> Excelente, doce-acidulado, sumarento</li>
+  <li><strong>Textura:</strong> Firme, crocante</li>
+  <li><strong>Produção:</strong> Muito elevada comercialmente</li>
+  <li><strong>Armazenamento:</strong> Excelente (2-3 meses)</li>
+  <li><strong>Status:</strong> IGP (Indicação Geográfica Protegida)</li>
+  <li><strong>Recomendado:</strong> TODO Portugal</li>
+</ul>
+
+<h3 id="outras-variedades">Outras Variedades</h3>
+
+<p><strong>Packham’s Triumph</strong></p>
+<ul>
+  <li>Sabor: Muito bom, aromático</li>
+  <li>Tamanho: Grande</li>
+  <li>Uso: Mesa, consumo fresco</li>
+</ul>
+
+<p><strong>Beurré Superfin</strong></p>
+<ul>
+  <li>Origem: Europeia clássica</li>
+  <li>Sabor: Delicado, amanteigado</li>
+  <li>Época: Setembro</li>
+</ul>
+
+<p><strong>Williams (Bartlett)</strong></p>
+<ul>
+  <li>Sabor: Muito doce, aromático</li>
+  <li>Uso: Mesa, conservas</li>
+  <li>Problema: Sensível doenças (fogo bacteriano)</li>
+</ul>
+
+<hr />
+
+<h2 id="plantacao">🌾 Plantação</h2>
+
+<h3 id="espaçamento">Espaçamento</h3>
+<p>Similar à maçã:</p>
+<ul>
+  <li><strong>Semi-anão:</strong> 4-5 x 4-5m (400-600 plantas/ha)</li>
+  <li><strong>Anão:</strong> 3-4 x 3-4m (600-800 plantas/ha)</li>
+</ul>
+
+<h3 id="porta-enxertos">Porta-Enxertos</h3>
+<ul>
+  <li><strong>Marmelo (Quince):</strong> Mais comum para pera
+    <ul>
+      <li>Efeito: Semi-anão a anão</li>
+      <li>Produção: Precoce (3-4 anos)</li>
+      <li>Vigor: Moderado</li>
+    </ul>
+  </li>
+  <li><strong>Pera Franco:</strong> Vigoroso (árvore grande)</li>
+</ul>
+
+<h3 id="técnica-plantação">Técnica Plantação</h3>
+<ol>
+  <li>Buraco: 60×60×60cm</li>
+  <li>Solo + compost 50-50</li>
+  <li>Ponto enxerto 5-10cm acima solo</li>
+  <li>Tutor de suporte</li>
+  <li>Rega profunda 20L</li>
+  <li>Mulch 10cm</li>
+</ol>
+
+<p><strong>Ano 1:</strong> Remover flores (estimula raízes)</p>
+
+<hr />
+
+<h2 id="poda">✂️ Poda</h2>
+
+<h3 id="similar-à-maçã-mas-menos-vigorosa">Similar à Maçã (mas menos vigorosa)</h3>
+
+<p><strong>Estrutura:</strong> Taça aberta</p>
+
+<p><strong>Época:</strong> Fevereiro-março</p>
+
+<p><strong>Intensidade:</strong> Moderada (menos agressiva que maçã)</p>
+
+<p><strong>Particularidades Pera:</strong></p>
+<ul>
+  <li>Menos vigorosa naturalmente</li>
+  <li>Poda pode ser mais leve</li>
+  <li>Ramos frutíferos similares à maçã (verdasca curta)</li>
+  <li>NÃO cortar ramos curtos com gomos florais</li>
+</ul>
+
+<h3 id="formação-anos-1-3">Formação (Anos 1-3)</h3>
+<p>Idêntica à maçã:</p>
+<ul>
+  <li>Ano 1: 3-4 ramos principais</li>
+  <li>Ano 2: Ramificação secundária</li>
+  <li>Ano 3: Estrutura completa</li>
+</ul>
+
+<hr />
+
+<h2 id="adubacao">🥄 Adubação</h2>
+
+<h3 id="programa-similar-à-maçã">Programa Similar à Maçã</h3>
+
+<p><strong>Fase Produção:</strong></p>
+<ul>
+  <li><strong>Março:</strong> NPK 10-08-10, 200g/árvore</li>
+  <li><strong>Maio:</strong> NPK 08-12-12, 150g/árvore</li>
+  <li><strong>Julho:</strong> NPK 08-08-15, 150g/árvore</li>
+</ul>
+
+<p><strong>Total anual:</strong></p>
+<ul>
+  <li>N: 100-200g</li>
+  <li>P: 80g</li>
+  <li>K: 120g</li>
+</ul>
+
+<hr />
+
+<h2 id="doencas">🐛 Doenças Comuns</h2>
+
+<h3 id="sarna-similar-à-maçã">Sarna (Similar à Maçã)</h3>
+
+<p><strong>Prevenção:</strong></p>
+<ul>
+  <li>Cálda bordalesa fevereiro-março</li>
+  <li>Remoção folhas infectadas</li>
+  <li>Repetir 10 dias se necessário</li>
+</ul>
+
+<h3 id="fogo-bacteriano-problema-grave-️">Fogo Bacteriano (PROBLEMA GRAVE) ⚠️</h3>
+
+<p><strong>Sintomas:</strong></p>
+<ul>
+  <li>Ramo parece “queimado” (necrose)</li>
+  <li>Flores/folhas murcham subitamente</li>
+  <li>Exudado bacteriano (líquido)</li>
+</ul>
+
+<p><strong>Condições favoráveis:</strong></p>
+<ul>
+  <li>Primavera chuvosa</li>
+  <li>Temperatura 18-25°C</li>
+  <li>Flores/brotos jovens (período crítico)</li>
+</ul>
+
+<p><strong>Prevenção (CRÍTICA):</strong></p>
+<ul>
+  <li><strong>Poda inverno seca</strong> (não dias chuvosos!)</li>
+  <li>Desinfectar tesoura (álcool 70%) entre cortes</li>
+  <li>Remover ramos infectados IMEDIATAMENTE</li>
+  <li>Cortar 30cm ABAIXO zona infectada</li>
+  <li>Queimar material (não compostar!)</li>
+</ul>
+
+<p><strong>Tratamento:</strong></p>
+<ul>
+  <li>Bordalesa (limitado efeito)</li>
+  <li>Antibióticos (cobre)</li>
+  <li><strong>Se grave:</strong> Remover árvore (evita propagação)</li>
+</ul>
+
+<p><strong>MUITO IMPORTANTE:</strong> Fogo bacteriano = doença quarentena (notificar autoridades)</p>
+
+<h3 id="ferrugem">Ferrugem</h3>
+
+<p><strong>Sintomas:</strong> Manchas alaranjadas folha inferior</p>
+
+<p><strong>Tratamento:</strong></p>
+<ul>
+  <li>Cálda bordalesa</li>
+  <li>Cálda enxofre alternadamente</li>
+</ul>
+
+<hr />
+
+<h2 id="colheita">🍐 Colheita</h2>
+
+<h3 id="particularidade-crítica-amadurecimento-pós-colheita">PARTICULARIDADE CRÍTICA: Amadurecimento Pós-Colheita</h3>
+
+<p>⚠️ <strong>PERA AMADURECE DEPOIS DE COLHIDA</strong> (climatérica)</p>
+
+<p><strong>Implicação:</strong></p>
+<ul>
+  <li>Colher <strong>ANTES</strong> de madura (verde!)</li>
+  <li>Se colher madura na árvore = textura farinhenta, ruim</li>
+</ul>
+
+<h3 id="índices-colheita-colher-verde">Índices Colheita (Colher VERDE)</h3>
+
+<p><strong>Visual:</strong></p>
+<ul>
+  <li>Cor verde-claro (NÃO amarelo ainda)</li>
+  <li>Tamanho desenvolvido</li>
+</ul>
+
+<p><strong>Toque:</strong></p>
+<ul>
+  <li>Ainda firme (polpa não cede)</li>
+  <li>Ligeiramente menos verde que imaturo</li>
+</ul>
+
+<p><strong>Teste:</strong></p>
+<ul>
+  <li>Pera solta com leve torcida (mas ainda verde)</li>
+</ul>
+
+<h3 id="timing">Timing</h3>
+<ul>
+  <li><strong>Época:</strong> Setembro (maioria variedades)</li>
+  <li><strong>Rocha:</strong> Fim agosto-setembro</li>
+</ul>
+
+<h3 id="amadurecimento-pós-colheita">Amadurecimento Pós-Colheita</h3>
+
+<p><strong>Processo:</strong></p>
+<ol>
+  <li>Colher verde (firme)</li>
+  <li>Armazenar 0-4°C (conservação)</li>
+  <li>Para consumir: Temperatura ambiente 5-7 dias</li>
+  <li>Pera amadurece gradualmente</li>
+  <li>Consumir quando polpa cede levemente</li>
+</ol>
+
+<p><strong>Vantagem:</strong> Permite armazenamento longo + escalonamento consumo</p>
+
+<h3 id="armazenamento">Armazenamento</h3>
+<ul>
+  <li><strong>Temperatura:</strong> 0-4°C</li>
+  <li><strong>Humidade:</strong> 90-95%</li>
+  <li><strong>Duração:</strong> 1-2 meses (Rocha até 3 meses!)</li>
+  <li><strong>Nota:</strong> Mais frágil que maçã (cuidado transporte)</li>
+</ul>
+
+<hr />
+
+<h2 id="-calendário-anual">📅 Calendário Anual</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Mês</th>
+      <th>Operação</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Janeiro-Fevereiro</strong></td>
+      <td>Poda principal (SECA, não chuva!)</td>
+    </tr>
+    <tr>
+      <td><strong>Fevereiro-Março</strong></td>
+      <td>Bordalesa preventiva</td>
+    </tr>
+    <tr>
+      <td><strong>Março</strong></td>
+      <td>Primeira adubação</td>
+    </tr>
+    <tr>
+      <td><strong>Abril-Maio</strong></td>
+      <td>Floração (risco fogo bacteriano)</td>
+    </tr>
+    <tr>
+      <td><strong>Maio</strong></td>
+      <td>Segunda adubação</td>
+    </tr>
+    <tr>
+      <td><strong>Junho</strong></td>
+      <td>Desbaste frutos</td>
+    </tr>
+    <tr>
+      <td><strong>Julho</strong></td>
+      <td>Terceira adubação, poda verde</td>
+    </tr>
+    <tr>
+      <td><strong>Setembro</strong></td>
+      <td><strong>COLHEITA</strong> (colher VERDE!)</td>
+    </tr>
+    <tr>
+      <td><strong>Outubro-Novembro</strong></td>
+      <td>Plantação raiz nua</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h2 id="-dicas-práticas">💡 Dicas Práticas</h2>
+
+<p>✅ <strong>Faça:</strong> Colher VERDE (amadurece pós-colheita)
+✅ <strong>Faça:</strong> Poda seca (previne fogo bacteriano)
+✅ <strong>Faça:</strong> Desinfectar tesoura entre cortes
+✅ <strong>Faça:</strong> Rocha se em Portugal (variedade nacional)</p>
+
+<p>❌ <strong>Não Faça:</strong> Colher madura na árvore (textura ruim)
+❌ <strong>Não Faça:</strong> Podar dias chuvosos (fogo bacteriano)
+❌ <strong>Não Faça:</strong> Ignorar sintomas fogo bacteriano (propaga-se!)</p>
+
+<hr />
+
+<h2 id="-diferenças-chave-vs-maçã">🌟 DIFERENÇAS CHAVE vs MAÇÃ</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Aspecto</th>
+      <th>Maçã</th>
+      <th>Pera</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Frio necessário</strong></td>
+      <td>800-1600h</td>
+      <td>600-1200h ✅ Menos</td>
+    </tr>
+    <tr>
+      <td><strong>Colheita</strong></td>
+      <td>Madura</td>
+      <td>Verde ⚠️</td>
+    </tr>
+    <tr>
+      <td><strong>Amadurecimento</strong></td>
+      <td>Pós-colheita</td>
+      <td>Pós-colheita OBRIGATÓRIO</td>
+    </tr>
+    <tr>
+      <td><strong>Vigor</strong></td>
+      <td>Moderado-Alto</td>
+      <td>Menor (poda mais leve)</td>
+    </tr>
+    <tr>
+      <td><strong>Doença específica</strong></td>
+      <td>Sarna</td>
+      <td>Fogo bacteriano ⚠️</td>
+    </tr>
+    <tr>
+      <td><strong>Armazenamento</strong></td>
+      <td>1-3 meses</td>
+      <td>1-2 meses (Rocha 3 meses)</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h2 id="-curiosidade-pera-rocha">🇵🇹 CURIOSIDADE: PERA ROCHA</h2>
+
+<p>A <strong>Pera Rocha</strong> é o símbolo da fruticultura portuguesa:</p>
+<ul>
+  <li>Descoberta acidental 1836 (quinta Sr. Rocha, Sintra)</li>
+  <li>IGP desde 2003</li>
+  <li>Região demarcada: Oeste Portugal</li>
+  <li>Exportação mundial (90+ países)</li>
+  <li>Produção anual: 180.000 toneladas</li>
+</ul>
+
+<p><strong>Características únicas:</strong></p>
+<ul>
+  <li>Sabor inconfundível</li>
+  <li>Crocância mantida armazenamento</li>
+  <li>Rusticidade (resistente)</li>
+</ul>
+
+<hr />
+
+<p><strong>Particularidade:</strong> Pera é uma das frutas que DEVE ser colhida verde - aprender o timing correto é essencial!</p>
+
+<p><strong>Fonte:</strong> COMPILACAO_ARVORES_FRUTO_VINHAS.md</p>
+
+        </div>
+
+        <!-- Navegação entre espécies -->
+        <nav class="especies-nav">
+            <h3>Ver outras espécies</h3>
+            <div class="especies-nav-grid">
+                <a href="/especies/maca" class="especie-nav-item">🍎 Maçã</a>
+                <a href="/especies/pera" class="especie-nav-item">🍐 Pera</a>
+                <a href="/especies/pessego" class="especie-nav-item">🍑 Pessego</a>
+                <a href="/especies/videira" class="especie-nav-item">🍇 Videira</a>
+                <a href="/especies/laranja" class="especie-nav-item">🍊 Laranja</a>
+                <a href="/especies/limao" class="especie-nav-item">🍋 Limão</a>
+            </div>
+        </nav>
+    </div>
+</div>
+
+<style>
+/* Breadcrumbs */
+.breadcrumbs {
+    padding: 20px 0;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.breadcrumbs a {
+    color: var(--verde-secundario);
+}
+
+.breadcrumbs span {
+    margin: 0 8px;
+    color: #999;
+}
+
+/* Header da Espécie */
+.especie-header {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 30px;
+    background: linear-gradient(135deg, var(--verde-principal) 0%, var(--verde-secundario) 100%);
+    color: var(--branco);
+    border-radius: 12px;
+    margin-bottom: 30px;
+}
+
+.especie-icon-large {
+    font-size: 6rem;
+}
+
+.especie-header h1 {
+    color: var(--branco);
+    margin-bottom: 5px;
+}
+
+.especie-nome-cientifico {
+    font-size: 1.1rem;
+    color: var(--amarelo-fruto);
+    margin-bottom: 10px;
+}
+
+.especie-tags {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.tag {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+}
+
+/* Quick Nav */
+.quick-nav {
+    background-color: var(--cinza-claro);
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.quick-nav h3 {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+
+.quick-nav ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+}
+
+.quick-nav a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px;
+    background-color: var(--branco);
+    border-radius: 6px;
+    transition: var(--transition);
+}
+
+.quick-nav a:hover {
+    background-color: var(--verde-claro);
+    color: var(--branco);
+}
+
+/* Conteúdo */
+.especie-content {
+    background-color: var(--branco);
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    line-height: 1.8;
+}
+
+.especie-content h2 {
+    border-left: 4px solid var(--verde-principal);
+    padding-left: 15px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.especie-content h3 {
+    color: var(--verde-secundario);
+    margin-top: 30px;
+}
+
+/* Navegação entre espécies */
+.especies-nav {
+    margin-top: 50px;
+    padding: 30px;
+    background-color: var(--cinza-claro);
+    border-radius: 12px;
+}
+
+.especies-nav h3 {
+    margin-bottom: 20px;
+}
+
+.especies-nav-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 15px;
+}
+
+.especie-nav-item {
+    padding: 15px;
+    background-color: var(--branco);
+    border-radius: 8px;
+    text-align: center;
+    font-weight: 600;
+    transition: var(--transition);
+}
+
+.especie-nav-item:hover {
+    background-color: var(--verde-secundario);
+    color: var(--branco);
+    transform: translateY(-3px);
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+    .especie-header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .especie-icon-large {
+        font-size: 4rem;
+    }
+
+    .especie-content {
+        padding: 20px;
+    }
+}
+</style>
+
+    </main>
+
+    <footer class="site-footer">
+    <div class="container">
+        <div class="footer-content">
+            <!-- Coluna 1: Sobre -->
+            <div class="footer-col">
+                <h3>Sobre o Pomar.PT</h3>
+                <p>Guia completo de fruticultura para Portugal e Açores. Informação técnica, prática e acessível para agricultores amadores e profissionais.</p>
+                <div class="footer-social">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <!-- Coluna 2: Links Rápidos -->
+            <div class="footer-col">
+                <h3>Links Rápidos</h3>
+                <ul class="footer-links">
+                    <li><a href="/">Início</a></li>
+                    <li><a href="/especies/maca">Espécies</a></li>
+                    <li><a href="/praticas/plantacao">Práticas</a></li>
+                    <li><a href="/ferramentas">Ferramentas</a></li>
+                    <li><a href="/glossario">Glossário</a></li>
+                    <li><a href="/recursos">Recursos</a></li>
+                </ul>
+            </div>
+
+            <!-- Coluna 3: Recursos -->
+            <div class="footer-col">
+                <h3>Recursos Úteis</h3>
+                <ul class="footer-links">
+                    <li><a href="https://agricultura.azores.gov.pt/" target="_blank" rel="noopener">DRAAC Açores</a></li>
+                    <li><a href="https://www.iniav.pt/" target="_blank" rel="noopener">INIAV</a></li>
+                    <li><a href="https://www.utad.pt/" target="_blank" rel="noopener">UTAD</a></li>
+                    <li><a href="https://www.ipma.pt/" target="_blank" rel="noopener">IPMA - Clima</a></li>
+                </ul>
+            </div>
+
+            <!-- Coluna 4: Contacto -->
+            <div class="footer-col">
+                <h3>Contacto</h3>
+                <ul class="footer-contact">
+                    <li>
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:info@pomar.pt">info@pomar.pt</a>
+                    </li>
+                    <li>
+                        <i class="fas fa-map-marker-alt"></i>
+                        Portugal e Açores
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Copyright -->
+        <div class="footer-bottom">
+            <p>&copy; 2026 Pomar.PT - Guia de Fruticultura Portugal e Açores. Todos os direitos reservados.</p>
+            <p class="footer-disclaimer">Informação compilada de fontes credíveis. Consulte especialistas para situações específicas.</p>
+        </div>
+    </div>
+</footer>
+
+<!-- Botão voltar ao topo -->
+<button class="back-to-top" id="backToTop" aria-label="Voltar ao topo">
+    <i class="fas fa-chevron-up"></i>
+</button>
+
+
+    <!-- JavaScript -->
+    <script src="/assets/js/main.js"></script>
+</body>
+</html>
