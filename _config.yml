@@ -4,7 +4,7 @@
 # Informações do Site
 title: "Pomar.PT"
 description: "Guia Completo de Fruticultura para Portugal e Açores - 10 espécies detalhadas, calendários regionais, técnicas de poda, enxertos e muito mais"
-baseurl: "" # Deixar vazio para GitHub Pages com domínio custom
+baseurl: "/Pomar.pt" # Nome do repositório GitHub
 url: "" # Será preenchido com URL do GitHub Pages
 
 # Autor
