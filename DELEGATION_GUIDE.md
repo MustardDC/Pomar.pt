@@ -180,7 +180,79 @@ Antes de ler ficheiros completos, considerar:
 
 ---
 
-## 7. CHECKLIST ANTES DE CADA TAREFA
+## 7. GEMINI CLI + AGENTE - SUPER EFICIENTE! 🚀
+
+**Descoberta:** Podemos usar agentes para orquestrar o Gemini CLI, poupando AINDA MAIS tokens!
+
+### Como funciona:
+
+```
+Claude (instruções ao agente: ~500 tokens)
+  ↓
+Task agent (general-purpose)
+  ↓ executa bash
+Gemini CLI (gera conteúdo: 0 tokens Claude!)
+  ↓
+Task agent (reporta resultado: ~1,000 tokens)
+  ↓
+Claude vê resultado final
+```
+
+### Teste Real - 4 Meta Descriptions
+
+**Resultado:**
+- Agente chamou Gemini 4 vezes
+- Gerou 4 meta descriptions SEO (<160 chars)
+- Guardou em ficheiro
+- Verificou contagem de caracteres
+
+**Poupança:**
+- Método antigo (Claude escrever): 3,000 tokens
+- Método novo (Agente + Gemini): 1,000 tokens
+- **Poupança: 67%!**
+
+### Exemplos de Uso:
+
+**Fase 5 - SEO (20 páginas):**
+```bash
+# Agente executa loop:
+for page in especies/*.md praticas/*.md; do
+  gemini -p "Meta description SEO para $page"
+done
+
+# Poupança: 4,000 tokens (67%)
+```
+
+**Fase 3 - Alt Text (80 imagens):**
+```bash
+# Agente processa imagens:
+for img in images/*.jpg; do
+  gemini -p "Alt text acessível para imagem $img"
+done
+
+# Poupança: 12,000 tokens (75%)
+```
+
+### Vantagens:
+
+✅ Gemini é grátis/muito barato
+✅ Agente orquestra tudo automaticamente
+✅ Claude só dá instruções e vê resultado
+✅ Poupança massiva de tokens (60-75%)
+✅ Escalável para 100+ gerações
+
+### Comando Teste:
+
+```bash
+# Verificar se Gemini funciona:
+gemini -p "Olá, estás funcional?"
+
+# Se funcionar, pode usar em agentes!
+```
+
+---
+
+## 8. CHECKLIST ANTES DE CADA TAREFA
 
 Antes de executar qualquer tarefa, perguntar:
 
@@ -196,7 +268,7 @@ Antes de executar qualquer tarefa, perguntar:
 
 ---
 
-## 8. CASOS DE USO FUTURO
+## 9. CASOS DE USO FUTURO
 
 ### Fase 3 - Imagens e Multimédia
 
@@ -239,7 +311,7 @@ Antes de executar qualquer tarefa, perguntar:
 
 ---
 
-## 9. CONCLUSÃO
+## 10. CONCLUSÃO
 
 A delegação eficiente pode poupar **22% dos tokens** em cada sessão, permitindo:
 
