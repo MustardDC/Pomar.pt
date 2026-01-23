@@ -22,72 +22,119 @@ keywords: calculadora, calendário, ferramentas pomar, diagnóstico doenças, ta
 
 **Calcule a quantidade exata de adubo para as suas árvores**
 
-A calculadora considera:
-- Espécie da árvore
-- Idade da planta
-- Época do ano (primavera, verão, outono)
-- Tipo de adubo (NPK)
-- Tamanho da copa
-
-**Como usar:**
-1. Selecione a espécie
-2. Indique a idade da árvore
-3. Escolha a época
-4. Receberá a dose recomendada em gramas
-
 <div class="ferramenta-box">
-    <div class="calculator-simple">
-        <h4>Cálculo Rápido Manual</h4>
-        <p><strong>Fórmula base:</strong></p>
-        <div class="formula-box">
-            <code>Dose (g) = Idade (anos) × 100 × Fator Espécie</code>
-        </div>
+<div class="calculator-interactive">
 
-        <h5>Fatores por Espécie:</h5>
-        <table class="tabela-compacta">
-            <thead>
-                <tr>
-                    <th>Espécie</th>
-                    <th>Fator Primavera</th>
-                    <th>Fator Verão</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Maçã, Pera</td>
-                    <td>1.0</td>
-                    <td>0.5</td>
-                </tr>
-                <tr>
-                    <td>Pêssego, Ameixa</td>
-                    <td>1.2</td>
-                    <td>0.6</td>
-                </tr>
-                <tr>
-                    <td>Videira</td>
-                    <td>0.8</td>
-                    <td>0.3</td>
-                </tr>
-                <tr>
-                    <td>Citrinos</td>
-                    <td>1.5</td>
-                    <td>0.8</td>
-                </tr>
-                <tr>
-                    <td>Pequenos Frutos</td>
-                    <td>0.5</td>
-                    <td>0.2</td>
-                </tr>
-            </tbody>
-        </table>
+<form id="calculadora-adubacao" class="calc-form">
 
-        <div class="exemplo-calculo">
-            <h5>📝 Exemplo Prático:</h5>
-            <p><strong>Macieira com 5 anos, primavera:</strong></p>
-            <p>Dose = 5 × 100 × 1.0 = <strong>500g de NPK 12-12-17</strong></p>
-            <p class="nota-importante">⚠️ Dividir em 2 aplicações (março e maio)</p>
-        </div>
-    </div>
+<div class="form-group">
+<label for="especie">🌳 Selecione a espécie:</label>
+<select id="especie" name="especie" required>
+<option value="">-- Escolha a espécie --</option>
+<option value="maca">Maçã</option>
+<option value="pera">Pera</option>
+<option value="pessego">Pêssego</option>
+<option value="ameixa">Ameixa</option>
+<option value="videira">Videira</option>
+<option value="laranja">Laranja</option>
+<option value="limao">Limão</option>
+<option value="mirtilo">Mirtilo</option>
+<option value="framboesa">Framboesa</option>
+<option value="morango">Morango</option>
+</select>
+</div>
+
+<div class="form-group">
+<label for="idade">📅 Idade da árvore (anos):</label>
+<input type="number" id="idade" name="idade" min="1" max="50" placeholder="Ex: 5" required>
+<small class="form-hint">Entre 1 e 50 anos</small>
+</div>
+
+<div class="form-group">
+<label>🌸 Época do ano:</label>
+<div class="radio-group">
+<label class="radio-label">
+<input type="radio" name="epoca" value="primavera" checked>
+<span>Primavera (Mar-Mai)</span>
+</label>
+<label class="radio-label">
+<input type="radio" name="epoca" value="verao">
+<span>Verão (Jun-Ago)</span>
+</label>
+<label class="radio-label">
+<input type="radio" name="epoca" value="outono">
+<span>Outono (Set-Nov)</span>
+</label>
+</div>
+</div>
+
+<button type="submit" class="btn btn-primary btn-calc">
+<i class="fas fa-calculator"></i> Calcular Dose
+</button>
+
+</form>
+
+<div id="resultado-calculadora" class="resultado-box" style="display: none;">
+<h4>✅ Resultado do Cálculo</h4>
+<div id="resultado-conteudo"></div>
+</div>
+
+</div>
+
+<details class="formula-detalhes">
+<summary>📖 Ver Fórmula e Fatores</summary>
+
+<div class="formula-box">
+<p><strong>Fórmula base:</strong></p>
+<code>Dose (g) = Idade (anos) × 100 × Fator Espécie</code>
+</div>
+
+<h5>Fatores por Espécie:</h5>
+<table class="tabela-compacta">
+<thead>
+<tr>
+<th>Espécie</th>
+<th>Fator Primavera</th>
+<th>Fator Verão</th>
+<th>Fator Outono</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Maçã, Pera</td>
+<td>1.0</td>
+<td>0.5</td>
+<td>0.3</td>
+</tr>
+<tr>
+<td>Pêssego, Ameixa</td>
+<td>1.2</td>
+<td>0.6</td>
+<td>0.4</td>
+</tr>
+<tr>
+<td>Videira</td>
+<td>0.8</td>
+<td>0.3</td>
+<td>0.2</td>
+</tr>
+<tr>
+<td>Citrinos</td>
+<td>1.5</td>
+<td>0.8</td>
+<td>0.5</td>
+</tr>
+<tr>
+<td>Pequenos Frutos</td>
+<td>0.5</td>
+<td>0.2</td>
+<td>0.1</td>
+</tr>
+</tbody>
+</table>
+
+</details>
+
 </div>
 
 ---
@@ -96,70 +143,48 @@ A calculadora considera:
 
 **Veja o que fazer em cada mês do ano na sua região**
 
-Selecione a sua região:
+<div class="calendario-interativo">
 
-<div class="regioes-grid">
-    <div class="regiao-card">
-        <h4>🏔️ Norte (Minho, Trás-os-Montes)</h4>
-        <ul class="lista-tarefas">
-            <li><strong>Janeiro-Fevereiro:</strong> Poda de formação (pomóideas), plantação árvores raiz nua</li>
-            <li><strong>Março-Abril:</strong> Enxertos, adubação primaveril, tratamentos preventivos</li>
-            <li><strong>Maio-Junho:</strong> Monda frutos, rega, controlo pragas</li>
-            <li><strong>Julho-Agosto:</strong> Colheita frutos estio, rega intensiva</li>
-            <li><strong>Setembro-Outubro:</strong> Colheita maçã/pera, plantação novos pomares</li>
-            <li><strong>Novembro-Dezembro:</strong> Poda videira, adubação outono</li>
-        </ul>
-        <p class="clima-info">Clima: Continental, invernos frios (-5°C a 10°C)</p>
-    </div>
+<div class="calendario-controles">
 
-    <div class="regiao-card">
-        <h4>🏞️ Centro (Beira Litoral, Beira Interior)</h4>
-        <ul class="lista-tarefas">
-            <li><strong>Janeiro-Fevereiro:</strong> Poda pessegueiro/ameixeira, plantação</li>
-            <li><strong>Março-Abril:</strong> Enxertos, tratamentos bordalesa, adubação</li>
-            <li><strong>Maio-Junho:</strong> Monda, rega início, controlo biológico</li>
-            <li><strong>Julho-Agosto:</strong> Colheita pêssegos/ameixas, rega constante</li>
-            <li><strong>Setembro-Outubro:</strong> Vindima, colheita maçã tardia</li>
-            <li><strong>Novembro-Dezembro:</strong> Análise solo, correção pH</li>
-        </ul>
-        <p class="clima-info">Clima: Mediterrânico temperado, verões quentes (15°C a 35°C)</p>
-    </div>
-
-    <div class="regiao-card">
-        <h4>☀️ Sul (Alentejo, Algarve)</h4>
-        <ul class="lista-tarefas">
-            <li><strong>Janeiro-Fevereiro:</strong> Poda citrinos leve, plantação citrinos</li>
-            <li><strong>Março-Abril:</strong> Adubação citrinos, enxertos T-budding preparação</li>
-            <li><strong>Maio-Junho:</strong> Rega essencial, monda citrinos</li>
-            <li><strong>Julho-Agosto:</strong> Enxertos T-budding, rega 2-3x/semana</li>
-            <li><strong>Setembro-Outubro:</strong> Colheita figos, redução rega</li>
-            <li><strong>Novembro-Dezembro:</strong> Colheita citrinos, adubação outono</li>
-        </ul>
-        <p class="clima-info">Clima: Mediterrânico quente, verões secos (18°C a 40°C)</p>
-    </div>
-
-    <div class="regiao-card">
-        <h4>🌊 Açores</h4>
-        <ul class="lista-tarefas">
-            <li><strong>Janeiro-Fevereiro:</strong> Poda leve, tratamento lepra persistente</li>
-            <li><strong>Março-Abril:</strong> Bordalesa preventiva OBRIGATÓRIA, plantação</li>
-            <li><strong>Maio-Junho:</strong> Vigilância lepra, monda conservadora</li>
-            <li><strong>Julho-Agosto:</strong> Colheita frutos estio, tratamentos fungicidas</li>
-            <li><strong>Setembro-Outubro:</strong> Colheita maçã, vindima tardio</li>
-            <li><strong>Novembro-Dezembro:</strong> Preparação inverno, drenagem</li>
-        </ul>
-        <p class="clima-info">Clima: Oceânico húmido, temperaturas estáveis (12°C a 25°C)</p>
-    </div>
+<div class="regioes-selector">
+<h4>📍 Selecione a região:</h4>
+<div class="btn-group">
+<button class="btn-regiao active" data-regiao="norte">🏔️ Norte</button>
+<button class="btn-regiao" data-regiao="centro">🏞️ Centro</button>
+<button class="btn-regiao" data-regiao="sul">☀️ Sul</button>
+<button class="btn-regiao" data-regiao="acores">🌊 Açores</button>
+</div>
 </div>
 
-<div class="nota-calendario" markdown="1">
+<div class="meses-selector">
+<h4>📅 Selecione o mês:</h4>
+<div class="btn-group-meses">
+<button class="btn-mes active" data-mes="1">Jan</button>
+<button class="btn-mes" data-mes="2">Fev</button>
+<button class="btn-mes" data-mes="3">Mar</button>
+<button class="btn-mes" data-mes="4">Abr</button>
+<button class="btn-mes" data-mes="5">Mai</button>
+<button class="btn-mes" data-mes="6">Jun</button>
+<button class="btn-mes" data-mes="7">Jul</button>
+<button class="btn-mes" data-mes="8">Ago</button>
+<button class="btn-mes" data-mes="9">Set</button>
+<button class="btn-mes" data-mes="10">Out</button>
+<button class="btn-mes" data-mes="11">Nov</button>
+<button class="btn-mes" data-mes="12">Dez</button>
+</div>
+</div>
 
-#### 📌 Notas Importantes:
+</div>
 
-- **Geadas tardias:** Norte/Centro - proteger flores abril/maio
-- **Stress hídrico:** Sul - rega essencial maio-setembro
-- **Humidade excessiva:** Açores - tratamentos fungicidas preventivos frequentes
-- **Ventos fortes:** Açores/Litoral - tutores reforçados obrigatórios
+<div id="calendario-conteudo" class="calendario-conteudo">
+<!-- Conteúdo dinâmico aparece aqui -->
+</div>
+
+<div class="calendario-navegacao">
+<button id="mes-anterior" class="btn-nav"><i class="fas fa-chevron-left"></i> Mês Anterior</button>
+<button id="mes-seguinte" class="btn-nav">Mês Seguinte <i class="fas fa-chevron-right"></i></button>
+</div>
 
 </div>
 
@@ -167,98 +192,39 @@ Selecione a sua região:
 
 ### 🩺 Diagnóstico de Doenças {#diagnostico}
 
-**Identifique doenças e pragas através dos sintomas**
+**Identifique doenças e pragas através de perguntas guiadas**
 
-#### Sintomas Visuais → Diagnóstico Rápido
+<div class="wizard-diagnostico">
 
-<div class="diagnostico-grid" markdown="1">
+<div id="wizard-container" class="wizard-box">
 
-<div class="sintoma-card">
-
-#### 🍂 Folhas com Manchas
-
-<div class="sintomas-lista" markdown="1">
-
-**Manchas pretas/castanhas:**
-- Redondas, regulares → **Sarna** (maçã/pera)
-- Irregulares, necrose → **Lepra** (pessegueiro)
-- Com halo amarelo → **Bacteriose**
-
-**Manchas brancas/pó:**
-- Pó branco folhas → **Oídio**
-- Feltro branco inferior → **Míldio** (videira)
-
-<p class="tratamento"><strong>→</strong> Ver página <a href="{{ '/praticas/doencas' | relative_url }}">Doenças e Pragas</a></p>
-
-</div>
+<div class="wizard-header">
+<h4 id="wizard-titulo">🩺 Diagnóstico de Problemas</h4>
+<p id="wizard-passo" class="wizard-step">Passo 1 de 3</p>
 </div>
 
-<div class="sintoma-card">
-
-#### 🍎 Frutos Deformados
-
-<div class="sintomas-lista" markdown="1">
-
-**Frutos pequenos/deformados:**
-- Árvore jovem → Excesso frutos (fazer monda!)
-- Folhas amarelas → Carência Azoto
-- Sem flores/poucos frutos → Falta frio invernal
-
-**Frutos caem prematuramente:**
-- Junho (queda fisiológica) → Normal
-- Julho/agosto → Falta água ou carência Potássio
-- Com galeria → **Bichado** (Carpocapsa)
-
-</div>
+<div id="wizard-pergunta" class="wizard-question">
+<!-- Perguntas aparecem aqui dinamicamente -->
 </div>
 
-<div class="sintoma-card">
-
-#### 🌿 Problemas Gerais
-
-<div class="sintomas-lista" markdown="1">
-
-**Crescimento fraco:**
-- Folhas amarelas pálidas → Carência Azoto (N)
-- Bordos queimados → Carência Potássio (K)
-- Folhas roxas/avermelhadas → Carência Fósforo (P)
-- Nervuras verdes, resto amarelo → Carência Ferro (clorose)
-
-**Exsudações/gomose:**
-- Tronco com goma → Stress, excesso água ou feridas
-- Com cancros → **Cancro bacteriano**
-
-</div>
+<div id="wizard-opcoes" class="wizard-options">
+<!-- Opções aparecem aqui dinamicamente -->
 </div>
 
-<div class="sintoma-card">
-
-#### 🐛 Pragas Comuns
-
-<div class="sintomas-lista" markdown="1">
-
-**Insetos visíveis:**
-- Pulgões (verdes/pretos) → Ramos jovens
-- Cochonilhas (escamas castanhas) → Tronco/ramos
-- Moscas da fruta → Frutos com galerias
-
-**Teias/buracos:**
-- Teias folhas → **Aranhiço vermelho**
-- Buracos frutos → **Carpocapsa** (bichado)
-- Folhas roídas → **Lagartas**
-
+<div id="wizard-resultado" class="wizard-result" style="display: none;">
+<!-- Resultado final aparece aqui -->
 </div>
+
+<div class="wizard-acoes">
+<button id="wizard-voltar" class="btn-wizard-secondary" style="display: none;">
+<i class="fas fa-arrow-left"></i> Voltar
+</button>
+<button id="wizard-reiniciar" class="btn-wizard-primary" style="display: none;">
+<i class="fas fa-redo"></i> Novo Diagnóstico
+</button>
 </div>
 
 </div>
-
-<div class="protocolo-box" markdown="1">
-
-#### 🛡️ Protocolo de Tratamento Integrado
-
-1. **Nível 1 - Cultural:** Poda sanitária, destruir restos doentes, rega adequada
-2. **Nível 2 - Biológico:** Joaninhas (pulgões), Bacillus thuringiensis (lagartas)
-3. **Nível 3 - Químico:** Apenas se níveis 1-2 falharem. Respeitar intervalo segurança!
 
 </div>
 

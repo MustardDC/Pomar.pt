@@ -614,3 +614,641 @@ tbody tr:hover {
 .mb-1 { margin-bottom: var(--spacing-sm); }
 .mb-2 { margin-bottom: var(--spacing-md); }
 .mb-3 { margin-bottom: var(--spacing-lg); }
+
+/* ============================================
+   11. FERRAMENTAS INTERATIVAS
+   ============================================ */
+
+/* Calculadora de Adubação */
+.calculator-interactive {
+    background: var(--branco);
+    padding: var(--spacing-lg);
+    border-radius: 12px;
+}
+
+.calc-form {
+    margin-bottom: var(--spacing-lg);
+}
+
+.form-group {
+    margin-bottom: var(--spacing-md);
+}
+
+.form-group label {
+    display: block;
+    font-weight: 600;
+    color: var(--verde-principal);
+    margin-bottom: 8px;
+    font-size: 1rem;
+}
+
+.form-group input[type="number"],
+.form-group select {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+}
+
+.form-group input[type="number"]:focus,
+.form-group select:focus {
+    outline: none;
+    border-color: var(--verde-principal);
+}
+
+.form-hint {
+    display: block;
+    margin-top: 6px;
+    font-size: 0.85rem;
+    color: #666;
+}
+
+.radio-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.radio-label {
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.radio-label:hover {
+    border-color: var(--verde-principal);
+    background-color: #f0f8f0;
+}
+
+.radio-label input[type="radio"] {
+    margin-right: 10px;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+
+.radio-label input[type="radio"]:checked + span {
+    font-weight: 600;
+    color: var(--verde-principal);
+}
+
+.btn-calc {
+    width: 100%;
+    padding: 15px;
+    font-size: 1.1rem;
+    margin-top: var(--spacing-md);
+}
+
+.resultado-box {
+    background: linear-gradient(135deg, #e8f5e9 0%, #f1f8e9 100%);
+    border: 2px solid var(--verde-principal);
+    border-radius: 12px;
+    padding: var(--spacing-lg);
+    margin-top: var(--spacing-lg);
+}
+
+.resultado-box h4 {
+    color: var(--verde-principal);
+    margin-bottom: var(--spacing-md);
+}
+
+.resultado-principal {
+    color: var(--texto-principal);
+}
+
+.resultado-titulo {
+    font-size: 1.1rem;
+    margin-bottom: var(--spacing-md);
+    color: var(--verde-escuro);
+}
+
+.resultado-dose {
+    background: var(--branco);
+    padding: var(--spacing-md);
+    border-radius: 8px;
+    margin-bottom: var(--spacing-md);
+}
+
+.dose-grande {
+    font-size: 1.8rem;
+    color: var(--verde-principal);
+    margin: 10px 0;
+}
+
+.dose-aplicacao {
+    font-size: 1.05rem;
+    margin: 8px 0;
+}
+
+.dose-quando {
+    margin-top: 12px;
+    padding-top: 12px;
+    border-top: 1px solid #e0e0e0;
+}
+
+.aviso-warning {
+    background: #fff3cd;
+    border-left: 4px solid #ffc107;
+    padding: 12px;
+    margin: var(--spacing-md) 0;
+    border-radius: 4px;
+}
+
+.aviso-info {
+    background: #d1ecf1;
+    border-left: 4px solid #17a2b8;
+    padding: 12px;
+    margin: var(--spacing-md) 0;
+    border-radius: 4px;
+}
+
+.resultado-instrucoes {
+    background: var(--branco);
+    padding: var(--spacing-md);
+    border-radius: 8px;
+    margin: var(--spacing-md) 0;
+}
+
+.resultado-instrucoes h5 {
+    color: var(--verde-principal);
+    margin-bottom: 12px;
+}
+
+.resultado-instrucoes ul {
+    margin-left: 20px;
+    line-height: 1.8;
+}
+
+.resultado-nota {
+    margin-top: var(--spacing-md);
+    padding: 12px;
+    background: #fff9e6;
+    border-radius: 6px;
+    font-size: 0.9rem;
+}
+
+.formula-detalhes {
+    margin-top: var(--spacing-lg);
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: var(--spacing-md);
+}
+
+.formula-detalhes summary {
+    cursor: pointer;
+    font-weight: 600;
+    color: var(--verde-principal);
+    padding: 8px;
+    user-select: none;
+}
+
+.formula-detalhes summary:hover {
+    background: #f5f5f5;
+    border-radius: 6px;
+}
+
+.formula-detalhes[open] summary {
+    margin-bottom: var(--spacing-md);
+}
+
+@media (max-width: 768px) {
+    .calculator-interactive {
+        padding: var(--spacing-md);
+    }
+
+    .dose-grande {
+        font-size: 1.5rem;
+    }
+
+    .radio-group {
+        gap: 8px;
+    }
+
+    .radio-label {
+        padding: 10px;
+    }
+}
+
+/* Calendários Regionais Interativos */
+.calendario-interativo {
+    background: var(--branco);
+    padding: var(--spacing-lg);
+    border-radius: 12px;
+}
+
+.calendario-controles {
+    margin-bottom: var(--spacing-lg);
+}
+
+.regioes-selector,
+.meses-selector {
+    margin-bottom: var(--spacing-md);
+}
+
+.regioes-selector h4,
+.meses-selector h4 {
+    color: var(--verde-principal);
+    margin-bottom: 12px;
+    font-size: 1rem;
+}
+
+.btn-group {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+}
+
+.btn-regiao {
+    padding: 12px 20px;
+    background: var(--branco);
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn-regiao:hover {
+    border-color: var(--verde-principal);
+    background: #f0f8f0;
+}
+
+.btn-regiao.active {
+    background: var(--verde-principal);
+    color: var(--branco);
+    border-color: var(--verde-principal);
+}
+
+.btn-group-meses {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 8px;
+}
+
+.btn-mes {
+    padding: 10px;
+    background: var(--branco);
+    border: 2px solid #e0e0e0;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn-mes:hover {
+    border-color: var(--verde-secundario);
+    background: #fffef0;
+}
+
+.btn-mes.active {
+    background: var(--amarelo-principal);
+    color: var(--verde-escuro);
+    border-color: var(--amarelo-principal);
+}
+
+.calendario-conteudo {
+    background: linear-gradient(135deg, #f0f8f0 0%, #f9fdf9 100%);
+    border: 2px solid var(--verde-principal);
+    border-radius: 12px;
+    padding: var(--spacing-lg);
+    margin: var(--spacing-lg) 0;
+    min-height: 300px;
+}
+
+.calendario-mes-info h3 {
+    color: var(--verde-principal);
+    margin-bottom: var(--spacing-md);
+    font-size: 1.5rem;
+}
+
+.clima-mes {
+    display: flex;
+    gap: var(--spacing-md);
+    margin-bottom: var(--spacing-md);
+    flex-wrap: wrap;
+}
+
+.clima-item {
+    background: var(--branco);
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-size: 0.95rem;
+}
+
+.tarefas-mes {
+    background: var(--branco);
+    padding: var(--spacing-md);
+    border-radius: 8px;
+    margin: var(--spacing-md) 0;
+}
+
+.tarefas-mes h4 {
+    color: var(--verde-principal);
+    margin-bottom: 12px;
+}
+
+.tarefas-mes ul {
+    margin-left: 20px;
+    line-height: 2;
+}
+
+.tarefas-mes li {
+    margin-bottom: 8px;
+}
+
+.clima-geral {
+    margin-top: var(--spacing-md);
+    padding: 12px;
+    background: #fff9e6;
+    border-radius: 6px;
+    font-size: 0.9rem;
+}
+
+.calendario-navegacao {
+    display: flex;
+    justify-content: space-between;
+    gap: var(--spacing-md);
+    margin-top: var(--spacing-md);
+}
+
+.btn-nav {
+    flex: 1;
+    padding: 12px 20px;
+    background: var(--verde-secundario);
+    color: var(--branco);
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.btn-nav:hover {
+    background: var(--verde-principal);
+}
+
+@media (max-width: 768px) {
+    .btn-group {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .btn-group-meses {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .btn-regiao,
+    .btn-mes {
+        font-size: 0.85rem;
+        padding: 8px;
+    }
+
+    .calendario-conteudo {
+        padding: var(--spacing-md);
+    }
+
+    .calendario-mes-info h3 {
+        font-size: 1.2rem;
+    }
+
+    .clima-mes {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .calendario-navegacao {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 480px) {
+    .btn-group-meses {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* Wizard de Diagnóstico */
+.wizard-diagnostico {
+    background: var(--branco);
+    padding: var(--spacing-lg);
+    border-radius: 12px;
+}
+
+.wizard-box {
+    background: linear-gradient(135deg, #f9fdf9 0%, #f0f8f0 100%);
+    border: 2px solid var(--verde-principal);
+    border-radius: 12px;
+    padding: var(--spacing-lg);
+}
+
+.wizard-header {
+    text-align: center;
+    margin-bottom: var(--spacing-lg);
+    padding-bottom: var(--spacing-md);
+    border-bottom: 2px solid var(--verde-principal);
+}
+
+.wizard-header h4 {
+    color: var(--verde-principal);
+    margin-bottom: 8px;
+    font-size: 1.5rem;
+}
+
+.wizard-step {
+    color: var(--verde-secundario);
+    font-weight: 600;
+    font-size: 0.95rem;
+}
+
+.wizard-question {
+    margin-bottom: var(--spacing-lg);
+}
+
+.question-text {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--verde-escuro);
+    text-align: center;
+}
+
+.wizard-options {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: var(--spacing-lg);
+}
+
+.btn-opcao {
+    padding: 18px 24px;
+    background: var(--branco);
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 1.05rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s;
+    text-align: left;
+}
+
+.btn-opcao:hover {
+    border-color: var(--verde-principal);
+    background: #f0f8f0;
+    transform: translateX(5px);
+}
+
+.wizard-result {
+    background: var(--branco);
+    padding: var(--spacing-lg);
+    border-radius: 8px;
+}
+
+.resultado-diagnostico h3 {
+    color: var(--verde-principal);
+    margin-bottom: var(--spacing-md);
+    font-size: 1.6rem;
+}
+
+.severidade {
+    display: inline-block;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-size: 0.95rem;
+    margin-bottom: var(--spacing-md);
+}
+
+.severidade-alta {
+    background: #ffebee;
+    color: #c62828;
+    border: 2px solid #ef5350;
+}
+
+.severidade-media {
+    background: #fff9e6;
+    color: #f57c00;
+    border: 2px solid #ffc107;
+}
+
+.severidade-baixa {
+    background: #e8f5e9;
+    color: #2e7d32;
+    border: 2px solid #66bb6a;
+}
+
+.diagnostico-descricao {
+    background: #f5f5f5;
+    padding: var(--spacing-md);
+    border-radius: 6px;
+    margin-bottom: var(--spacing-md);
+}
+
+.diagnostico-tratamento {
+    background: #e3f2fd;
+    padding: var(--spacing-md);
+    border-radius: 6px;
+    margin-bottom: var(--spacing-md);
+}
+
+.diagnostico-tratamento h4 {
+    color: #1976d2;
+    margin-bottom: 12px;
+}
+
+.diagnostico-tratamento ul {
+    margin-left: 20px;
+    line-height: 1.9;
+}
+
+.diagnostico-preventivo {
+    background: #fff9e6;
+    padding: var(--spacing-md);
+    border-radius: 6px;
+    margin-bottom: var(--spacing-md);
+}
+
+.diagnostico-link {
+    text-align: center;
+    padding-top: var(--spacing-md);
+    border-top: 1px solid #e0e0e0;
+}
+
+.diagnostico-link a {
+    color: var(--verde-principal);
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.wizard-acoes {
+    display: flex;
+    justify-content: center;
+    gap: var(--spacing-md);
+    margin-top: var(--spacing-lg);
+}
+
+.btn-wizard-primary,
+.btn-wizard-secondary {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn-wizard-primary {
+    background: var(--verde-principal);
+    color: var(--branco);
+}
+
+.btn-wizard-primary:hover {
+    background: var(--verde-escuro);
+}
+
+.btn-wizard-secondary {
+    background: #e0e0e0;
+    color: var(--texto-principal);
+}
+
+.btn-wizard-secondary:hover {
+    background: #bdbdbd;
+}
+
+@media (max-width: 768px) {
+    .wizard-box {
+        padding: var(--spacing-md);
+    }
+
+    .wizard-header h4 {
+        font-size: 1.2rem;
+    }
+
+    .question-text {
+        font-size: 1.05rem;
+    }
+
+    .btn-opcao {
+        padding: 14px 18px;
+        font-size: 0.95rem;
+    }
+
+    .resultado-diagnostico h3 {
+        font-size: 1.3rem;
+    }
+
+    .wizard-acoes {
+        flex-direction: column;
+    }
+
+    .btn-wizard-primary,
+    .btn-wizard-secondary {
+        width: 100%;
+    }
+}
