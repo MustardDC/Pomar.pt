@@ -173,7 +173,7 @@ Selecione a sua região:
 
 <div class="diagnostico-grid" markdown="1">
 
-<div class="sintoma-card" markdown="1">
+<div class="sintoma-card">
 
 #### 🍂 Folhas com Manchas
 
@@ -193,7 +193,7 @@ Selecione a sua região:
 </div>
 </div>
 
-<div class="sintoma-card" markdown="1">
+<div class="sintoma-card">
 
 #### 🍎 Frutos Deformados
 
@@ -212,7 +212,7 @@ Selecione a sua região:
 </div>
 </div>
 
-<div class="sintoma-card" markdown="1">
+<div class="sintoma-card">
 
 #### 🌿 Problemas Gerais
 
@@ -231,7 +231,7 @@ Selecione a sua região:
 </div>
 </div>
 
-<div class="sintoma-card" markdown="1">
+<div class="sintoma-card">
 
 #### 🐛 Pragas Comuns
 
@@ -588,42 +588,41 @@ Selecione a sua região:
 
 <div class="links-grid" markdown="1">
 
-<div class="link-card" markdown="1">
+<div class="link-card">
 
 #### <i class="fas fa-book"></i> Práticas Essenciais
-        <ul>
-            <li><a href="{{ '/praticas/plantacao' | relative_url }}">Plantação e Estabelecimento</a></li>
-            <li><a href="{{ '/praticas/podas' | relative_url }}">Guia Completo de Podas</a></li>
-            <li><a href="{{ '/praticas/adubacao' | relative_url }}">Adubação e Nutrição</a></li>
-            <li><a href="{{ '/praticas/enxertos' | relative_url }}">Técnicas de Enxertia</a></li>
-            <li><a href="{{ '/praticas/doencas' | relative_url }}">Doenças e Pragas</a></li>
-            <li><a href="{{ '/praticas/colheita' | relative_url }}">Colheita e Armazenamento</a></li>
-        </ul>
+
+- [Plantação e Estabelecimento]({{ '/praticas/plantacao' | relative_url }})
+- [Guia Completo de Podas]({{ '/praticas/podas' | relative_url }})
+- [Adubação e Nutrição]({{ '/praticas/adubacao' | relative_url }})
+- [Técnicas de Enxertia]({{ '/praticas/enxertos' | relative_url }})
+- [Doenças e Pragas]({{ '/praticas/doencas' | relative_url }})
+- [Colheita e Armazenamento]({{ '/praticas/colheita' | relative_url }})
+
+</div>
+
+
+<div class="link-card">
+
+#### <i class="fas fa-apple-alt"></i> Espécies Detalhadas
+
+- [Maçã]({{ '/especies/maca' | relative_url }}) | [Pera]({{ '/especies/pera' | relative_url }})
+- [Pêssego]({{ '/especies/pessego' | relative_url }}) | [Ameixa]({{ '/especies/ameixa' | relative_url }})
+- [Videira]({{ '/especies/videira' | relative_url }})
+- [Laranja]({{ '/especies/laranja' | relative_url }}) | [Limão]({{ '/especies/limao' | relative_url }})
+- [Mirtilo]({{ '/especies/mirtilo' | relative_url }}) | [Framboesa]({{ '/especies/framboesa' | relative_url }}) | [Morango]({{ '/especies/morango' | relative_url }})
     </div>
 
 
-<div class="link-card" markdown="1">
+<div class="link-card">
 
-####<i class="fas fa-apple-alt"></i> Espécies Detalhadas</h4>
-        <ul>
-            <li><a href="{{ '/especies/maca' | relative_url }}">Maçã</a> | <a href="{{ '/especies/pera' | relative_url }}">Pera</a></li>
-            <li><a href="{{ '/especies/pessego' | relative_url }}">Pêssego</a> | <a href="{{ '/especies/ameixa' | relative_url }}">Ameixa</a></li>
-            <li><a href="{{ '/especies/videira' | relative_url }}">Videira</a></li>
-            <li><a href="{{ '/especies/laranja' | relative_url }}">Laranja</a> | <a href="{{ '/especies/limao' | relative_url }}">Limão</a></li>
-            <li><a href="{{ '/especies/mirtilo' | relative_url }}">Mirtilo</a> | <a href="{{ '/especies/framboesa' | relative_url }}">Framboesa</a> | <a href="{{ '/especies/morango' | relative_url }}">Morango</a></li>
-        </ul>
-    </div>
+#### <i class="fas fa-external-link-alt"></i> Outros Recursos
 
+- [Glossário Técnico]({{ '/glossario' | relative_url }})
+- [Links e Instituições]({{ '/recursos' | relative_url }})
+- [Voltar à Página Inicial]({{ '/' | relative_url }})
 
-<div class="link-card" markdown="1">
-
-####<i class="fas fa-external-link-alt"></i> Outros Recursos</h4>
-        <ul>
-            <li><a href="{{ '/glossario' | relative_url }}">Glossário Técnico</a></li>
-            <li><a href="{{ '/recursos' | relative_url }}">Links e Instituições</a></li>
-            <li><a href="{{ '/' | relative_url }}">Voltar à Página Inicial</a></li>
-        </ul>
-    </div>
+</div>
 </div>
 
 </div>

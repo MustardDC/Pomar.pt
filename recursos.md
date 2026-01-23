@@ -26,7 +26,7 @@ Esta página reúne os melhores recursos para aprofundar conhecimentos em frutic
 
 <div class="instituicoes-grid" markdown="1">
 
-<div class="instituicao-card" markdown="1">
+<div class="instituicao-card">
     <div class="instituicao-header">
         <h3><i class="fas fa-landmark"></i> INIAV</h3>
         <p class="subtitulo">Instituto Nacional de Investigação Agrária e Veterinária</p>
@@ -51,7 +51,7 @@ Esta página reúne os melhores recursos para aprofundar conhecimentos em frutic
     </div>
 </div>
 
-<div class="instituicao-card" markdown="1">
+<div class="instituicao-card">
     <div class="instituicao-header">
         <h3><i class="fas fa-tractor"></i> DGAV</h3>
         <p class="subtitulo">Direção-Geral de Alimentação e Veterinária</p>
@@ -73,7 +73,7 @@ Esta página reúne os melhores recursos para aprofundar conhecimentos em frutic
     </div>
 </div>
 
-<div class="instituicao-card" markdown="1">
+<div class="instituicao-card">
     <div class="instituicao-header">
         <h3><i class="fas fa-cloud-sun"></i> IPMA</h3>
         <p class="subtitulo">Instituto Português do Mar e da Atmosfera</p>
@@ -106,7 +106,7 @@ Esta página reúne os melhores recursos para aprofundar conhecimentos em frutic
 
 <div class="instituicoes-grid" markdown="1">
 
-<div class="instituicao-card acores" markdown="1">
+<div class="instituicao-card acores">
     <div class="instituicao-header">
         <h3><i class="fas fa-island-tropical"></i> DRAAC</h3>
         <p class="subtitulo">Direção Regional da Agricultura e Desenvolvimento Rural dos Açores</p>
@@ -131,7 +131,7 @@ Esta página reúne os melhores recursos para aprofundar conhecimentos em frutic
     </div>
 </div>
 
-<div class="instituicao-card acores" markdown="1">
+<div class="instituicao-card acores">
     <div class="instituicao-header">
         <h3><i class="fas fa-microscope"></i> IAMA</h3>
         <p class="subtitulo">Instituto de Alimentação e Mercados Agrícolas dos Açores</p>
@@ -159,7 +159,7 @@ Esta página reúne os melhores recursos para aprofundar conhecimentos em frutic
 
 <div class="universidades-grid" markdown="1">
 
-<div class="universidade-card" markdown="1">
+<div class="universidade-card">
     <h3><i class="fas fa-university"></i> UTAD - Universidade de Trás-os-Montes e Alto Douro</h3>
     <p><strong>Especialização:</strong> Referência nacional em fruticultura. Cursos de licenciatura, mestrado e doutoramento.</p>
     <p><strong>Recursos úteis:</strong></p>
@@ -171,7 +171,7 @@ Esta página reúne os melhores recursos para aprofundar conhecimentos em frutic
     <p><strong>Link:</strong> <a href="https://www.utad.pt/" target="_blank" rel="noopener">www.utad.pt</a></p>
 </div>
 
-<div class="universidade-card" markdown="1">
+<div class="universidade-card">
     <h3><i class="fas fa-university"></i> ISA - Instituto Superior de Agronomia (Lisboa)</h3>
     <p><strong>Especialização:</strong> Maior escola de agronomia portuguesa. Forte em citrinos e mediterrânicas.</p>
     <p><strong>Recursos úteis:</strong></p>
@@ -183,7 +183,7 @@ Esta página reúne os melhores recursos para aprofundar conhecimentos em frutic
     <p><strong>Link:</strong> <a href="https://www.isa.ulisboa.pt/" target="_blank" rel="noopener">www.isa.ulisboa.pt</a></p>
 </div>
 
-<div class="universidade-card" markdown="1">
+<div class="universidade-card">
     <h3><i class="fas fa-university"></i> Escola Superior Agrária de Coimbra</h3>
     <p><strong>Especialização:</strong> Fruticultura de clima temperado. Forte investigação em pequenos frutos (mirtilo, framboesa).</p>
     <p><strong>Recursos úteis:</strong></p>
@@ -245,21 +245,21 @@ Esta página reúne os melhores recursos para aprofundar conhecimentos em frutic
 
 ### 📕 Guias Técnicos Essenciais
 
-<div class="publicacao-item" markdown="1">
+<div class="publicacao-item">
     <h4>Manual de Fruticultura Moderna (INIAV)</h4>
     <p><strong>Conteúdo:</strong> 250 páginas sobre todas as espécies temperadas. Inclui calendários, podas, doenças.</p>
     <p><strong>Como obter:</strong> Procurar "Manual Fruticultura INIAV" no site iniav.pt > Publicações</p>
     <p class="formato">📄 Formato: PDF gratuito</p>
 </div>
 
-<div class="publicacao-item" markdown="1">
+<div class="publicacao-item">
     <h4>Guia de Proteção Integrada em Pomóideas</h4>
     <p><strong>Conteúdo:</strong> Protocolo completo de controlo de pragas/doenças em maçã e pera. Produtos autorizados, doses, calendários.</p>
     <p><strong>Como obter:</strong> DGAV > Área Fitossanitária > Proteção Integrada</p>
     <p class="formato">📄 Formato: PDF atualizado anualmente</p>
 </div>
 
-<div class="publicacao-item" markdown="1">
+<div class="publicacao-item">
     <h4>Fichas Técnicas de Variedades Recomendadas</h4>
     <p><strong>Conteúdo:</strong> Características de variedades comerciais testadas em Portugal. Inclui época colheita, resistência doenças, clima ideal.</p>
     <p><strong>Como obter:</strong> INIAV > Recursos Fitogenéticos > Variedades Registadas</p>
@@ -268,7 +268,7 @@ Esta página reúne os melhores recursos para aprofundar conhecimentos em frutic
 
 ### 📗 Específico para Açores
 
-<div class="publicacao-item acores" markdown="1">
+<div class="publicacao-item acores">
     <h4>Guia de Boas Práticas Agrícolas - Açores</h4>
     <p><strong>Conteúdo:</strong> Adaptado ao clima oceânico húmido. Gestão de lepra, drenagem, variedades resilientes.</p>
     <p><strong>Como obter:</strong> DRAAC > Publicações</p>
@@ -277,13 +277,13 @@ Esta página reúne os melhores recursos para aprofundar conhecimentos em frutic
 
 ### 📙 Literatura Internacional (Inglês)
 
-<div class="publicacao-item" markdown="1">
+<div class="publicacao-item">
     <h4>The Holistic Orchard (Michael Phillips)</h4>
     <p><strong>Conteúdo:</strong> Abordagem ecológica à gestão de pomares. Saúde do solo, controlo biológico, variedades resistentes.</p>
     <p class="formato">📖 Livro comercial (vale o investimento!)</p>
 </div>
 
-<div class="publicacao-item" markdown="1">
+<div class="publicacao-item">
     <h4>University Extension Guides (EUA)</h4>
     <p><strong>Conteúdo:</strong> Universidades americanas publicam guias gratuitos excecionais. Procurar: "Penn State Fruit Production Guide", "UC Davis Fruit & Nut Research"</p>
     <p class="formato">📄 Formato: PDFs gratuitos online</p>
@@ -301,7 +301,7 @@ Esta página reúne os melhores recursos para aprofundar conhecimentos em frutic
 
 <div class="fornecedores-grid" markdown="1">
 
-<div class="fornecedor-card" markdown="1">
+<div class="fornecedor-card">
     <h4><i class="fas fa-seedling"></i> Viveiros Especializados</h4>
     <ul>
         <li><strong>Viveiros do Mondego (Coimbra):</strong> Grande variedade pomóideas e citrinos</li>
@@ -311,7 +311,7 @@ Esta página reúne os melhores recursos para aprofundar conhecimentos em frutic
     <p class="dica-compra">💡 Melhor época compra: novembro-janeiro (raiz nua mais barata)</p>
 </div>
 
-<div class="fornecedor-card" markdown="1">
+<div class="fornecedor-card">
     <h4><i class="fas fa-flask"></i> Produtos Fitofarmacêuticos</h4>
     <ul>
         <li><strong>Cooperativas agrícolas locais:</strong> Preços competitivos, aconselhamento técnico</li>
@@ -320,7 +320,7 @@ Esta página reúne os melhores recursos para aprofundar conhecimentos em frutic
     <p class="aviso-compra">⚠️ Exigir sempre fatura e rótulo com n.º autorização DGAV!</p>
 </div>
 
-<div class="fornecedor-card" markdown="1">
+<div class="fornecedor-card">
     <h4><i class="fas fa-tools"></i> Ferramentas e Material</h4>
     <ul>
         <li><strong>Tesouras Felco (Suíça):</strong> Padrão profissional, duram décadas</li>
@@ -337,19 +337,19 @@ Esta página reúne os melhores recursos para aprofundar conhecimentos em frutic
 
 <div class="associacoes-grid" markdown="1">
 
-<div class="associacao-card" markdown="1">
+<div class="associacao-card">
     <h3>🤝 APH - Associação Portuguesa de Horticultura</h3>
     <p>Congresso anual, revista técnica, rede de contactos profissionais.</p>
     <p><strong>Membership:</strong> Aberto a amadores e profissionais</p>
 </div>
 
-<div class="associacao-card" markdown="1">
+<div class="associacao-card">
     <h3>🍇 ADVID - Associação para o Desenvolvimento da Viticultura Duriense</h3>
     <p>Específico para videira. Investigação, formação, boletins técnicos.</p>
     <p><strong>Recursos:</strong> Caderno de Campo digital gratuito</p>
 </div>
 
-<div class="associacao-card" markdown="1">
+<div class="associacao-card">
     <h3>🌐 Fóruns Online</h4>
     <ul>
         <li><strong>Agrobyte Forum:</strong> Comunidade técnica portuguesa</li>
@@ -366,7 +366,7 @@ Esta página reúne os melhores recursos para aprofundar conhecimentos em frutic
 
 <div class="apps-grid" markdown="1">
 
-<div class="app-card" markdown="1">
+<div class="app-card">
     <h4>☁️ Previsão Meteorológica</h4>
     <ul>
         <li><strong>IPMA:</strong> App oficial, alertas geada</li>
@@ -375,7 +375,7 @@ Esta página reúne os melhores recursos para aprofundar conhecimentos em frutic
     </ul>
 </div>
 
-<div class="app-card" markdown="1">
+<div class="app-card">
     <h4>🐛 Identificação Pragas/Doenças</h4>
     <ul>
         <li><strong>iNaturalist:</strong> Identificação automática insetos/doenças</li>
@@ -383,7 +383,7 @@ Esta página reúne os melhores recursos para aprofundar conhecimentos em frutic
     </ul>
 </div>
 
-<div class="app-card" markdown="1">
+<div class="app-card">
     <h4>📊 Gestão do Pomar</h4>
     <ul>
         <li><strong>Caderno de Campo DGAV:</strong> Obrigatório profissionais, útil amadores</li>

@@ -500,7 +500,7 @@ Este glossário explica termos técnicos usados em fruticultura de forma clara e
 
 <div class="recursos-links" markdown="1">
 
-<div class="recurso-card" markdown="1">
+<div class="recurso-card">
 
 #### <i class="fas fa-tools"></i> Ferramentas Práticas
             <p>Calculadoras, calendários e tabelas para consulta rápida</p>
@@ -508,7 +508,7 @@ Este glossário explica termos técnicos usados em fruticultura de forma clara e
         </div>
 
 
-<div class="recurso-card" markdown="1">
+<div class="recurso-card">
 
 ####<i class="fas fa-seedling"></i> Práticas Essenciais</h4>
             <p>Guias completos de plantação, poda, adubação e mais</p>
@@ -516,7 +516,7 @@ Este glossário explica termos técnicos usados em fruticultura de forma clara e
         </div>
 
 
-<div class="recurso-card" markdown="1">
+<div class="recurso-card">
 
 ####<i class="fas fa-link"></i> Recursos e Links</h4>
             <p>Instituições oficiais, vídeos educacionais e PDFs gratuitos</p>
