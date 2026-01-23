@@ -233,6 +233,87 @@ Mistura de sintaxe markdown (`####`) com tag HTML de fechamento (`</h4>`).
 
 ---
 
+## 🐛 PROBLEMA 6: Indentação Causando Code Blocks
+
+**Data:** 23 Janeiro 2026 - 19:00
+**Páginas afetadas:** ferramentas.md, glossario.md, recursos.md
+
+### Sintoma
+Após correções da Sessão 5.5, ainda havia código HTML visível em múltiplas secções:
+- Links em ferramentas.md mostravam URLs em vez de texto
+- Tag `</dl>` visível no glossário letra T
+- Múltiplos cards em recursos.md mostravam código HTML completo
+- Todas as secções (instituições, universidades, vídeos, publicações, fornecedores, associações, apps, links internos)
+
+### Causa Raiz
+**Indentação de 4 espaços** no início das linhas HTML dentro de divs markdown. O kramdown interpreta qualquer linha com 4+ espaços de indentação como um **bloco de código literal**, ignorando processamento HTML ou markdown.
+
+### Exemplo do Problema
+```html
+<!-- ERRADO - 4 espaços = code block -->
+<div class="videos-grid">
+    <div class="video-card">
+        <h4>Título</h4>
+        <ul>
+            <li>Item</li>
+        </ul>
+    </div>
+</div>
+
+<!-- CORRETO - sem indentação -->
+<div class="videos-grid">
+<div class="video-card">
+<h4>Título</h4>
+<ul>
+<li>Item</li>
+</ul>
+</div>
+</div>
+```
+
+### Solução Aplicada
+
+**1. ferramentas.md:**
+- Adicionar `markdown="1"` aos 3 link-card divs (contêm markdown)
+- Os cards precisavam do atributo para processar as listas markdown
+
+**2. glossario.md:**
+- Adicionar `<dl class="glossario-lista">` tag de abertura na secção T
+- Estava só o `</dl>` de fechamento, causando tag órfã visível
+
+**3. recursos.md (mudanças massivas - 480 linhas):**
+- **Remover toda a indentação** de todos os tipos de cards HTML:
+  - instituicao-card (5 cards)
+  - universidade-card (3 cards)
+  - publicacao-item (6 items)
+  - fornecedor-card (3 cards)
+  - associacao-card (3 cards)
+  - app-card (3 cards)
+  - video-card (3 cards)
+  - link-interno-card (4 cards)
+- Todas as tags HTML (`<h3>`, `<h4>`, `<p>`, `<ul>`, `<li>`) agora flush left
+- Parent grids mantidos sem `markdown="1"` (são containers puros)
+
+### Regra Crítica Identificada
+
+**NUNCA indentar HTML dentro de markdown files**, mesmo que pareça "mais bonito":
+- ✅ Tags HTML flush left (coluna 1)
+- ❌ Tags HTML indentadas (4+ espaços) = kramdown trata como code block
+- Esta regra aplica-se a **TODO o conteúdo**, incluindo nested divs
+
+### Por Que Não Foi Detectado Antes?
+
+Na Sessão 5.5:
+1. Corrigimos problemas de `markdown="1"` e HTML-dentro-de-markdown
+2. Mas **mantivemos a indentação** "para legibilidade"
+3. A indentação funcionou em alguns lugares (onde não havia 4 espaços exatos)
+4. Mas falhou sistematicamente em recursos.md onde TUDO estava indentado
+
+**Commits:**
+- `94d7bfd` - Fix: Corrigir todas as formatações nas páginas complementares
+
+---
+
 ## ✅ CHECKLIST DE VERIFICAÇÃO - Páginas Markdown com HTML
 
 Ao criar páginas que misturam HTML e markdown:
@@ -242,6 +323,12 @@ Ao criar páginas que misturam HTML e markdown:
 - [ ] Divs com conteúdo markdown → **COM** `markdown="1"`
 - [ ] Nunca misturar: `<div markdown="1"><p>texto</p></div>` ❌
 - [ ] Se usar `markdown="1"`, conteúdo deve ser markdown puro ✅
+
+### Indentação (CRÍTICO!)
+- [ ] **NUNCA** indentar tags HTML (4+ espaços = code block)
+- [ ] Todas as tags HTML devem estar flush left (coluna 1)
+- [ ] Mesmo nested divs não devem ser indentados
+- [ ] Indentação só é segura dentro de code blocks explícitos
 
 ### Conversões Necessárias
 - [ ] `<p><strong>Texto:</strong></p>` → `**Texto:**`
@@ -323,12 +410,12 @@ grep -n '####[^ ]' ferramentas.md
 
 ## 📊 ESTATÍSTICAS DE CORREÇÕES
 
-**Total de commits de correção:** 3
+**Total de commits de correção:** 4
 **Ficheiros afetados:** 4 (_config.yml, ferramentas.md, glossario.md, recursos.md)
-**Linhas modificadas:** ~200 linhas
-**Tempo gasto:** ~1.5h
-**Problemas identificados:** 5
-**Problemas resolvidos:** 5 ✅
+**Linhas modificadas:** ~730 linhas (200 sessão 5.5 + 530 sessão 5.6)
+**Tempo gasto:** ~2.5h (1.5h sessão 5.5 + 1h sessão 5.6)
+**Problemas identificados:** 6
+**Problemas resolvidos:** 6 ✅
 
 ---
 
@@ -347,9 +434,15 @@ grep -n '####[^ ]' ferramentas.md
    - Remover `markdown="1"` de divs container
    - Aplicar regra: container HTML sem, conteúdo markdown com
 
+4. **94d7bfd** - Fix: Corrigir todas as formatações nas páginas complementares
+   - ferramentas.md: Adicionar markdown="1" aos link-card
+   - glossario.md: Adicionar <dl> abertura na secção T
+   - recursos.md: Remover indentação massiva de todos os cards (480 linhas)
+   - Identificar regra crítica: indentação 4 espaços = code block
+
 ---
 
-**Estado Atual:** ✅ Todas as páginas complementares renderizam corretamente
+**Estado Atual:** ✅ Todas as páginas complementares renderizam corretamente (validado com screenshots)
 **Próximo passo:** Adicionar imagens (Fase 3) ou melhorias opcionais
 
-*Última atualização: 23 Janeiro 2026 - 17:45*
+*Última atualização: 23 Janeiro 2026 - 19:30*

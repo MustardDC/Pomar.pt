@@ -1,6 +1,6 @@
 # 🚀 QUICK START - Retomar Desenvolvimento
 
-**Última sessão:** 23 Janeiro 2026 (Sessão 5.5 - CORREÇÕES TÉCNICAS!)
+**Última sessão:** 23 Janeiro 2026 (Sessão 5.6 - CORREÇÕES FINAIS!)
 **Progresso:** Fundação 100% ✅ | Conteúdo 100% ✅ | Páginas 100% ✅ | Formatação 100% ✅ | **SITE PERFEITO!** 🎉
 
 **🌐 SITE AO VIVO:** https://mustarddc.github.io/Pomar.pt/
@@ -67,10 +67,16 @@
 - ✅ **Headers malformados** → Corrigidos para sintaxe markdown correta
 - ✅ **TROUBLESHOOTING.md criado** → Documentação completa dos problemas
 
+**Correções Finais (Sessão 5.6):**
+- ✅ **Links não renderizavam em ferramentas.md** → Adicionar markdown="1" aos link-card
+- ✅ **Tag </dl> visível no glossário letra T** → Adicionar <dl> abertura
+- ✅ **Código HTML visível em recursos.md** → Remover indentação de todos cards
+- ✅ **Problema raiz identificado** → Indentação 4 espaços = code block kramdown
+
 **Total:**
 - 📄 33 ficheiros (30 conteúdo + 3 config/docs + Gemfile + Gemfile.lock)
 - 📝 ~34,500 linhas conteúdo
-- ⏱️ 12h trabalho total (5.5 sessões)
+- ⏱️ 13h trabalho total (5.6 sessões)
 - 💾 ~540 KB (sem imagens)
 - 🌐 **SITE PÚBLICO:** https://mustarddc.github.io/Pomar.pt/
 
@@ -405,5 +411,5 @@ git push
 
 **💡 Para mostrar problemas futuros:** Podes fazer screenshots - consigo visualizá-los!
 
-*Última atualização: 23 Janeiro 2026 - 18:00*
-*Sessão 5.5 completa - TODAS CORREÇÕES APLICADAS - SITE PERFEITO!* 🚀
+*Última atualização: 23 Janeiro 2026 - 19:30*
+*Sessão 5.6 completa - CORREÇÕES FINAIS APLICADAS - SITE PERFEITO!* 🚀
