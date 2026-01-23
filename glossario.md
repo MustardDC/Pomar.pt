@@ -12,17 +12,19 @@ keywords: glossário, termos técnicos, fruticultura, dicionário pomar, vocabul
     </div>
 </div>
 
-<div class="container mt-4">
+<div class="container mt-4" markdown="1">
 
-<div class="glossario-intro">
-    <p>Este glossário explica termos técnicos usados em fruticultura de forma clara e prática. Perfeito para iniciantes e agricultores experientes que querem esclarecer conceitos.</p>
+<div class="glossario-intro" markdown="1">
 
-    <div class="alfabeto-nav">
-        <a href="#A">A</a> | <a href="#B">B</a> | <a href="#C">C</a> | <a href="#D">D</a> | <a href="#E">E</a> |
-        <a href="#F">F</a> | <a href="#G">G</a> | <a href="#H">H</a> | <a href="#I">I</a> | <a href="#L">L</a> |
-        <a href="#M">M</a> | <a href="#N">N</a> | <a href="#O">O</a> | <a href="#P">P</a> | <a href="#R">R</a> |
-        <a href="#S">S</a> | <a href="#T">T</a> | <a href="#V">V</a> | <a href="#X">X</a>
-    </div>
+Este glossário explica termos técnicos usados em fruticultura de forma clara e prática. Perfeito para iniciantes e agricultores experientes que querem esclarecer conceitos.
+
+<div class="alfabeto-nav">
+<a href="#A">A</a> | <a href="#B">B</a> | <a href="#C">C</a> | <a href="#D">D</a> | <a href="#E">E</a> |
+<a href="#F">F</a> | <a href="#G">G</a> | <a href="#H">H</a> | <a href="#I">I</a> | <a href="#L">L</a> |
+<a href="#M">M</a> | <a href="#N">N</a> | <a href="#O">O</a> | <a href="#P">P</a> | <a href="#R">R</a> |
+<a href="#S">S</a> | <a href="#T">T</a> | <a href="#V">V</a> | <a href="#X">X</a>
+</div>
+
 </div>
 
 ---
@@ -492,31 +494,43 @@ keywords: glossário, termos técnicos, fruticultura, dicionário pomar, vocabul
 
 ---
 
-<div class="glossario-footer">
-    <h3>📚 Recursos Relacionados</h3>
-    <div class="recursos-links">
-        <div class="recurso-card">
-            <h4><i class="fas fa-tools"></i> Ferramentas Práticas</h4>
+<div class="glossario-footer" markdown="1">
+
+### 📚 Recursos Relacionados
+
+<div class="recursos-links" markdown="1">
+
+<div class="recurso-card" markdown="1">
+
+#### <i class="fas fa-tools"></i> Ferramentas Práticas
             <p>Calculadoras, calendários e tabelas para consulta rápida</p>
             <a href="{{ '/ferramentas' | relative_url }}" class="btn btn-secondary btn-small">Ver Ferramentas</a>
         </div>
 
-        <div class="recurso-card">
-            <h4><i class="fas fa-seedling"></i> Práticas Essenciais</h4>
+
+<div class="recurso-card" markdown="1">
+
+####<i class="fas fa-seedling"></i> Práticas Essenciais</h4>
             <p>Guias completos de plantação, poda, adubação e mais</p>
             <a href="{{ '/praticas/plantacao' | relative_url }}" class="btn btn-secondary btn-small">Ver Práticas</a>
         </div>
 
-        <div class="recurso-card">
-            <h4><i class="fas fa-link"></i> Recursos e Links</h4>
+
+<div class="recurso-card" markdown="1">
+
+####<i class="fas fa-link"></i> Recursos e Links</h4>
             <p>Instituições oficiais, vídeos educacionais e PDFs gratuitos</p>
             <a href="{{ '/recursos' | relative_url }}" class="btn btn-secondary btn-small">Ver Recursos</a>
         </div>
     </div>
 
-    <div class="feedback-box">
-        <p><strong>Falta algum termo?</strong> Sugerir termos para adicionar: <a href="mailto:info@pomar.pt">info@pomar.pt</a></p>
-    </div>
+
+<div class="feedback-box" markdown="1">
+
+**Falta algum termo?** Sugerir termos para adicionar: [info@pomar.pt](mailto:info@pomar.pt)
+
+</div>
+
 </div>
 
 </div>

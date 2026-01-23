@@ -12,11 +12,11 @@ keywords: calculadora, calendário, ferramentas pomar, diagnóstico doenças, ta
     </div>
 </div>
 
-<div class="container mt-4">
+<div class="container mt-4" markdown="1">
 
 ## 🎯 Ferramentas Interativas
 
-<div class="ferramentas-principais">
+<div class="ferramentas-principais" markdown="1">
 
 ### 🧮 Calculadora de Adubação {#calculadora}
 
@@ -152,14 +152,15 @@ Selecione a sua região:
     </div>
 </div>
 
-<div class="nota-calendario">
-    <h4>📌 Notas Importantes:</h4>
-    <ul>
-        <li><strong>Geadas tardias:</strong> Norte/Centro - proteger flores abril/maio</li>
-        <li><strong>Stress hídrico:</strong> Sul - rega essencial maio-setembro</li>
-        <li><strong>Humidade excessiva:</strong> Açores - tratamentos fungicidas preventivos frequentes</li>
-        <li><strong>Ventos fortes:</strong> Açores/Litoral - tutores reforçados obrigatórios</li>
-    </ul>
+<div class="nota-calendario" markdown="1">
+
+#### 📌 Notas Importantes:
+
+- **Geadas tardias:** Norte/Centro - proteger flores abril/maio
+- **Stress hídrico:** Sul - rega essencial maio-setembro
+- **Humidade excessiva:** Açores - tratamentos fungicidas preventivos frequentes
+- **Ventos fortes:** Açores/Litoral - tutores reforçados obrigatórios
+
 </div>
 
 ---
@@ -170,11 +171,13 @@ Selecione a sua região:
 
 #### Sintomas Visuais → Diagnóstico Rápido
 
-<div class="diagnostico-grid">
+<div class="diagnostico-grid" markdown="1">
 
-<div class="sintoma-card">
-    <h4>🍂 Folhas com Manchas</h4>
-    <div class="sintomas-lista">
+<div class="sintoma-card" markdown="1">
+
+#### 🍂 Folhas com Manchas
+
+<div class="sintomas-lista" markdown="1">
         <p><strong>Manchas pretas/castanhas:</strong></p>
         <ul>
             <li>Redondas, regulares → <strong>Sarna</strong> (maçã/pera)</li>
@@ -190,9 +193,11 @@ Selecione a sua região:
     </div>
 </div>
 
-<div class="sintoma-card">
-    <h4>🍎 Frutos Deformados</h4>
-    <div class="sintomas-lista">
+<div class="sintoma-card" markdown="1">
+
+####🍎 Frutos Deformados</h4>
+
+<div class="sintomas-lista" markdown="1">
         <p><strong>Frutos pequenos/deformados:</strong></p>
         <ul>
             <li>Árvore jovem → Excesso frutos (fazer monda!)</li>
@@ -208,9 +213,11 @@ Selecione a sua região:
     </div>
 </div>
 
-<div class="sintoma-card">
-    <h4>🌿 Problemas Gerais</h4>
-    <div class="sintomas-lista">
+<div class="sintoma-card" markdown="1">
+
+####🌿 Problemas Gerais</h4>
+
+<div class="sintomas-lista" markdown="1">
         <p><strong>Crescimento fraco:</strong></p>
         <ul>
             <li>Folhas amarelas pálidas → Carência Azoto (N)</li>
@@ -226,9 +233,11 @@ Selecione a sua região:
     </div>
 </div>
 
-<div class="sintoma-card">
-    <h4>🐛 Pragas Comuns</h4>
-    <div class="sintomas-lista">
+<div class="sintoma-card" markdown="1">
+
+####🐛 Pragas Comuns</h4>
+
+<div class="sintomas-lista" markdown="1">
         <p><strong>Insetos visíveis:</strong></p>
         <ul>
             <li>Pulgões (verdes/pretos) → Ramos jovens</li>
@@ -246,13 +255,14 @@ Selecione a sua região:
 
 </div>
 
-<div class="protocolo-box">
-    <h4>🛡️ Protocolo de Tratamento Integrado</h4>
-    <ol>
-        <li><strong>Nível 1 - Cultural:</strong> Poda sanitária, destruir restos doentes, rega adequada</li>
-        <li><strong>Nível 2 - Biológico:</strong> Joaninhas (pulgões), Bacillus thuringiensis (lagartas)</li>
-        <li><strong>Nível 3 - Químico:</strong> Apenas se níveis 1-2 falharem. Respeitar intervalo segurança!</li>
-    </ol>
+<div class="protocolo-box" markdown="1">
+
+#### 🛡️ Protocolo de Tratamento Integrado
+
+1. **Nível 1 - Cultural:** Poda sanitária, destruir restos doentes, rega adequada
+2. **Nível 2 - Biológico:** Joaninhas (pulgões), Bacillus thuringiensis (lagartas)
+3. **Nível 3 - Químico:** Apenas se níveis 1-2 falharem. Respeitar intervalo segurança!
+
 </div>
 
 ---
@@ -564,23 +574,26 @@ Selecione a sua região:
     </tbody>
 </table>
 
-<div class="nota-importante-box">
-    <h4>⚠️ Regras Críticas de Adubação:</h4>
-    <ul>
-        <li><strong>NUNCA</strong> adubar com Azoto (N) após junho → causa crescimento tardio e frutos moles</li>
-        <li><strong>Verão:</strong> Reduzir N, aumentar Potássio (K) → melhora cor, sabor e conservação</li>
-        <li><strong>Outono:</strong> Zero Azoto, só Fósforo (P) e Potássio (K) → preparar inverno</li>
-        <li><strong>Doses:</strong> Valores para árvore adulta (5-10 anos). Jovens = 50% dose</li>
-    </ul>
+<div class="nota-importante-box" markdown="1">
+
+#### ⚠️ Regras Críticas de Adubação:
+
+- **NUNCA** adubar com Azoto (N) após junho → causa crescimento tardio e frutos moles
+- **Verão:** Reduzir N, aumentar Potássio (K) → melhora cor, sabor e conservação
+- **Outono:** Zero Azoto, só Fósforo (P) e Potássio (K) → preparar inverno
+- **Doses:** Valores para árvore adulta (5-10 anos). Jovens = 50% dose
+
 </div>
 
 ---
 
 ## 🔗 Links Úteis
 
-<div class="links-grid">
-    <div class="link-card">
-        <h4><i class="fas fa-book"></i> Práticas Essenciais</h4>
+<div class="links-grid" markdown="1">
+
+<div class="link-card" markdown="1">
+
+#### <i class="fas fa-book"></i> Práticas Essenciais
         <ul>
             <li><a href="{{ '/praticas/plantacao' | relative_url }}">Plantação e Estabelecimento</a></li>
             <li><a href="{{ '/praticas/podas' | relative_url }}">Guia Completo de Podas</a></li>
@@ -591,8 +604,10 @@ Selecione a sua região:
         </ul>
     </div>
 
-    <div class="link-card">
-        <h4><i class="fas fa-apple-alt"></i> Espécies Detalhadas</h4>
+
+<div class="link-card" markdown="1">
+
+####<i class="fas fa-apple-alt"></i> Espécies Detalhadas</h4>
         <ul>
             <li><a href="{{ '/especies/maca' | relative_url }}">Maçã</a> | <a href="{{ '/especies/pera' | relative_url }}">Pera</a></li>
             <li><a href="{{ '/especies/pessego' | relative_url }}">Pêssego</a> | <a href="{{ '/especies/ameixa' | relative_url }}">Ameixa</a></li>
@@ -602,8 +617,10 @@ Selecione a sua região:
         </ul>
     </div>
 
-    <div class="link-card">
-        <h4><i class="fas fa-external-link-alt"></i> Outros Recursos</h4>
+
+<div class="link-card" markdown="1">
+
+####<i class="fas fa-external-link-alt"></i> Outros Recursos</h4>
         <ul>
             <li><a href="{{ '/glossario' | relative_url }}">Glossário Técnico</a></li>
             <li><a href="{{ '/recursos' | relative_url }}">Links e Instituições</a></li>
