@@ -31,22 +31,22 @@ Esta página reúne os melhores recursos para aprofundar conhecimentos em frutic
         <h3><i class="fas fa-landmark"></i> INIAV</h3>
         <p class="subtitulo">Instituto Nacional de Investigação Agrária e Veterinária</p>
     </div>
-    <div class="instituicao-body">
-        <p><strong>O que é:</strong> Principal instituição portuguesa de investigação agrícola. Desenvolve variedades, estuda pragas e divulga boas práticas.</p>
-        <p><strong>Recursos disponíveis:</strong></p>
-        <ul>
-            <li>Publicações técnicas gratuitas (PDF)</li>
-            <li>Boletins fitossanitários mensais</li>
-            <li>Fichas técnicas de variedades recomendadas</li>
-            <li>Análises de solo e diagnóstico de doenças (pago)</li>
-        </ul>
-        <p><strong>Links:</strong></p>
-        <ul class="links-lista">
-            <li><a href="https://www.iniav.pt/" target="_blank" rel="noopener">Site oficial INIAV</a></li>
-            <li><a href="https://www.iniav.pt/publicacoes" target="_blank" rel="noopener">Publicações técnicas</a></li>
-        </ul>
+    <div class="instituicao-body" markdown="1">
+
+**O que é:** Principal instituição portuguesa de investigação agrícola. Desenvolve variedades, estuda pragas e divulga boas práticas.
+
+**Recursos disponíveis:**
+- Publicações técnicas gratuitas (PDF)
+- Boletins fitossanitários mensais
+- Fichas técnicas de variedades recomendadas
+- Análises de solo e diagnóstico de doenças (pago)
+
+**Links:**
+- [Site oficial INIAV](https://www.iniav.pt/){:target="_blank" rel="noopener"}
+- [Publicações técnicas](https://www.iniav.pt/publicacoes){:target="_blank" rel="noopener"}
+
     </div>
-    <div class="instituicao-destaque">
+    <div class="instituicao-destaque" markdown="1">
         <strong>⭐ Destaque:</strong> Procurar "Guia de Proteção Integrada" na área de publicações
     </div>
 </div>
@@ -56,7 +56,7 @@ Esta página reúne os melhores recursos para aprofundar conhecimentos em frutic
         <h3><i class="fas fa-tractor"></i> DGAV</h3>
         <p class="subtitulo">Direção-Geral de Alimentação e Veterinária</p>
     </div>
-    <div class="instituicao-body">
+    <div class="instituicao-body" markdown="1">
         <p><strong>O que é:</strong> Autoridade fitossanitária nacional. Regula uso de produtos fitofarmacêuticos e certificação de material vegetal.</p>
         <p><strong>Recursos disponíveis:</strong></p>
         <ul>
@@ -78,7 +78,7 @@ Esta página reúne os melhores recursos para aprofundar conhecimentos em frutic
         <h3><i class="fas fa-cloud-sun"></i> IPMA</h3>
         <p class="subtitulo">Instituto Português do Mar e da Atmosfera</p>
     </div>
-    <div class="instituicao-body">
+    <div class="instituicao-body" markdown="1">
         <p><strong>O que é:</strong> Serviço meteorológico nacional. Essencial para planear tratamentos e rega.</p>
         <p><strong>Recursos disponíveis:</strong></p>
         <ul>
@@ -93,7 +93,7 @@ Esta página reúne os melhores recursos para aprofundar conhecimentos em frutic
             <li><a href="https://www.ipma.pt/pt/agrometeorologia/" target="_blank" rel="noopener">Agrometeorologia</a></li>
         </ul>
     </div>
-    <div class="instituicao-destaque">
+    <div class="instituicao-destaque" markdown="1">
         <strong>💡 Dica:</strong> Verificar previsão 3 dias antes de tratamentos (evitar chuva)
     </div>
 </div>
@@ -111,7 +111,7 @@ Esta página reúne os melhores recursos para aprofundar conhecimentos em frutic
         <h3><i class="fas fa-island-tropical"></i> DRAAC</h3>
         <p class="subtitulo">Direção Regional da Agricultura e Desenvolvimento Rural dos Açores</p>
     </div>
-    <div class="instituicao-body">
+    <div class="instituicao-body" markdown="1">
         <p><strong>O que é:</strong> Entidade responsável por agricultura nos Açores. Especializada nas especificidades climáticas do arquipélago.</p>
         <p><strong>Recursos disponíveis:</strong></p>
         <ul>
@@ -136,7 +136,7 @@ Esta página reúne os melhores recursos para aprofundar conhecimentos em frutic
         <h3><i class="fas fa-microscope"></i> IAMA</h3>
         <p class="subtitulo">Instituto de Alimentação e Mercados Agrícolas dos Açores</p>
     </div>
-    <div class="instituicao-body">
+    <div class="instituicao-body" markdown="1">
         <p><strong>O que é:</strong> Investigação e promoção de produtos agrícolas açorianos.</p>
         <p><strong>Recursos disponíveis:</strong></p>
         <ul>

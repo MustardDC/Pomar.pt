@@ -178,79 +178,76 @@ Selecione a sua região:
 #### 🍂 Folhas com Manchas
 
 <div class="sintomas-lista" markdown="1">
-        <p><strong>Manchas pretas/castanhas:</strong></p>
-        <ul>
-            <li>Redondas, regulares → <strong>Sarna</strong> (maçã/pera)</li>
-            <li>Irregulares, necrose → <strong>Lepra</strong> (pessegueiro)</li>
-            <li>Com halo amarelo → <strong>Bacteriose</strong></li>
-        </ul>
-        <p><strong>Manchas brancas/pó:</strong></p>
-        <ul>
-            <li>Pó branco folhas → <strong>Oídio</strong></li>
-            <li>Feltro branco inferior → <strong>Míldio</strong> (videira)</li>
-        </ul>
-        <p class="tratamento"><strong>→</strong> Ver página <a href="{{ '/praticas/doencas' | relative_url }}">Doenças e Pragas</a></p>
-    </div>
+
+**Manchas pretas/castanhas:**
+- Redondas, regulares → **Sarna** (maçã/pera)
+- Irregulares, necrose → **Lepra** (pessegueiro)
+- Com halo amarelo → **Bacteriose**
+
+**Manchas brancas/pó:**
+- Pó branco folhas → **Oídio**
+- Feltro branco inferior → **Míldio** (videira)
+
+<p class="tratamento"><strong>→</strong> Ver página <a href="{{ '/praticas/doencas' | relative_url }}">Doenças e Pragas</a></p>
+
+</div>
 </div>
 
 <div class="sintoma-card" markdown="1">
 
-####🍎 Frutos Deformados</h4>
+#### 🍎 Frutos Deformados
 
 <div class="sintomas-lista" markdown="1">
-        <p><strong>Frutos pequenos/deformados:</strong></p>
-        <ul>
-            <li>Árvore jovem → Excesso frutos (fazer monda!)</li>
-            <li>Folhas amarelas → Carência Azoto</li>
-            <li>Sem flores/poucos frutos → Falta frio invernal</li>
-        </ul>
-        <p><strong>Frutos caem prematuramente:</strong></p>
-        <ul>
-            <li>Junho (queda fisiológica) → Normal</li>
-            <li>Julho/agosto → Falta água ou carência Potássio</li>
-            <li>Com galeria → <strong>Bichado</strong> (Carpocapsa)</li>
-        </ul>
-    </div>
+
+**Frutos pequenos/deformados:**
+- Árvore jovem → Excesso frutos (fazer monda!)
+- Folhas amarelas → Carência Azoto
+- Sem flores/poucos frutos → Falta frio invernal
+
+**Frutos caem prematuramente:**
+- Junho (queda fisiológica) → Normal
+- Julho/agosto → Falta água ou carência Potássio
+- Com galeria → **Bichado** (Carpocapsa)
+
+</div>
 </div>
 
 <div class="sintoma-card" markdown="1">
 
-####🌿 Problemas Gerais</h4>
+#### 🌿 Problemas Gerais
 
 <div class="sintomas-lista" markdown="1">
-        <p><strong>Crescimento fraco:</strong></p>
-        <ul>
-            <li>Folhas amarelas pálidas → Carência Azoto (N)</li>
-            <li>Bordos queimados → Carência Potássio (K)</li>
-            <li>Folhas roxas/avermelhadas → Carência Fósforo (P)</li>
-            <li>Nervuras verdes, resto amarelo → Carência Ferro (clorose)</li>
-        </ul>
-        <p><strong>Exsudações/gomose:</strong></p>
-        <ul>
-            <li>Tronco com goma → Stress, excesso água ou feridas</li>
-            <li>Com cancros → <strong>Cancro bacteriano</strong></li>
-        </ul>
-    </div>
+
+**Crescimento fraco:**
+- Folhas amarelas pálidas → Carência Azoto (N)
+- Bordos queimados → Carência Potássio (K)
+- Folhas roxas/avermelhadas → Carência Fósforo (P)
+- Nervuras verdes, resto amarelo → Carência Ferro (clorose)
+
+**Exsudações/gomose:**
+- Tronco com goma → Stress, excesso água ou feridas
+- Com cancros → **Cancro bacteriano**
+
+</div>
 </div>
 
 <div class="sintoma-card" markdown="1">
 
-####🐛 Pragas Comuns</h4>
+#### 🐛 Pragas Comuns
 
 <div class="sintomas-lista" markdown="1">
-        <p><strong>Insetos visíveis:</strong></p>
-        <ul>
-            <li>Pulgões (verdes/pretos) → Ramos jovens</li>
-            <li>Cochonilhas (escamas castanhas) → Tronco/ramos</li>
-            <li>Moscas da fruta → Frutos com galerias</li>
-        </ul>
-        <p><strong>Teias/buracos:</strong></p>
-        <ul>
-            <li>Teias folhas → <strong>Aranhiço vermelho</strong></li>
-            <li>Buracos frutos → <strong>Carpocapsa</strong> (bichado)</li>
-            <li>Folhas roídas → <strong>Lagartas</strong></li>
-        </ul>
-    </div>
+
+**Insetos visíveis:**
+- Pulgões (verdes/pretos) → Ramos jovens
+- Cochonilhas (escamas castanhas) → Tronco/ramos
+- Moscas da fruta → Frutos com galerias
+
+**Teias/buracos:**
+- Teias folhas → **Aranhiço vermelho**
+- Buracos frutos → **Carpocapsa** (bichado)
+- Folhas roídas → **Lagartas**
+
+</div>
 </div>
 
 </div>
