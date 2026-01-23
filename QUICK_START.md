@@ -1,7 +1,7 @@
 # 🚀 QUICK START - Retomar Desenvolvimento
 
-**Última sessão:** 23 Janeiro 2026 (Sessão 5.6 - CORREÇÕES FINAIS!)
-**Progresso:** Fundação 100% ✅ | Conteúdo 100% ✅ | Páginas 100% ✅ | Formatação 100% ✅ | **SITE PERFEITO!** 🎉
+**Última sessão:** 23 Janeiro 2026 (Sessão 6 - FASE 4 INTERATIVIDADE COMPLETA!)
+**Progresso:** Fundação 100% ✅ | Conteúdo 100% ✅ | Páginas 100% ✅ | Formatação 100% ✅ | **Interatividade 100% ✅** | **SITE AVANÇADO!** 🎉
 
 **🌐 SITE AO VIVO:** https://mustarddc.github.io/Pomar.pt/
 
@@ -73,11 +73,33 @@
 - ✅ **Código HTML visível em recursos.md** → Remover indentação de todos cards
 - ✅ **Problema raiz identificado** → Indentação 4 espaços = code block kramdown
 
+**Ferramentas Interativas - Fase 4 (Sessão 6):**
+- ✅ **Calculadora de Adubação** → Formulário interativo JavaScript
+  - 10 espécies suportadas com fatores NPK específicos
+  - Cálculo automático de doses personalizadas
+  - Avisos inteligentes (idade, época, espécie)
+  - Instruções detalhadas de aplicação
+- ✅ **Calendários Regionais** → Navegação interativa
+  - 4 regiões (Norte, Centro, Sul, Açores)
+  - 12 meses navegáveis (botões individuais)
+  - 48 conjuntos de dados únicos (região×mês)
+  - Navegação mês anterior/seguinte
+  - Informação clima por mês
+- ✅ **Wizard de Diagnóstico** → Sistema de perguntas guiadas
+  - Árvore de decisão em 3 passos
+  - 16 diagnósticos completos
+  - Severidade colorida (alta/média/baixa)
+  - Tratamento passo-a-passo
+  - Botões voltar e reiniciar
+- ✅ **JavaScript:** ~650 linhas código interativo
+- ✅ **CSS:** ~350 linhas estilos + responsivo mobile
+
 **Total:**
 - 📄 33 ficheiros (30 conteúdo + 3 config/docs + Gemfile + Gemfile.lock)
-- 📝 ~34,500 linhas conteúdo
-- ⏱️ 13h trabalho total (5.6 sessões)
-- 💾 ~540 KB (sem imagens)
+- 📝 ~35,500 linhas conteúdo (34,500 MD + 1,000 JS interativo)
+- ⏱️ 18h trabalho total (6 sessões)
+- 💾 ~580 KB (sem imagens)
+- 🎮 **3 ferramentas interativas funcionais**
 - 🌐 **SITE PÚBLICO:** https://mustarddc.github.io/Pomar.pt/
 
 ---
@@ -246,19 +268,19 @@ Pomar.pt/
 
 ---
 
-## 🔮 FUTURO (Fases 3-5)
+## 🔮 FUTURO (Fases 3 e 5)
 
 ### Fase 3: Imagens (Não iniciado)
 - 60-80 imagens espécies (Unsplash/Pexels)
 - 20-30 diagramas técnicos (poda, enxertia, plantação)
 
-### Fase 4: Ferramentas Interativas (Não iniciado)
-- Calculadora adubação (JavaScript)
-- Diagnóstico doenças (wizard)
-- Calendários interativos
+### ✅ Fase 4: Ferramentas Interativas (COMPLETO!)
+- ✅ Calculadora adubação (JavaScript) - 10 espécies
+- ✅ Calendários regionais interativos - 4 regiões × 12 meses
+- ✅ Wizard diagnóstico doenças - 16 diagnósticos
 
 ### Fase 5: Otimizações (Não iniciado)
-- SEO meta tags
+- SEO meta tags personalizadas
 - Google Analytics
 - Sitemap.xml
 - Domínio custom (opcional)
@@ -275,6 +297,8 @@ Pomar.pt/
 | **Layouts** | 3/3 | 3 | 100% ✅ |
 | **Páginas** | 20 | 20 | 100% ✅ |
 | **Linhas MD** | 34,500 | 35,000 | 98% ✅ |
+| **Linhas JS** | 650 | 500 | 130% ✅ |
+| **Ferramentas Interativas** | 3/3 | 3 | 100% ✅ |
 | **Imagens** | 0 | 80 | 0% |
 
 ---
@@ -321,11 +345,11 @@ tree /F
 
 ---
 
-## 🎯 PRIORIDADES PRÓXIMA SESSÃO (Fase 3+)
+## 🎯 PRIORIDADES PRÓXIMA SESSÃO (Fase 3 ou 5)
 
-**SITE 100% COMPLETO E FUNCIONAL! ✅ Todas páginas renderizam corretamente!**
+**SITE 100% FUNCIONAL COM INTERATIVIDADE! ✅ Todas páginas + 3 ferramentas JavaScript funcionais!**
 
-**Melhorias futuras (opcionais):**
+**Fases completadas:**
 1. ✅ ~~Criar páginas complementares~~ **COMPLETO!**
    - ✅ Ferramentas (calculadoras, calendários, tabelas)
    - ✅ Glossário (100+ termos técnicos)
@@ -335,14 +359,18 @@ tree /F
    - ✅ Links âncora funcionam
    - ✅ Sem código HTML visível
    - ✅ Headers bem formatados
-3. ⚪ Adicionar imagens (60-80 imagens):
+3. ✅ ~~Ferramentas interativas JavaScript~~ **COMPLETO!**
+   - ✅ Calculadora adubação dinâmica (10 espécies)
+   - ✅ Wizard diagnóstico doenças (16 diagnósticos)
+   - ✅ Calendários interativos (4 regiões × 12 meses)
+
+**Melhorias futuras (opcionais):**
+4. ⚪ Adicionar imagens (60-80 imagens):
    - Fotos espécies (Unsplash/Pexels)
    - Diagramas técnicos (poda, enxertos)
-4. ⚪ Ferramentas interativas JavaScript:
-   - Calculadora adubação dinâmica
-   - Wizard diagnóstico doenças
-   - Calendário interativo
-5. ⚪ SEO otimização (meta descriptions personalizadas)
+5. ⚪ SEO otimização:
+   - Meta descriptions personalizadas por página
+   - Sitemap.xml para Google
 6. ⚪ Analytics + domínio custom
 
 **Nota:** O site está 100% funcional e completo em conteúdo textual! Todas as páginas renderizam perfeitamente. Imagens e JavaScript são melhorias futuras opcionais.
@@ -389,7 +417,7 @@ git push
 
 ---
 
-**STATUS:** 🟢 **SITE 100% FUNCIONAL - TODAS CORREÇÕES APLICADAS!** 🎉🌐
+**STATUS:** 🟢 **SITE 100% FUNCIONAL + INTERATIVO!** 🎉🎮
 
 **URL:** https://mustarddc.github.io/Pomar.pt/
 
@@ -397,19 +425,27 @@ git push
 - 🏠 Página inicial bonita
 - 🍎 10 espécies detalhadas (Maçã, Pera, Pêssego, Ameixa, Videira, Laranja, Limão, Mirtilo, Framboesa, Morango)
 - 📚 6 práticas essenciais (Plantação, Podas, Adubação, Enxertos, Doenças, Colheita)
-- 🔧 Ferramentas (calculadoras, calendários, tabelas) ✅ CORRIGIDO
-- 📖 Glossário (100+ termos técnicos, links alfabéticos funcionam) ✅ CORRIGIDO
-- 🔗 Recursos (instituições, universidades, PDFs, vídeos) ✅ CORRIGIDO
+- 🔧 Ferramentas (calculadoras, calendários, tabelas) + **3 FERRAMENTAS INTERATIVAS!** ✅
+- 📖 Glossário (100+ termos técnicos, links alfabéticos funcionam) ✅
+- 🔗 Recursos (instituições, universidades, PDFs, vídeos) ✅
+
+**Ferramentas Interativas JavaScript:**
+- 🧮 **Calculadora de Adubação** - Cálculo automático de doses NPK (10 espécies)
+- 📅 **Calendários Regionais** - Navegação por região e mês (48 conjuntos de dados)
+- 🩺 **Wizard de Diagnóstico** - Sistema de perguntas guiadas (16 diagnósticos)
 
 **Documentação técnica:**
 - 📄 README.md - Instruções gerais
 - 📊 PROGRESS.md - Histórico completo (6 sessões)
 - 🚀 QUICK_START.md - Este ficheiro
-- 🔧 TROUBLESHOOTING.md - **NOVO!** Problemas técnicos resolvidos
+- 🔧 TROUBLESHOOTING.md - Problemas técnicos resolvidos
 
-**Próximo passo:** Partilhar o link! Ou adicionar imagens/JavaScript (Fase 3+).
+**Próximo passo:** Experimentar as ferramentas interativas! Ou adicionar imagens (Fase 3) / SEO (Fase 5).
 
-**💡 Para mostrar problemas futuros:** Podes fazer screenshots - consigo visualizá-los!
+**💡 Para testar:**
+- Calculadora: https://mustarddc.github.io/Pomar.pt/ferramentas#calculadora
+- Calendários: https://mustarddc.github.io/Pomar.pt/ferramentas#calendarios
+- Diagnóstico: https://mustarddc.github.io/Pomar.pt/ferramentas#diagnostico
 
-*Última atualização: 23 Janeiro 2026 - 19:30*
-*Sessão 5.6 completa - CORREÇÕES FINAIS APLICADAS - SITE PERFEITO!* 🚀
+*Última atualização: 23 Janeiro 2026 - 21:00*
+*Sessão 6 completa - FASE 4 INTERATIVIDADE IMPLEMENTADA!* 🚀🎮

@@ -739,3 +739,89 @@ git push
 
 *Última atualização: 23 Janeiro 2026 - 16:00*
 *Sessão 5 completa - TODAS PÁGINAS CRIADAS - SITE 100%!* 🚀
+
+---
+
+## 📅 SESSÃO 6 - Fase 4: Ferramentas Interativas (23 Janeiro 2026)
+
+**Duração:** ~5 horas
+**Objetivo:** Implementar 3 ferramentas JavaScript interativas na página de Ferramentas
+**Resultado:** ✅ FASE 4 COMPLETA - 3 FERRAMENTAS FUNCIONAIS!
+
+### 🎯 Trabalho Realizado
+
+#### 1. 🧮 Calculadora de Adubação Interativa
+
+**Funcionalidades:**
+- Formulário com seleção de espécie (10 opções)
+- Input idade (1-50 anos)
+- Seleção de época (Primavera/Verão/Outono)
+- Cálculo automático de doses NPK
+- Avisos inteligentes contextuais
+- Instruções detalhadas de aplicação
+
+**Dados:** 10 espécies × 3 épocas = 30 fatores únicos
+
+#### 2. 📅 Calendários Regionais Interativos
+
+**Funcionalidades:**
+- 4 botões de região (Norte, Centro, Sul, Açores)
+- 12 botões de meses individuais
+- Navegação "Mês Anterior/Seguinte"
+- Informação clima por mês
+- Tarefas específicas por região e mês
+
+**Dados:** 4 regiões × 12 meses = 48 conjuntos completos
+
+#### 3. 🩺 Wizard de Diagnóstico de Doenças
+
+**Funcionalidades:**
+- Sistema de perguntas guiadas (3 passos)
+- Árvore de decisão inteligente
+- 16 diagnósticos completos
+- Severidade colorida (alta/média/baixa)
+- Tratamento detalhado (4-5 passos)
+- Informação preventiva
+- Botões voltar e reiniciar
+
+**Dados:** 16 diagnósticos completos com tratamentos
+
+---
+
+### 📊 Estatísticas da Sessão 6
+
+**Código adicionado:**
+- JavaScript: ~650 linhas (3 ferramentas)
+- CSS: ~510 linhas (estilos + responsivo)
+- Total: 1,160 linhas de código funcional
+
+**Ficheiros modificados:**
+- ferramentas.md (3 secções interativas)
+- assets/js/main.js (+650 linhas)
+- assets/css/style.css (+510 linhas)
+
+**Dados criados:**
+- 30 conjuntos fatores adubação
+- 48 conjuntos calendário regional
+- 16 diagnósticos completos
+- Total: 94 conjuntos de dados
+
+---
+
+### ✅ Fase 4 COMPLETA!
+
+**Fases concluídas:**
+- ✅ Fase 1: Fundação (Jekyll, layouts, CSS)
+- ✅ Fase 2: Conteúdo (10 espécies + 6 práticas + 3 complementares)
+- ✅ Fase 4: Interatividade (3 ferramentas JavaScript)
+
+**Fases restantes:**
+- ⚪ Fase 3: Imagens (60-80 fotos)
+- ⚪ Fase 5: SEO + Analytics
+
+---
+
+**Status Geral:** 🟢 **SITE AVANÇADO COM INTERATIVIDADE!** 🎮🌐
+
+*Última atualização: 23 Janeiro 2026 - 21:00*
+*Sessão 6 completa - FASE 4 INTERATIVIDADE 100%!* 🚀
