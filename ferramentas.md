@@ -588,7 +588,7 @@ Selecione a sua região:
 
 <div class="links-grid" markdown="1">
 
-<div class="link-card">
+<div class="link-card" markdown="1">
 
 #### <i class="fas fa-book"></i> Práticas Essenciais
 
@@ -601,8 +601,7 @@ Selecione a sua região:
 
 </div>
 
-
-<div class="link-card">
+<div class="link-card" markdown="1">
 
 #### <i class="fas fa-apple-alt"></i> Espécies Detalhadas
 
@@ -611,10 +610,10 @@ Selecione a sua região:
 - [Videira]({{ '/especies/videira' | relative_url }})
 - [Laranja]({{ '/especies/laranja' | relative_url }}) | [Limão]({{ '/especies/limao' | relative_url }})
 - [Mirtilo]({{ '/especies/mirtilo' | relative_url }}) | [Framboesa]({{ '/especies/framboesa' | relative_url }}) | [Morango]({{ '/especies/morango' | relative_url }})
-    </div>
 
+</div>
 
-<div class="link-card">
+<div class="link-card" markdown="1">
 
 #### <i class="fas fa-external-link-alt"></i> Outros Recursos
 

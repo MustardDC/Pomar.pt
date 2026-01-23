@@ -27,11 +27,11 @@ Esta página reúne os melhores recursos para aprofundar conhecimentos em frutic
 <div class="instituicoes-grid" markdown="1">
 
 <div class="instituicao-card">
-    <div class="instituicao-header">
-        <h3><i class="fas fa-landmark"></i> INIAV</h3>
-        <p class="subtitulo">Instituto Nacional de Investigação Agrária e Veterinária</p>
-    </div>
-    <div class="instituicao-body" markdown="1">
+<div class="instituicao-header">
+<h3><i class="fas fa-landmark"></i> INIAV</h3>
+<p class="subtitulo">Instituto Nacional de Investigação Agrária e Veterinária</p>
+</div>
+<div class="instituicao-body" markdown="1">
 
 **O que é:** Principal instituição portuguesa de investigação agrícola. Desenvolve variedades, estuda pragas e divulga boas práticas.
 
@@ -45,57 +45,57 @@ Esta página reúne os melhores recursos para aprofundar conhecimentos em frutic
 - [Site oficial INIAV](https://www.iniav.pt/){:target="_blank" rel="noopener"}
 - [Publicações técnicas](https://www.iniav.pt/publicacoes){:target="_blank" rel="noopener"}
 
-    </div>
-    <div class="instituicao-destaque" markdown="1">
-        <strong>⭐ Destaque:</strong> Procurar "Guia de Proteção Integrada" na área de publicações
-    </div>
+</div>
+<div class="instituicao-destaque" markdown="1">
+<strong>⭐ Destaque:</strong> Procurar "Guia de Proteção Integrada" na área de publicações
+</div>
 </div>
 
 <div class="instituicao-card">
-    <div class="instituicao-header">
-        <h3><i class="fas fa-tractor"></i> DGAV</h3>
-        <p class="subtitulo">Direção-Geral de Alimentação e Veterinária</p>
-    </div>
-    <div class="instituicao-body" markdown="1">
-        <p><strong>O que é:</strong> Autoridade fitossanitária nacional. Regula uso de produtos fitofarmacêuticos e certificação de material vegetal.</p>
-        <p><strong>Recursos disponíveis:</strong></p>
-        <ul>
-            <li>Lista de produtos fitofarmacêuticos autorizados</li>
-            <li>Caderno de campo digital (obrigatório para profissionais)</li>
-            <li>Alertas de pragas emergentes</li>
-            <li>Normas de certificação de viveiros</li>
-        </ul>
-        <p><strong>Links:</strong></p>
-        <ul class="links-lista">
-            <li><a href="https://www.dgav.pt/" target="_blank" rel="noopener">Site oficial DGAV</a></li>
-            <li><a href="https://www.dgav.pt/produtos-fitofarmaceuticos" target="_blank" rel="noopener">Produtos autorizados</a></li>
-        </ul>
-    </div>
+<div class="instituicao-header">
+<h3><i class="fas fa-tractor"></i> DGAV</h3>
+<p class="subtitulo">Direção-Geral de Alimentação e Veterinária</p>
+</div>
+<div class="instituicao-body" markdown="1">
+
+**O que é:** Autoridade fitossanitária nacional. Regula uso de produtos fitofarmacêuticos e certificação de material vegetal.
+
+**Recursos disponíveis:**
+- Lista de produtos fitofarmacêuticos autorizados
+- Caderno de campo digital (obrigatório para profissionais)
+- Alertas de pragas emergentes
+- Normas de certificação de viveiros
+
+**Links:**
+- [Site oficial DGAV](https://www.dgav.pt/){:target="_blank" rel="noopener"}
+- [Produtos autorizados](https://www.dgav.pt/produtos-fitofarmaceuticos){:target="_blank" rel="noopener"}
+
+</div>
 </div>
 
 <div class="instituicao-card">
-    <div class="instituicao-header">
-        <h3><i class="fas fa-cloud-sun"></i> IPMA</h3>
-        <p class="subtitulo">Instituto Português do Mar e da Atmosfera</p>
-    </div>
-    <div class="instituicao-body" markdown="1">
-        <p><strong>O que é:</strong> Serviço meteorológico nacional. Essencial para planear tratamentos e rega.</p>
-        <p><strong>Recursos disponíveis:</strong></p>
-        <ul>
-            <li>Previsões meteorológicas 10 dias</li>
-            <li>Alertas de geada (crítico na floração!)</li>
-            <li>Dados históricos de temperatura e precipitação</li>
-            <li>Índices bioclimáticos</li>
-        </ul>
-        <p><strong>Links:</strong></p>
-        <ul class="links-lista">
-            <li><a href="https://www.ipma.pt/" target="_blank" rel="noopener">Site oficial IPMA</a></li>
-            <li><a href="https://www.ipma.pt/pt/agrometeorologia/" target="_blank" rel="noopener">Agrometeorologia</a></li>
-        </ul>
-    </div>
-    <div class="instituicao-destaque" markdown="1">
-        <strong>💡 Dica:</strong> Verificar previsão 3 dias antes de tratamentos (evitar chuva)
-    </div>
+<div class="instituicao-header">
+<h3><i class="fas fa-cloud-sun"></i> IPMA</h3>
+<p class="subtitulo">Instituto Português do Mar e da Atmosfera</p>
+</div>
+<div class="instituicao-body" markdown="1">
+
+**O que é:** Serviço meteorológico nacional. Essencial para planear tratamentos e rega.
+
+**Recursos disponíveis:**
+- Previsões meteorológicas 10 dias
+- Alertas de geada (crítico na floração!)
+- Dados históricos de temperatura e precipitação
+- Índices bioclimáticos
+
+**Links:**
+- [Site oficial IPMA](https://www.ipma.pt/){:target="_blank" rel="noopener"}
+- [Agrometeorologia](https://www.ipma.pt/pt/agrometeorologia/){:target="_blank" rel="noopener"}
+
+</div>
+<div class="instituicao-destaque" markdown="1">
+<strong>💡 Dica:</strong> Verificar previsão 3 dias antes de tratamentos (evitar chuva)
+</div>
 </div>
 
 </div>
@@ -107,48 +107,48 @@ Esta página reúne os melhores recursos para aprofundar conhecimentos em frutic
 <div class="instituicoes-grid" markdown="1">
 
 <div class="instituicao-card acores">
-    <div class="instituicao-header">
-        <h3><i class="fas fa-island-tropical"></i> DRAAC</h3>
-        <p class="subtitulo">Direção Regional da Agricultura e Desenvolvimento Rural dos Açores</p>
-    </div>
-    <div class="instituicao-body" markdown="1">
-        <p><strong>O que é:</strong> Entidade responsável por agricultura nos Açores. Especializada nas especificidades climáticas do arquipélago.</p>
-        <p><strong>Recursos disponíveis:</strong></p>
-        <ul>
-            <li>Fichas técnicas adaptadas ao clima oceânico</li>
-            <li>Alertas de lepra do pessegueiro (crítica nos Açores!)</li>
-            <li>Apoios técnicos e formação gratuita</li>
-            <li>Análises laboratoriais (solo, água, doenças)</li>
-        </ul>
-        <p><strong>Links:</strong></p>
-        <ul class="links-lista">
-            <li><a href="https://agricultura.azores.gov.pt/" target="_blank" rel="noopener">Site oficial DRAAC</a></li>
-            <li><a href="https://agricultura.azores.gov.pt/publicacoes" target="_blank" rel="noopener">Publicações técnicas</a></li>
-        </ul>
-    </div>
-    <div class="instituicao-destaque acores-destaque">
-        <strong>🌧️ Específico Açores:</strong> Protocolos anti-lepra e gestão de humidade excessiva
-    </div>
+<div class="instituicao-header">
+<h3><i class="fas fa-island-tropical"></i> DRAAC</h3>
+<p class="subtitulo">Direção Regional da Agricultura e Desenvolvimento Rural dos Açores</p>
+</div>
+<div class="instituicao-body" markdown="1">
+
+**O que é:** Entidade responsável por agricultura nos Açores. Especializada nas especificidades climáticas do arquipélago.
+
+**Recursos disponíveis:**
+- Fichas técnicas adaptadas ao clima oceânico
+- Alertas de lepra do pessegueiro (crítica nos Açores!)
+- Apoios técnicos e formação gratuita
+- Análises laboratoriais (solo, água, doenças)
+
+**Links:**
+- [Site oficial DRAAC](https://agricultura.azores.gov.pt/){:target="_blank" rel="noopener"}
+- [Publicações técnicas](https://agricultura.azores.gov.pt/publicacoes){:target="_blank" rel="noopener"}
+
+</div>
+<div class="instituicao-destaque acores-destaque">
+<strong>🌧️ Específico Açores:</strong> Protocolos anti-lepra e gestão de humidade excessiva
+</div>
 </div>
 
 <div class="instituicao-card acores">
-    <div class="instituicao-header">
-        <h3><i class="fas fa-microscope"></i> IAMA</h3>
-        <p class="subtitulo">Instituto de Alimentação e Mercados Agrícolas dos Açores</p>
-    </div>
-    <div class="instituicao-body" markdown="1">
-        <p><strong>O que é:</strong> Investigação e promoção de produtos agrícolas açorianos.</p>
-        <p><strong>Recursos disponíveis:</strong></p>
-        <ul>
-            <li>Estudos de variedades adaptadas aos Açores</li>
-            <li>Apoio à comercialização de frutos</li>
-            <li>Certificação de qualidade</li>
-        </ul>
-        <p><strong>Link:</strong></p>
-        <ul class="links-lista">
-            <li><a href="https://iama.azores.gov.pt/" target="_blank" rel="noopener">Site oficial IAMA</a></li>
-        </ul>
-    </div>
+<div class="instituicao-header">
+<h3><i class="fas fa-microscope"></i> IAMA</h3>
+<p class="subtitulo">Instituto de Alimentação e Mercados Agrícolas dos Açores</p>
+</div>
+<div class="instituicao-body" markdown="1">
+
+**O que é:** Investigação e promoção de produtos agrícolas açorianos.
+
+**Recursos disponíveis:**
+- Estudos de variedades adaptadas aos Açores
+- Apoio à comercialização de frutos
+- Certificação de qualidade
+
+**Link:**
+- [Site oficial IAMA](https://iama.azores.gov.pt/){:target="_blank" rel="noopener"}
+
+</div>
 </div>
 
 </div>
@@ -157,41 +157,41 @@ Esta página reúne os melhores recursos para aprofundar conhecimentos em frutic
 
 ## 🎓 Universidades e Ensino {#universidades}
 
-<div class="universidades-grid" markdown="1">
+<div class="universidades-grid">
 
 <div class="universidade-card">
-    <h3><i class="fas fa-university"></i> UTAD - Universidade de Trás-os-Montes e Alto Douro</h3>
-    <p><strong>Especialização:</strong> Referência nacional em fruticultura. Cursos de licenciatura, mestrado e doutoramento.</p>
-    <p><strong>Recursos úteis:</strong></p>
-    <ul>
-        <li>Repositório científico (teses e artigos gratuitos)</li>
-        <li>Centro de Ciência de Montanha (CSM) - estudos de clima e altitude</li>
-        <li>Cursos de formação contínua para agricultores</li>
-    </ul>
-    <p><strong>Link:</strong> <a href="https://www.utad.pt/" target="_blank" rel="noopener">www.utad.pt</a></p>
+<h3><i class="fas fa-university"></i> UTAD - Universidade de Trás-os-Montes e Alto Douro</h3>
+<p><strong>Especialização:</strong> Referência nacional em fruticultura. Cursos de licenciatura, mestrado e doutoramento.</p>
+<p><strong>Recursos úteis:</strong></p>
+<ul>
+<li>Repositório científico (teses e artigos gratuitos)</li>
+<li>Centro de Ciência de Montanha (CSM) - estudos de clima e altitude</li>
+<li>Cursos de formação contínua para agricultores</li>
+</ul>
+<p><strong>Link:</strong> <a href="https://www.utad.pt/" target="_blank" rel="noopener">www.utad.pt</a></p>
 </div>
 
 <div class="universidade-card">
-    <h3><i class="fas fa-university"></i> ISA - Instituto Superior de Agronomia (Lisboa)</h3>
-    <p><strong>Especialização:</strong> Maior escola de agronomia portuguesa. Forte em citrinos e mediterrânicas.</p>
-    <p><strong>Recursos úteis:</strong></p>
-    <ul>
-        <li>Publicações científicas abertas</li>
-        <li>Centro de Investigação de Citrinos</li>
-        <li>Laboratórios de diagnóstico de doenças</li>
-    </ul>
-    <p><strong>Link:</strong> <a href="https://www.isa.ulisboa.pt/" target="_blank" rel="noopener">www.isa.ulisboa.pt</a></p>
+<h3><i class="fas fa-university"></i> ISA - Instituto Superior de Agronomia (Lisboa)</h3>
+<p><strong>Especialização:</strong> Maior escola de agronomia portuguesa. Forte em citrinos e mediterrânicas.</p>
+<p><strong>Recursos úteis:</strong></p>
+<ul>
+<li>Publicações científicas abertas</li>
+<li>Centro de Investigação de Citrinos</li>
+<li>Laboratórios de diagnóstico de doenças</li>
+</ul>
+<p><strong>Link:</strong> <a href="https://www.isa.ulisboa.pt/" target="_blank" rel="noopener">www.isa.ulisboa.pt</a></p>
 </div>
 
 <div class="universidade-card">
-    <h3><i class="fas fa-university"></i> Escola Superior Agrária de Coimbra</h3>
-    <p><strong>Especialização:</strong> Fruticultura de clima temperado. Forte investigação em pequenos frutos (mirtilo, framboesa).</p>
-    <p><strong>Recursos úteis:</strong></p>
-    <ul>
-        <li>Projetos de I&D em agricultura biológica</li>
-        <li>Formações técnicas especializadas</li>
-    </ul>
-    <p><strong>Link:</strong> <a href="https://www.esac.pt/" target="_blank" rel="noopener">www.esac.pt</a></p>
+<h3><i class="fas fa-university"></i> Escola Superior Agrária de Coimbra</h3>
+<p><strong>Especialização:</strong> Fruticultura de clima temperado. Forte investigação em pequenos frutos (mirtilo, framboesa).</p>
+<p><strong>Recursos úteis:</strong></p>
+<ul>
+<li>Projetos de I&D em agricultura biológica</li>
+<li>Formações técnicas especializadas</li>
+</ul>
+<p><strong>Link:</strong> <a href="https://www.esac.pt/" target="_blank" rel="noopener">www.esac.pt</a></p>
 </div>
 
 </div>
@@ -200,41 +200,49 @@ Esta página reúne os melhores recursos para aprofundar conhecimentos em frutic
 
 ## 📹 Vídeos Educacionais (YouTube) {#videos}
 
-<div class="videos-secao" markdown="1">
-    <p class="nota-intro">⚠️ <strong>Nota:</strong> Canais recomendados com conteúdo técnico de qualidade. Sempre adaptar técnicas ao clima português!</p>
+<div class="videos-secao">
 
-    <div class="videos-grid">
-        <div class="video-card">
-            <h4>🇵🇹 Canais em Português</h4>
-            <ul>
-                <li><strong>Agroforum:</strong> Entrevistas técnicos, reportagens pomares comerciais portugueses</li>
-                <li><strong>Rural TV:</strong> Programa semanal com segmentos de fruticultura</li>
-                <li><strong>Campo Aberto (RTP):</strong> Documentários agricultura portuguesa</li>
-                <li><strong>Hortas.info:</strong> Tutoriais práticos (foco horta, mas aplica-se a pomar familiar)</li>
-            </ul>
-            <p class="procurar"><strong>Procurar no YouTube:</strong> "poda macieira portugal", "enxertia passo a passo", "controlo biológico pragas"</p>
-        </div>
+<p class="nota-intro" markdown="1">⚠️ **Nota:** Canais recomendados com conteúdo técnico de qualidade. Sempre adaptar técnicas ao clima português!</p>
 
-        <div class="video-card">
-            <h4>🌍 Canais Internacionais (legendas)</h4>
-            <ul>
-                <li><strong>Stefan Sobkowiak (Canadá):</strong> Pomar em permacultura, variedades resilientes</li>
-                <li><strong>Skillcult:</strong> Enxertia avançada, propagação, variedades antigas</li>
-                <li><strong>GrowOrganic (EUA):</strong> Tutoriais técnicos detalhados de poda e formação</li>
-                <li><strong>Extension Office (universidades EUA):</strong> Vídeos científicos de alta qualidade</li>
-            </ul>
-            <p class="aviso">⚠️ Adaptar variedades e calendários ao clima português!</p>
-        </div>
+<div class="videos-grid">
 
-        <div class="video-card">
-            <h4>📺 Playlists Essenciais</h4>
-            <ul>
-                <li><strong>"Pruning fruit trees"</strong> (poda) - comparar técnicas diferentes</li>
-                <li><strong>"Grafting techniques"</strong> (enxertia) - ver procedimento em vídeo</li>
-                <li><strong>"Orchard management"</strong> (gestão anual pomar)</li>
-            </ul>
-        </div>
-    </div>
+<div class="video-card" markdown="1">
+
+#### 🇵🇹 Canais em Português
+
+- **Agroforum:** Entrevistas técnicos, reportagens pomares comerciais portugueses
+- **Rural TV:** Programa semanal com segmentos de fruticultura
+- **Campo Aberto (RTP):** Documentários agricultura portuguesa
+- **Hortas.info:** Tutoriais práticos (foco horta, mas aplica-se a pomar familiar)
+
+**Procurar no YouTube:** "poda macieira portugal", "enxertia passo a passo", "controlo biológico pragas"
+
+</div>
+
+<div class="video-card" markdown="1">
+
+#### 🌍 Canais Internacionais (legendas)
+
+- **Stefan Sobkowiak (Canadá):** Pomar em permacultura, variedades resilientes
+- **Skillcult:** Enxertia avançada, propagação, variedades antigas
+- **GrowOrganic (EUA):** Tutoriais técnicos detalhados de poda e formação
+- **Extension Office (universidades EUA):** Vídeos científicos de alta qualidade
+
+⚠️ Adaptar variedades e calendários ao clima português!
+
+</div>
+
+<div class="video-card" markdown="1">
+
+#### 📺 Playlists Essenciais
+
+- **"Pruning fruit trees"** (poda) - comparar técnicas diferentes
+- **"Grafting techniques"** (enxertia) - ver procedimento em vídeo
+- **"Orchard management"** (gestão anual pomar)
+
+</div>
+
+</div>
 </div>
 
 ---
@@ -246,46 +254,46 @@ Esta página reúne os melhores recursos para aprofundar conhecimentos em frutic
 ### 📕 Guias Técnicos Essenciais
 
 <div class="publicacao-item">
-    <h4>Manual de Fruticultura Moderna (INIAV)</h4>
-    <p><strong>Conteúdo:</strong> 250 páginas sobre todas as espécies temperadas. Inclui calendários, podas, doenças.</p>
-    <p><strong>Como obter:</strong> Procurar "Manual Fruticultura INIAV" no site iniav.pt > Publicações</p>
+<h4>Manual de Fruticultura Moderna (INIAV)</h4>
+<p><strong>Conteúdo:</strong> 250 páginas sobre todas as espécies temperadas. Inclui calendários, podas, doenças.</p>
+<p><strong>Como obter:</strong> Procurar "Manual Fruticultura INIAV" no site iniav.pt > Publicações</p>
     <p class="formato">📄 Formato: PDF gratuito</p>
 </div>
 
 <div class="publicacao-item">
-    <h4>Guia de Proteção Integrada em Pomóideas</h4>
-    <p><strong>Conteúdo:</strong> Protocolo completo de controlo de pragas/doenças em maçã e pera. Produtos autorizados, doses, calendários.</p>
-    <p><strong>Como obter:</strong> DGAV > Área Fitossanitária > Proteção Integrada</p>
+<h4>Guia de Proteção Integrada em Pomóideas</h4>
+<p><strong>Conteúdo:</strong> Protocolo completo de controlo de pragas/doenças em maçã e pera. Produtos autorizados, doses, calendários.</p>
+<p><strong>Como obter:</strong> DGAV > Área Fitossanitária > Proteção Integrada</p>
     <p class="formato">📄 Formato: PDF atualizado anualmente</p>
 </div>
 
 <div class="publicacao-item">
-    <h4>Fichas Técnicas de Variedades Recomendadas</h4>
-    <p><strong>Conteúdo:</strong> Características de variedades comerciais testadas em Portugal. Inclui época colheita, resistência doenças, clima ideal.</p>
-    <p><strong>Como obter:</strong> INIAV > Recursos Fitogenéticos > Variedades Registadas</p>
+<h4>Fichas Técnicas de Variedades Recomendadas</h4>
+<p><strong>Conteúdo:</strong> Características de variedades comerciais testadas em Portugal. Inclui época colheita, resistência doenças, clima ideal.</p>
+<p><strong>Como obter:</strong> INIAV > Recursos Fitogenéticos > Variedades Registadas</p>
     <p class="formato">📄 Formato: Fichas individuais PDF</p>
 </div>
 
 ### 📗 Específico para Açores
 
 <div class="publicacao-item acores">
-    <h4>Guia de Boas Práticas Agrícolas - Açores</h4>
-    <p><strong>Conteúdo:</strong> Adaptado ao clima oceânico húmido. Gestão de lepra, drenagem, variedades resilientes.</p>
-    <p><strong>Como obter:</strong> DRAAC > Publicações</p>
+<h4>Guia de Boas Práticas Agrícolas - Açores</h4>
+<p><strong>Conteúdo:</strong> Adaptado ao clima oceânico húmido. Gestão de lepra, drenagem, variedades resilientes.</p>
+<p><strong>Como obter:</strong> DRAAC > Publicações</p>
     <p class="formato">📄 Formato: PDF gratuito</p>
 </div>
 
 ### 📙 Literatura Internacional (Inglês)
 
 <div class="publicacao-item">
-    <h4>The Holistic Orchard (Michael Phillips)</h4>
-    <p><strong>Conteúdo:</strong> Abordagem ecológica à gestão de pomares. Saúde do solo, controlo biológico, variedades resistentes.</p>
+<h4>The Holistic Orchard (Michael Phillips)</h4>
+<p><strong>Conteúdo:</strong> Abordagem ecológica à gestão de pomares. Saúde do solo, controlo biológico, variedades resistentes.</p>
     <p class="formato">📖 Livro comercial (vale o investimento!)</p>
 </div>
 
 <div class="publicacao-item">
-    <h4>University Extension Guides (EUA)</h4>
-    <p><strong>Conteúdo:</strong> Universidades americanas publicam guias gratuitos excecionais. Procurar: "Penn State Fruit Production Guide", "UC Davis Fruit & Nut Research"</p>
+<h4>University Extension Guides (EUA)</h4>
+<p><strong>Conteúdo:</strong> Universidades americanas publicam guias gratuitos excecionais. Procurar: "Penn State Fruit Production Guide", "UC Davis Fruit & Nut Research"</p>
     <p class="formato">📄 Formato: PDFs gratuitos online</p>
 </div>
 
@@ -296,37 +304,37 @@ Esta página reúne os melhores recursos para aprofundar conhecimentos em frutic
 ## 🛒 Fornecedores e Viveiros Credíveis {#fornecedores}
 
 <div class="fornecedores-nota" markdown="1">
-    <p><strong>⚠️ Importante:</strong> Comprar sempre em viveiros certificados (DGAV). Material certificado garante ausência de doenças e identidade varietal correta.</p>
+<p><strong>⚠️ Importante:</strong> Comprar sempre em viveiros certificados (DGAV). Material certificado garante ausência de doenças e identidade varietal correta.</p>
 </div>
 
 <div class="fornecedores-grid" markdown="1">
 
 <div class="fornecedor-card">
-    <h4><i class="fas fa-seedling"></i> Viveiros Especializados</h4>
-    <ul>
-        <li><strong>Viveiros do Mondego (Coimbra):</strong> Grande variedade pomóideas e citrinos</li>
-        <li><strong>Viveiros Vinhais (Trás-os-Montes):</strong> Variedades tradicionais de clima frio</li>
-        <li><strong>Planfor (online):</strong> Loja europeia com envio PT, grande catálogo</li>
-    </ul>
+<h4><i class="fas fa-seedling"></i> Viveiros Especializados</h4>
+<ul>
+<li><strong>Viveiros do Mondego (Coimbra):</strong> Grande variedade pomóideas e citrinos</li>
+<li><strong>Viveiros Vinhais (Trás-os-Montes):</strong> Variedades tradicionais de clima frio</li>
+<li><strong>Planfor (online):</strong> Loja europeia com envio PT, grande catálogo</li>
+</ul>
     <p class="dica-compra">💡 Melhor época compra: novembro-janeiro (raiz nua mais barata)</p>
 </div>
 
 <div class="fornecedor-card">
-    <h4><i class="fas fa-flask"></i> Produtos Fitofarmacêuticos</h4>
-    <ul>
-        <li><strong>Cooperativas agrícolas locais:</strong> Preços competitivos, aconselhamento técnico</li>
-        <li><strong>Lojas especializadas:</strong> Maior variedade, incluindo produtos biológicos</li>
-    </ul>
+<h4><i class="fas fa-flask"></i> Produtos Fitofarmacêuticos</h4>
+<ul>
+<li><strong>Cooperativas agrícolas locais:</strong> Preços competitivos, aconselhamento técnico</li>
+<li><strong>Lojas especializadas:</strong> Maior variedade, incluindo produtos biológicos</li>
+</ul>
     <p class="aviso-compra">⚠️ Exigir sempre fatura e rótulo com n.º autorização DGAV!</p>
 </div>
 
 <div class="fornecedor-card">
-    <h4><i class="fas fa-tools"></i> Ferramentas e Material</h4>
-    <ul>
-        <li><strong>Tesouras Felco (Suíça):</strong> Padrão profissional, duram décadas</li>
-        <li><strong>Serrotes curvos japoneses:</strong> Corte limpo, menos esforço</li>
-        <li><strong>Material enxertia:</strong> Procurar "grafting supplies" online</li>
-    </ul>
+<h4><i class="fas fa-tools"></i> Ferramentas e Material</h4>
+<ul>
+<li><strong>Tesouras Felco (Suíça):</strong> Padrão profissional, duram décadas</li>
+<li><strong>Serrotes curvos japoneses:</strong> Corte limpo, menos esforço</li>
+<li><strong>Material enxertia:</strong> Procurar "grafting supplies" online</li>
+</ul>
 </div>
 
 </div>
@@ -338,24 +346,24 @@ Esta página reúne os melhores recursos para aprofundar conhecimentos em frutic
 <div class="associacoes-grid" markdown="1">
 
 <div class="associacao-card">
-    <h3>🤝 APH - Associação Portuguesa de Horticultura</h3>
-    <p>Congresso anual, revista técnica, rede de contactos profissionais.</p>
-    <p><strong>Membership:</strong> Aberto a amadores e profissionais</p>
+<h3>🤝 APH - Associação Portuguesa de Horticultura</h3>
+<p>Congresso anual, revista técnica, rede de contactos profissionais.</p>
+<p><strong>Membership:</strong> Aberto a amadores e profissionais</p>
 </div>
 
 <div class="associacao-card">
-    <h3>🍇 ADVID - Associação para o Desenvolvimento da Viticultura Duriense</h3>
-    <p>Específico para videira. Investigação, formação, boletins técnicos.</p>
-    <p><strong>Recursos:</strong> Caderno de Campo digital gratuito</p>
+<h3>🍇 ADVID - Associação para o Desenvolvimento da Viticultura Duriense</h3>
+<p>Específico para videira. Investigação, formação, boletins técnicos.</p>
+<p><strong>Recursos:</strong> Caderno de Campo digital gratuito</p>
 </div>
 
 <div class="associacao-card">
-    <h3>🌐 Fóruns Online</h4>
-    <ul>
-        <li><strong>Agrobyte Forum:</strong> Comunidade técnica portuguesa</li>
-        <li><strong>Reddit r/Backyardorchard:</strong> Internacional, muito ativo</li>
-        <li><strong>Facebook:</strong> Grupos "Pomares Portugal", "Fruticultura Açores"</li>
-    </ul>
+<h3>🌐 Fóruns Online</h4>
+<ul>
+<li><strong>Agrobyte Forum:</strong> Comunidade técnica portuguesa</li>
+<li><strong>Reddit r/Backyardorchard:</strong> Internacional, muito ativo</li>
+<li><strong>Facebook:</strong> Grupos "Pomares Portugal", "Fruticultura Açores"</li>
+</ul>
 </div>
 
 </div>
@@ -367,28 +375,28 @@ Esta página reúne os melhores recursos para aprofundar conhecimentos em frutic
 <div class="apps-grid" markdown="1">
 
 <div class="app-card">
-    <h4>☁️ Previsão Meteorológica</h4>
-    <ul>
-        <li><strong>IPMA:</strong> App oficial, alertas geada</li>
-        <li><strong>Windy:</strong> Previsão ventos (útil Açores/litoral)</li>
-        <li><strong>Rain Alarm:</strong> Alerta chuva próxima (planear tratamentos)</li>
-    </ul>
+<h4>☁️ Previsão Meteorológica</h4>
+<ul>
+<li><strong>IPMA:</strong> App oficial, alertas geada</li>
+<li><strong>Windy:</strong> Previsão ventos (útil Açores/litoral)</li>
+<li><strong>Rain Alarm:</strong> Alerta chuva próxima (planear tratamentos)</li>
+</ul>
 </div>
 
 <div class="app-card">
-    <h4>🐛 Identificação Pragas/Doenças</h4>
-    <ul>
-        <li><strong>iNaturalist:</strong> Identificação automática insetos/doenças</li>
-        <li><strong>Picture This (plantas):</strong> Identifica deficiências nutricionais</li>
-    </ul>
+<h4>🐛 Identificação Pragas/Doenças</h4>
+<ul>
+<li><strong>iNaturalist:</strong> Identificação automática insetos/doenças</li>
+<li><strong>Picture This (plantas):</strong> Identifica deficiências nutricionais</li>
+</ul>
 </div>
 
 <div class="app-card">
-    <h4>📊 Gestão do Pomar</h4>
-    <ul>
-        <li><strong>Caderno de Campo DGAV:</strong> Obrigatório profissionais, útil amadores</li>
-        <li><strong>Planter (Android/iOS):</strong> Calendário tarefas, lembretes rega/adubação</li>
-    </ul>
+<h4>📊 Gestão do Pomar</h4>
+<ul>
+<li><strong>Caderno de Campo DGAV:</strong> Obrigatório profissionais, útil amadores</li>
+<li><strong>Planter (Android/iOS):</strong> Calendário tarefas, lembretes rega/adubação</li>
+</ul>
 </div>
 
 </div>
@@ -397,38 +405,38 @@ Esta página reúne os melhores recursos para aprofundar conhecimentos em frutic
 
 ## 🔗 Links Rápidos para o Site {#links-site}
 
-<div class="links-internos" markdown="1">
-    <div class="link-interno-card">
-        <h4><i class="fas fa-seedling"></i> Espécies Detalhadas</h4>
-        <p>Guias completos de 10 espécies com calendários, variedades e técnicas específicas.</p>
-        <a href="{{ '/especies/maca' | relative_url }}" class="btn btn-secondary btn-small">Ver Espécies</a>
-    </div>
+<div class="links-internos">
+<div class="link-interno-card">
+<h4><i class="fas fa-seedling"></i> Espécies Detalhadas</h4>
+<p>Guias completos de 10 espécies com calendários, variedades e técnicas específicas.</p>
+<a href="{{ '/especies/maca' | relative_url }}" class="btn btn-secondary btn-small">Ver Espécies</a>
+</div>
 
-    <div class="link-interno-card">
-        <h4><i class="fas fa-cut"></i> Práticas Essenciais</h4>
-        <p>6 guias aprofundados: plantação, podas, adubação, enxertos, doenças e colheita.</p>
-        <a href="{{ '/praticas/plantacao' | relative_url }}" class="btn btn-secondary btn-small">Ver Práticas</a>
-    </div>
+<div class="link-interno-card">
+<h4><i class="fas fa-cut"></i> Práticas Essenciais</h4>
+<p>6 guias aprofundados: plantação, podas, adubação, enxertos, doenças e colheita.</p>
+<a href="{{ '/praticas/plantacao' | relative_url }}" class="btn btn-secondary btn-small">Ver Práticas</a>
+</div>
 
-    <div class="link-interno-card">
-        <h4><i class="fas fa-tools"></i> Ferramentas</h4>
-        <p>Calculadoras, calendários regionais, diagnóstico e tabelas comparativas.</p>
-        <a href="{{ '/ferramentas' | relative_url }}" class="btn btn-secondary btn-small">Ver Ferramentas</a>
-    </div>
+<div class="link-interno-card">
+<h4><i class="fas fa-tools"></i> Ferramentas</h4>
+<p>Calculadoras, calendários regionais, diagnóstico e tabelas comparativas.</p>
+<a href="{{ '/ferramentas' | relative_url }}" class="btn btn-secondary btn-small">Ver Ferramentas</a>
+</div>
 
-    <div class="link-interno-card">
-        <h4><i class="fas fa-book"></i> Glossário</h4>
-        <p>100+ termos técnicos explicados de forma clara e prática.</p>
-        <a href="{{ '/glossario' | relative_url }}" class="btn btn-secondary btn-small">Ver Glossário</a>
-    </div>
+<div class="link-interno-card">
+<h4><i class="fas fa-book"></i> Glossário</h4>
+<p>100+ termos técnicos explicados de forma clara e prática.</p>
+<a href="{{ '/glossario' | relative_url }}" class="btn btn-secondary btn-small">Ver Glossário</a>
+</div>
 </div>
 
 ---
 
 <div class="disclaimer-final" markdown="1">
     <h3>⚠️ Aviso Importante</h3>
-    <p>Os links externos listados foram selecionados pela sua credibilidade e qualidade técnica. No entanto, este site não tem controlo sobre o conteúdo externo e não se responsabiliza por eventuais alterações ou indisponibilidade.</p>
-    <p><strong>Sugestão de novos recursos:</strong> <a href="mailto:info@pomar.pt">info@pomar.pt</a></p>
+<p>Os links externos listados foram selecionados pela sua credibilidade e qualidade técnica. No entanto, este site não tem controlo sobre o conteúdo externo e não se responsabiliza por eventuais alterações ou indisponibilidade.</p>
+<p><strong>Sugestão de novos recursos:</strong> <a href="mailto:info@pomar.pt">info@pomar.pt</a></p>
 </div>
 
 </div>

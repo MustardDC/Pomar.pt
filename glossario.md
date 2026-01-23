@@ -447,6 +447,8 @@ Este glossário explica termos técnicos usados em fruticultura de forma clara e
 
 ## T {#T}
 
+<dl class="glossario-lista">
+
 <dt>T-budding (Enxertia de Gema)</dt>
 <dd>Técnica de enxertia em que se insere uma gema sob a casca do porta-enxerto (corte em T). Época: julho-setembro. Taxa sucesso: 70-90%.</dd>
 
