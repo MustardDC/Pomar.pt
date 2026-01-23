@@ -1,7 +1,7 @@
 # PROGRESSO DE CONSTRUÇÃO DO SITE
 **Projeto:** Pomar.PT - Guia de Fruticultura Portugal e Açores
 **Início:** 21 Janeiro 2026
-**Última atualização:** 23 Janeiro 2026 - 16:00
+**Última atualização:** 23 Janeiro 2026 - 18:00
 
 **🌐 SITE ONLINE:** https://mustarddc.github.io/Pomar.pt/
 
@@ -15,13 +15,14 @@
 | **Fase 2: Conteúdo** | **100%** | ✅ **COMPLETO** |
 | **Fase 2.5: Deploy** | **100%** | ✅ **ONLINE!** 🌐 |
 | **Fase 2.7: Páginas Complementares** | **100%** | ✅ **COMPLETO!** |
+| **Fase 2.8: Correções Formatação** | **100%** | ✅ **RESOLVIDO!** |
 | **Fase 3: Imagens** | 0% | ⚪ Não iniciado |
 | **Fase 4: Interatividade** | 10% | 🟡 Estrutura criada |
 | **Fase 5: Lançamento** | 100% | ✅ **SITE PÚBLICO!** |
 
 ---
 
-## ✅ CHECKPOINT ATUAL: SESSÃO 5 - PÁGINAS COMPLEMENTARES! 🎉📚
+## ✅ CHECKPOINT ATUAL: SESSÃO 5.5 - CORREÇÕES TÉCNICAS MARKDOWN/HTML! 🔧
 
 ### COMPLETADO NESTA SESSÃO (23 Jan 2026 - Sessão 5)
 
@@ -65,6 +66,78 @@
 - **Linhas conteúdo:** ~2,000 linhas novas
 - **Commits:** 1 (páginas complementares)
 - **Status:** 🟢 **SITE 100% COMPLETO - TODAS PÁGINAS CRIADAS!** 🎉
+
+---
+
+### COMPLETADO SESSÃO 5.5 (23 Jan 2026 - Correções Técnicas)
+
+**CORREÇÕES DE FORMATAÇÃO MARKDOWN/HTML - 5 PROBLEMAS RESOLVIDOS!**
+
+**🌐 URL:** https://mustarddc.github.io/Pomar.pt/
+
+#### Problemas Identificados e Resolvidos:
+
+**1. Markdown não renderizava ❌ → ✅**
+- **Causa:** Conteúdo markdown dentro de `<div>` sem `markdown="1"`
+- **Solução:** Adicionar `markdown="1"` em divs com conteúdo markdown
+- **Ficheiro criado:** Configuração kramdown em `_config.yml`
+
+**2. Links âncora não funcionavam (glossário) ❌ → ✅**
+- **Causa:** Sintaxe `{#id}` requer configuração kramdown
+- **Solução:** Ativar `auto_ids: true` e `input: GFM` no _config.yml
+- **Resultado:** Links alfabéticos A-Z agora navegam corretamente
+
+**3. Código HTML visível como texto ❌ → ✅**
+- **Causa:** HTML puro (`<p>`, `<ul>`, `<li>`) dentro de `<div markdown="1">`
+- **Solução:** Converter TODO HTML para markdown puro
+- **Exemplo:** `<p><strong>Texto:</strong></p>` → `**Texto:**`
+
+**4. Tags HTML container visíveis ❌ → ✅**
+- **Causa:** `markdown="1"` em divs que são containers HTML puros
+- **Solução:** Remover `markdown="1"` de divs container
+- **Regra:** Container HTML = SEM; Conteúdo markdown = COM
+
+**5. Headers malformados ❌ → ✅**
+- **Causa:** Mistura `####Texto</h4>` (markdown + HTML)
+- **Solução:** Usar markdown puro `#### Texto` (com espaço)
+
+#### Ficheiros Modificados:
+
+**_config.yml:**
+- [x] Configuração kramdown (`auto_ids: true`, `input: GFM`)
+
+**ferramentas.md:**
+- [x] Convertidos 4 cards diagnóstico HTML → markdown
+- [x] Corrigidos headers malformados
+- [x] Convertidos 3 blocos links (Práticas, Espécies, Recursos)
+- [x] Aplicada regra markdown="1" correta
+
+**glossario.md:**
+- [x] Links alfabéticos funcionais (#A, #B, #C...)
+- [x] Removido markdown="1" de containers
+- [x] Mantido em conteúdo markdown
+
+**recursos.md:**
+- [x] Removido markdown="1" de ~15 tipos divs container
+- [x] Mantido apenas em divs com conteúdo
+- [x] Cards instituições agora renderizam corretamente
+
+**TROUBLESHOOTING.md (NOVO):**
+- [x] Documentação completa dos 5 problemas
+- [x] Causa raiz de cada problema
+- [x] Solução aplicada com exemplos código
+- [x] Checklist verificação para futuras páginas
+- [x] Lições aprendidas
+- [x] Comandos debug úteis
+
+**Estatísticas Sessão 5.5:**
+- **Tempo:** ~1.5h
+- **Ficheiros modificados:** 4 (_config.yml, ferramentas.md, glossario.md, recursos.md)
+- **Ficheiros criados:** 1 (TROUBLESHOOTING.md)
+- **Linhas modificadas:** ~200 linhas
+- **Commits:** 3 (c42b306, 648a975, d7cca23)
+- **Problemas resolvidos:** 5/5 ✅
+- **Status:** 🟢 **TODAS PÁGINAS RENDERIZAM CORRETAMENTE!** 🎉
 
 ---
 
@@ -194,9 +267,10 @@ Pomar.pt/ (GitHub: MustardDC/Pomar.pt)
 ├── index.html               ✅ Página inicial (com relative_url)
 ├── PROGRESS.md              ✅ Este ficheiro
 ├── QUICK_START.md           ✅ Guia retomar
-└── README.md                ✅ Documentação completa
+├── README.md                ✅ Documentação completa
+└── TROUBLESHOOTING.md       ✅ **NOVO!** Problemas técnicos resolvidos
 
-TOTAL: 32 ficheiros | Site ONLINE: https://mustarddc.github.io/Pomar.pt/
+TOTAL: 33 ficheiros | Site ONLINE: https://mustarddc.github.io/Pomar.pt/
 ```
 
 ---
@@ -512,14 +586,15 @@ git push -u origin main
 ## 📈 ESTATÍSTICAS FINAIS (Atual)
 
 ### Conteúdo Criado
-- **Total ficheiros:** 32
+- **Total ficheiros:** 33
 - **Layouts:** 3 (default, especie, pratica)
 - **Páginas conteúdo:** 20 (10 espécies + 6 práticas + 3 complementares + 1 home)
+- **Documentação:** 4 (README, PROGRESS, QUICK_START, TROUBLESHOOTING)
 - **Linhas código total:** ~35,400
   - CSS: ~700
   - JavaScript: ~200
   - Markdown: ~34,500
-- **Tamanho total:** ~520 KB (sem imagens)
+- **Tamanho total:** ~540 KB (sem imagens)
 
 ### Tempo Investido
 - **Sessão 1:** ~3h (Fundação)
@@ -527,7 +602,8 @@ git push -u origin main
 - **Sessão 3:** ~2.5h (Práticas)
 - **Sessão 4:** ~1.5h (Deploy GitHub Pages)
 - **Sessão 5:** ~1.5h (Páginas complementares)
-- **Total:** ~10.5h
+- **Sessão 5.5:** ~1.5h (Correções técnicas)
+- **Total:** ~12h
 
 ### Cobertura Conteúdo
 - **Espécies:** 10/10 (100%) ✅
