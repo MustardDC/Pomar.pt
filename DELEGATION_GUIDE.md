@@ -311,7 +311,304 @@ Antes de executar qualquer tarefa, perguntar:
 
 ---
 
-## 10. CONCLUSÃO
+## 10. GUIA PRÁTICO - DECISION TREE 🌳
+
+### 1. ÁRVORE DE DECISÃO RÁPIDA
+
+```
+TAREFA A FAZER
+    ↓
+É código/lógica complexa? → SIM → CLAUDE faz diretamente
+    ↓ NÃO
+É 1 geração de texto? (ex: 1 meta description)
+    ↓ SIM
+    Quanto texto?
+        < 200 palavras → GEMINI CLI direto (bash)
+        > 200 palavras → CLAUDE faz (mais contexto)
+    ↓ NÃO (múltiplas gerações)
+É conteúdo repetitivo/em massa? → SIM → TASK AGENT + GEMINI
+    ↓ NÃO
+Requer leitura de ficheiros? → SIM → TASK AGENT (Explore/general)
+    ↓ NÃO
+Documentação/escrita? → SIM → TASK AGENT (general-purpose)
+```
+
+### 2. QUANDO USAR CADA FERRAMENTA
+
+**🤖 CLAUDE (eu próprio):**
+- Código JavaScript/CSS complexo
+- Debugging e troubleshooting
+- Decisões arquiteturais
+- Planeamento de fases
+- Integração entre sistemas
+- **Exemplo:** Implementar calculadora JavaScript
+
+**📋 TASK AGENT (sem Gemini):**
+- Documentação (PROGRESS.md, QUICK_START.md)
+- Leitura e análise de ficheiros
+- Exploração de codebase
+- Git operations complexos
+- **Exemplo:** "Adiciona Sessão 7 ao PROGRESS.md com estes dados"
+
+**💎 GEMINI CLI (direto via bash):**
+- 1 geração curta (<200 palavras)
+- Teste rápido
+- Tarefa única e simples
+- **Exemplo:** `gemini -p "Meta description para página X"`
+
+**🚀 TASK AGENT + GEMINI (combinado):**
+- Gerações em MASSA (10+)
+- Conteúdo repetitivo e estruturado
+- Processamento de lotes
+- **Exemplo:** "Gera alt text para 80 imagens usando Gemini"
+
+---
+
+## 11. COMANDOS GEMINI - CHEAT SHEET 📝
+
+### Sintaxe Básica
+
+```bash
+# Prompt simples
+gemini -p "Teu prompt aqui"
+
+# Prompt com contexto (usa aspas dentro)
+gemini -p "Cria meta description para página sobre maçãs.
+Deve ter <160 caracteres e incluir: cultivo, Portugal, variedades"
+
+# Guardar output em ficheiro
+gemini -p "Gera 5 keywords SEO para pomar" > keywords.txt
+
+# Append a ficheiro existente
+gemini -p "Meta para página Pera" >> meta-tags.txt
+```
+
+### Templates Prontos a Usar
+
+**Meta Description:**
+```bash
+gemini -p "Escreve meta description SEO (máximo 160 caracteres) para página '[PÁGINA]' do site Pomar.pt sobre [TEMA]. Incluir keywords: [KEYWORDS]"
+```
+
+**Alt Text:**
+```bash
+gemini -p "Alt text acessível e descritivo para imagem de [DESCRIÇÃO]. Máximo 125 caracteres, foco em acessibilidade"
+```
+
+**Keywords:**
+```bash
+gemini -p "Gera 10 keywords SEO relevantes para página sobre [TEMA]. Formato: keyword1, keyword2, keyword3..."
+```
+
+**FAQ:**
+```bash
+gemini -p "Gera 5 perguntas frequentes sobre [TEMA] em Portugal. Formato numerado, perguntas diretas e práticas"
+```
+
+**Resumo:**
+```bash
+gemini -p "Resume este texto em 100 palavras mantendo informação essencial: [TEXTO]"
+```
+
+---
+
+## 12. WORKFLOWS PRÁTICOS PASSO-A-PASSO 🛠️
+
+### Workflow 1: Gerar 1 Meta Description (GEMINI direto)
+
+```bash
+# Passo 1: Chamar Gemini
+gemini -p "Meta description SEO (<160 chars) para página Maçã sobre cultivo de macieiras em Portugal"
+
+# Passo 2: Verificar caracteres (se necessário)
+echo "Guia completo..." | wc -m
+
+# Passo 3: Usar no _config.yml ou front matter
+```
+
+**Tokens gastos:** ~100 (Claude vê comando e resposta)
+**Tempo:** 5 segundos
+
+---
+
+### Workflow 2: Gerar Meta Tags para 4 Espécies (AGENTE + GEMINI)
+
+```
+# Via Task agent:
+"Usa Gemini CLI para gerar meta description (<160 chars) para estas 4 espécies:
+- Maçã (cultivo macieiras)
+- Pera (cultivo pereiras)
+- Pêssego (cultivo pessegueiros)
+- Ameixa (cultivo ameixeiras)
+
+Guarda em meta-descriptions.txt com formato:
+Espécie: [nome]
+Meta: [description]
+Chars: [contagem]"
+```
+
+**Tokens gastos:** ~1,000 (instruções + resposta agente)
+**Tempo:** 30 segundos
+**Resultado:** 4 meta descriptions validadas
+
+---
+
+### Workflow 3: Alt Text para 80 Imagens (AGENTE + GEMINI loop)
+
+```
+# Via Task agent:
+"Para cada imagem em images/especies/*.jpg:
+1. Extrai nome da espécie do filename
+2. Usa Gemini: 'Alt text (<125 chars) para foto de [espécie]: flores/frutos/árvore'
+3. Guarda em alt-texts.yml:
+   - filename: nome.jpg
+     alt: [resultado gemini]
+     chars: [contagem]
+
+Processa TODAS as imagens e reporta total processado"
+```
+
+**Tokens gastos:** ~4,000 (loop de 80 + validações)
+**Tempo:** 2-3 minutos
+**Resultado:** 80 alt texts prontos a usar
+
+---
+
+### Workflow 4: Documentação (AGENTE sem Gemini)
+
+```
+# Via Task agent:
+"Adiciona ao PROGRESS.md uma nova secção 'Sessão 8 - Fase 5 SEO':
+- Data: [data]
+- Trabalho: Geradas 20 meta descriptions, 20 keywords, Schema.org
+- Estatísticas: [stats]
+- Commit e push"
+```
+
+**Tokens gastos:** ~1,500
+**Tempo:** 20 segundos
+
+---
+
+## 13. CHECKLIST ANTES DE CADA TAREFA ✅
+
+Antes de começar, pergunta:
+
+### 1. Que tipo de tarefa é?
+- [ ] Código/lógica → **CLAUDE**
+- [ ] 1 texto curto → **GEMINI direto**
+- [ ] Múltiplos textos → **AGENTE + GEMINI**
+- [ ] Documentação → **AGENTE**
+- [ ] Exploração código → **AGENTE Explore**
+
+### 2. Quantas gerações?
+- [ ] 1 geração → Gemini direto (bash)
+- [ ] 2-5 gerações → Considerar agente
+- [ ] 6+ gerações → **AGENTE + GEMINI obrigatório**
+
+### 3. Precisa de contexto?
+- [ ] Não → Gemini/Agente ok
+- [ ] Sim (ficheiros) → Agente com Read
+- [ ] Sim (decisões) → **CLAUDE**
+
+### 4. Quanto tempo tenho?
+- [ ] Urgente (< 1 min) → Gemini direto
+- [ ] Normal → Agente (automático)
+- [ ] Complexo → Claude planeia
+
+---
+
+## 14. EXEMPLOS COMPARATIVOS 📊
+
+### Exemplo 1: Criar 1 Meta Description
+
+**❌ CLAUDE faz:**
+```
+- Ler contexto da página: 500 tokens
+- Escrever meta: 300 tokens
+- Total: 800 tokens
+```
+
+**✅ GEMINI direto:**
+```bash
+gemini -p "Meta description para página Maçã"
+# Total: 100 tokens Claude (só vê comando)
+# Poupança: 700 tokens (88%)
+```
+
+---
+
+### Exemplo 2: Criar 20 Meta Descriptions
+
+**❌ CLAUDE faz:**
+```
+- Ler 20 páginas: 10,000 tokens
+- Escrever 20 metas: 6,000 tokens
+- Total: 16,000 tokens
+```
+
+**✅ AGENTE + GEMINI:**
+```
+Task agent com instruções
+# Total: 2,000 tokens
+# Poupança: 14,000 tokens (88%)
+```
+
+---
+
+### Exemplo 3: Atualizar PROGRESS.md
+
+**❌ CLAUDE faz:**
+```
+- Ler PROGRESS.md: 3,000 tokens
+- Escrever secção: 2,000 tokens
+- Total: 5,000 tokens
+```
+
+**✅ AGENTE (sem Gemini):**
+```
+Task agent: "Adiciona Sessão X com dados Y"
+# Total: 1,500 tokens
+# Poupança: 3,500 tokens (70%)
+```
+
+---
+
+## 15. ATALHOS RÁPIDOS ⚡
+
+### Atalho 1: Meta Tags Completos (1 página)
+```bash
+# Gera tudo de uma vez
+gemini -p "Para página sobre cultivo de maçãs em Portugal, gera:
+1. Meta description (<160 chars)
+2. 10 keywords SEO
+3. og:title
+4. og:description
+Formato: campo: valor (cada linha)"
+```
+
+### Atalho 2: Batch Processing Template
+```bash
+# Via agente - template reutilizável:
+"Para cada ficheiro em [PASTA]/*.md:
+1. Extrai [INFO] do filename
+2. Usa Gemini para gerar [CONTEÚDO]
+3. Guarda em [OUTPUT]
+Reporta total processado + erros"
+```
+
+### Atalho 3: Validação Automática
+```bash
+# Gemini pode validar também:
+gemini -p "Verifica se estas meta descriptions têm <160 chars:
+1. [meta1]
+2. [meta2]
+Reporta: OK ou 'excede X caracteres'"
+```
+
+---
+
+## 16. CONCLUSÃO
 
 A delegação eficiente pode poupar **22% dos tokens** em cada sessão, permitindo:
 
