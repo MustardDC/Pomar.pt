@@ -1,7 +1,7 @@
 # 🚀 QUICK START - Retomar Desenvolvimento
 
-**Última sessão:** 23 Janeiro 2026 (Sessão 6 - FASE 4 INTERATIVIDADE COMPLETA!)
-**Progresso:** Fundação 100% ✅ | Conteúdo 100% ✅ | Páginas 100% ✅ | Formatação 100% ✅ | **Interatividade 100% ✅** | **SITE AVANÇADO!** 🎉
+**Última sessão:** 26 Janeiro 2026 (Sessão 7 - SEO META TAGS COMPLETO!)
+**Progresso:** Fundação 100% ✅ | Conteúdo 100% ✅ | Páginas 100% ✅ | Formatação 100% ✅ | Interatividade 100% ✅ | **SEO 100% ✅** | **SITE AVANÇADO + SEO!** 🎉
 
 **🌐 SITE AO VIVO:** https://mustarddc.github.io/Pomar.pt/
 
@@ -94,12 +94,29 @@
 - ✅ **JavaScript:** ~650 linhas código interativo
 - ✅ **CSS:** ~350 linhas estilos + responsivo mobile
 
+**SEO Meta Tags - Fase 4.5 (Sessão 7):**
+- ✅ **80 meta tags integradas** → 20 páginas × 4 tags cada
+  - description (< 160 caracteres) ✅
+  - keywords (10 por página) ✅
+  - og_title (< 60 caracteres) ✅
+  - og_description (< 160 caracteres) ✅
+- ✅ **Script Python automatizado** → integrate_seo.py
+  - Lê CSV com todas as tags
+  - Integra automaticamente nos 20 ficheiros .md
+  - Preserva formatação original
+- ✅ **Documentação completa**
+  - QUICK_REFERENCE.md (referência rápida)
+  - SEO_INTEGRATION_COMPLETE.md (relatório)
+  - SEO_CHECKLIST.md (validação)
+- ✅ **100% conformidade** → Todos limites respeitados
+
 **Total:**
-- 📄 33 ficheiros (30 conteúdo + 3 config/docs + Gemfile + Gemfile.lock)
-- 📝 ~35,500 linhas conteúdo (34,500 MD + 1,000 JS interativo)
-- ⏱️ 18h trabalho total (6 sessões)
-- 💾 ~580 KB (sem imagens)
+- 📄 37 ficheiros (20 páginas + 10 docs + 3 layouts + 4 SEO docs)
+- 📝 ~36,250 linhas conteúdo (34,500 MD + 1,000 JS + 750 docs)
+- ⏱️ ~18h trabalho total (7 sessões)
+- 💾 ~600 KB (sem imagens)
 - 🎮 **3 ferramentas interativas funcionais**
+- 🔍 **80 meta tags SEO integradas**
 - 🌐 **SITE PÚBLICO:** https://mustarddc.github.io/Pomar.pt/
 
 ---
@@ -299,6 +316,7 @@ Pomar.pt/
 | **Linhas MD** | 34,500 | 35,000 | 98% ✅ |
 | **Linhas JS** | 650 | 500 | 130% ✅ |
 | **Ferramentas Interativas** | 3/3 | 3 | 100% ✅ |
+| **Meta Tags SEO** | 80/80 | 80 | 100% ✅ |
 | **Imagens** | 0 | 80 | 0% |
 
 ---
@@ -345,35 +363,95 @@ tree /F
 
 ---
 
-## 🎯 PRIORIDADES PRÓXIMA SESSÃO (Fase 3 ou 5)
+## 🤖 DICAS PARA PRÓXIMAS SESSÕES - Usar Agentes e Gemini CLI
 
-**SITE 100% FUNCIONAL COM INTERATIVIDADE! ✅ Todas páginas + 3 ferramentas JavaScript funcionais!**
+### Como Usar Agentes Claude
+
+Para tarefas complexas, usa o **Task tool** com agentes especializados para poupar tokens:
+
+**Agentes disponíveis:**
+- `Bash`: Execução de comandos, git operations, scripts
+- `general-purpose`: Tarefas multi-passo, pesquisas complexas
+- `Explore`: Explorar codebase rapidamente
+
+**Exemplo de uso:**
+```
+"Usa um agente Bash para integrar as meta tags SEO nos 20 ficheiros .md"
+```
+
+### Como Usar Gemini CLI
+
+Dentro de agentes Bash, podes usar o Gemini CLI para acelerar tarefas repetitivas:
+
+**Sintaxe:**
+```bash
+gemini -p "prompt aqui"
+```
+
+**Exemplos úteis:**
+```bash
+# Gerar meta descriptions
+gemini -p "Cria meta description SEO (150 chars) para página sobre poda de videira Portugal"
+
+# Criar FAQ
+gemini -p "Cria 5 perguntas FAQ sobre cultivo de mirtilos em solo ácido"
+
+# Alt text para imagens
+gemini -p "Gera alt text para foto: sintomas de lepra em folhas de laranjeira"
+
+# Simplificar texto técnico
+gemini -p "Simplifica este texto mantendo precisão técnica: [texto]"
+```
+
+**Quando usar Gemini:**
+- ✅ Tarefas repetitivas (meta tags, alt text, FAQ)
+- ✅ Geração de conteúdo pequeno (descriptions, títulos)
+- ✅ Transformações de texto (simplificar, traduzir)
+- ❌ NÃO usar para decisões arquiteturais ou código complexo
+
+### Combinação Agente + Gemini
+
+**Exemplo real (Sessão 7):**
+Tarefa: "Integrar 80 meta tags nos 20 ficheiros"
+- Usei **agente Bash** para coordenar o trabalho
+- Dentro do agente, usei **Python script** (mais eficiente que Gemini para tarefa estruturada)
+- Resultado: 20 ficheiros atualizados automaticamente
+
+**Próximas tarefas que podem usar Gemini:**
+1. Gerar alt text para 60-80 imagens (quando adicionar)
+2. Criar FAQ personalizadas para cada uma das 10 espécies
+3. Traduzir conteúdo para inglês (turismo rural)
+4. Gerar snippets schema.org para SEO avançado
+
+---
+
+## 🎯 PRIORIDADES PRÓXIMA SESSÃO (TODAS OPCIONAIS)
+
+**SITE 100% FUNCIONAL COM INTERATIVIDADE + SEO! ✅**
 
 **Fases completadas:**
 1. ✅ ~~Criar páginas complementares~~ **COMPLETO!**
-   - ✅ Ferramentas (calculadoras, calendários, tabelas)
-   - ✅ Glossário (100+ termos técnicos)
-   - ✅ Recursos (instituições, links, PDFs)
 2. ✅ ~~Corrigir problemas formatação~~ **COMPLETO!**
-   - ✅ Markdown renderiza corretamente
-   - ✅ Links âncora funcionam
-   - ✅ Sem código HTML visível
-   - ✅ Headers bem formatados
 3. ✅ ~~Ferramentas interativas JavaScript~~ **COMPLETO!**
-   - ✅ Calculadora adubação dinâmica (10 espécies)
-   - ✅ Wizard diagnóstico doenças (16 diagnósticos)
-   - ✅ Calendários interativos (4 regiões × 12 meses)
+4. ✅ ~~SEO meta tags~~ **COMPLETO!**
 
-**Melhorias futuras (opcionais):**
-4. ⚪ Adicionar imagens (60-80 imagens):
+**Melhorias futuras (TODAS opcionais):**
+1. ⚪ **Fase 3: Imagens** (60-80 imagens)
    - Fotos espécies (Unsplash/Pexels)
-   - Diagramas técnicos (poda, enxertos)
-5. ⚪ SEO otimização:
-   - Meta descriptions personalizadas por página
-   - Sitemap.xml para Google
-6. ⚪ Analytics + domínio custom
+   - Diagramas técnicos (poda, enxertos, plantação)
+   - Usar Gemini CLI para gerar alt text automaticamente
+2. ⚪ **Fase 5: SEO Avançado**
+   - Validar meta tags (Facebook Debugger, LinkedIn Post Inspector)
+   - Google Search Console - submeter sitemap
+   - Google Analytics
+   - Schema.org markup (HowTo, FAQ, receitas)
+3. ⚪ **Melhorias futuras**
+   - Domínio custom (pomar.pt)
+   - Newsletter signup
+   - Sistema comentários
+   - Modo escuro
 
-**Nota:** O site está 100% funcional e completo em conteúdo textual! Todas as páginas renderizam perfeitamente. Imagens e JavaScript são melhorias futuras opcionais.
+**Nota:** O site está 100% completo e funcional! Todas funcionalidades core implementadas. Fases restantes são melhorias opcionais.
 
 ---
 
@@ -417,35 +495,43 @@ git push
 
 ---
 
-**STATUS:** 🟢 **SITE 100% FUNCIONAL + INTERATIVO!** 🎉🎮
+**STATUS:** 🟢 **SITE 100% FUNCIONAL + INTERATIVO + SEO!** 🎉🎮🔍
 
 **URL:** https://mustarddc.github.io/Pomar.pt/
 
 **Páginas disponíveis (todas renderizam perfeitamente):**
-- 🏠 Página inicial bonita
-- 🍎 10 espécies detalhadas (Maçã, Pera, Pêssego, Ameixa, Videira, Laranja, Limão, Mirtilo, Framboesa, Morango)
-- 📚 6 práticas essenciais (Plantação, Podas, Adubação, Enxertos, Doenças, Colheita)
-- 🔧 Ferramentas (calculadoras, calendários, tabelas) + **3 FERRAMENTAS INTERATIVAS!** ✅
-- 📖 Glossário (100+ termos técnicos, links alfabéticos funcionam) ✅
-- 🔗 Recursos (instituições, universidades, PDFs, vídeos) ✅
+- 🏠 Página inicial bonita (com meta tags SEO)
+- 🍎 10 espécies detalhadas (Maçã, Pera, Pêssego, Ameixa, Videira, Laranja, Limão, Mirtilo, Framboesa, Morango) - com SEO
+- 📚 6 práticas essenciais (Plantação, Podas, Adubação, Enxertos, Doenças, Colheita) - com SEO
+- 🔧 Ferramentas (calculadoras, calendários, tabelas) + **3 FERRAMENTAS INTERATIVAS!** ✅ - com SEO
+- 📖 Glossário (100+ termos técnicos, links alfabéticos funcionam) ✅ - com SEO
+- 🔗 Recursos (instituições, universidades, PDFs, vídeos) ✅ - com SEO
 
 **Ferramentas Interativas JavaScript:**
 - 🧮 **Calculadora de Adubação** - Cálculo automático de doses NPK (10 espécies)
 - 📅 **Calendários Regionais** - Navegação por região e mês (48 conjuntos de dados)
 - 🩺 **Wizard de Diagnóstico** - Sistema de perguntas guiadas (16 diagnósticos)
 
+**SEO Meta Tags (80 tags):**
+- ✅ **20 páginas × 4 tags** = 80 meta tags integradas
+- ✅ description, keywords, og_title, og_description
+- ✅ 100% conformidade (limites de caracteres respeitados)
+
 **Documentação técnica:**
 - 📄 README.md - Instruções gerais
-- 📊 PROGRESS.md - Histórico completo (6 sessões)
+- 📊 PROGRESS.md - Histórico completo (7 sessões)
 - 🚀 QUICK_START.md - Este ficheiro
 - 🔧 TROUBLESHOOTING.md - Problemas técnicos resolvidos
+- 🔍 QUICK_REFERENCE.md - Referência rápida 80 meta tags SEO
+- 📋 SEO_INTEGRATION_COMPLETE.md - Relatório integração SEO
+- ✅ SEO_CHECKLIST.md - Checklist validação SEO
 
-**Próximo passo:** Experimentar as ferramentas interativas! Ou adicionar imagens (Fase 3) / SEO (Fase 5).
+**Próximo passo:** Site está 100% completo! Próximas melhorias são opcionais (imagens, SEO avançado).
 
 **💡 Para testar:**
 - Calculadora: https://mustarddc.github.io/Pomar.pt/ferramentas#calculadora
 - Calendários: https://mustarddc.github.io/Pomar.pt/ferramentas#calendarios
 - Diagnóstico: https://mustarddc.github.io/Pomar.pt/ferramentas#diagnostico
 
-*Última atualização: 23 Janeiro 2026 - 21:00*
-*Sessão 6 completa - FASE 4 INTERATIVIDADE IMPLEMENTADA!* 🚀🎮
+*Última atualização: 26 Janeiro 2026 - 15:00*
+*Sessão 7 completa - SEO META TAGS INTEGRADAS!* 🚀🔍
