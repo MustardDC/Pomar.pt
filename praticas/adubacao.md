@@ -2,7 +2,6 @@
 layout: pratica
 title: Adubação e Fertilização
 icon: 🥄
-description: Guia completo de nutrição - NPK, micronutrientes, programas anuais por espécie, métodos de aplicação e diagnóstico de deficiências
 tags: ["Essencial", "Anual", "Nutrição"]
 nav_items:
   - {id: "macronutrientes", title: "NPK", icon: "fas fa-seedling"}
@@ -10,6 +9,10 @@ nav_items:
   - {id: "programas", title: "Programas Anuais", icon: "fas fa-calendar-alt"}
   - {id: "metodos", title: "Métodos Aplicação", icon: "fas fa-hand-sparkles"}
   - {id: "especies", title: "Por Espécie", icon: "fas fa-tree"}
+description: "Programa de adubação para pomares em Portugal. Necessidades nutricionais por espécie, adubo orgânico e mineral, análise foliar e fertirrigação."
+keywords: "adubação pomares, programa nutrição, adubação árvores frutíferas, análise foliar, adubo orgânico, fertirrigação, nutrição plantas, Portugal"
+og_title: "Adubação e Nutrição - Pomar.pt"
+og_description: "Programa completo de adubação para pomares. Nutrientes, tipos de adubo e aplicação. Guia técnico para máxima produção."
 ---
 
 ## 🌱 Macronutrientes (NPK) {#macronutrientes}

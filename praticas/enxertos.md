@@ -2,7 +2,6 @@
 layout: pratica
 title: Enxertos
 icon: 🌿
-description: Guia completo de enxertia - 5 técnicas essenciais, compatibilidade, timing, materiais e taxa de sucesso para multiplicar variedades
 tags: ["Técnica Avançada", "Multiplicação", "Primavera"]
 nav_items:
   - {id: "conceitos", title: "Conceitos Base", icon: "fas fa-book"}
@@ -10,6 +9,10 @@ nav_items:
   - {id: "tecnicas", title: "5 Técnicas", icon: "fas fa-hands"}
   - {id: "calendario", title: "Calendário", icon: "fas fa-calendar-alt"}
   - {id: "compatibilidade", title: "Compatibilidade", icon: "fas fa-check-circle"}
+description: "Técnicas de enxertia em árvores frutíferas. Porta-enxertos recomendados para Portugal, épocas de enxerto, métodos e cuidados pós-enxertia."
+keywords: "enxertia árvores frutíferas, porta-enxertos, métodos enxerto, época enxerto, propagação plantas, enxerto lateral, enxerto topo, Portugal"
+og_title: "Enxertos e Propagação - Guia Pomar.pt"
+og_description: "Aprenda técnicas de enxertia para árvores frutíferas. Porta-enxertos, épocas, métodos e cuidados. Guia técnico completo."
 ---
 
 ## 🌱 Conceitos Fundamentais {#conceitos}

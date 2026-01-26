@@ -4,7 +4,10 @@ title: Mirtilo
 nome_cientifico: Vaccinium corymbosum
 emoji: 🫐
 tags: ["Pequeno Fruto", "pH Ácido", "Todo Portugal", "Açores"]
-description: Guia completo mirtilo - pH ácido obrigatório, poda rejuvenescimento anual, cultura crescimento Portugal
+description: "Cultivo de mirtileiros em Portugal. Acidez do solo, variedades americanas, manejo da humidade, pragas e colheita escalonada de mirtilos de qualidade."
+keywords: "mirtilo, mirtileiro, cultivo mirtilo Portugal, acidez solo mirtilo, variedades mirtilo, colheita mirtilo, blueberry, frutas silvestres, pomar"
+og_title: "Cultivo de Mirtilo - Guia Prático Pomar.pt"
+og_description: "Como cultivar mirtileiros em Portugal. Acidez do solo, variedades, cuidados e colheita contínua de mirtilos frescos."
 ---
 
 ## 🌍 Clima Adequado {#clima}

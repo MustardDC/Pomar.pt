@@ -1,3 +1,10 @@
+---
+description: "Pomar.pt - Guia completo de fruticultura em Portugal. 10 espécies, 6 práticas essenciais e informação técnica detalhada para pomares profissionais."
+keywords: "fruticultura Portugal, cultivo árvores fruto, pomar Portugal, guia fruticultura, técnicas pomares, frutas Portugal, agricultura familiar"
+og_title: "Pomar.pt - Fruticultura em Portugal"
+og_description: "Guia técnico completo de fruticultura em Portugal. 10 espécies, 6 práticas essenciais e recursos para pomares profissionais e familiares."
+---
+
 # 🌳 Pomar.PT - Guia de Fruticultura Portugal e Açores
 
 Site completo sobre cultivo de árvores de fruto em Portugal e Açores.

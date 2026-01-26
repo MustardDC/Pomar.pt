@@ -4,7 +4,10 @@ title: Laranja
 nome_cientifico: Citrus sinensis
 emoji: 🍊
 tags: ["Subtropical", "Sul Portugal", "Açores", "Citrinos"]
-description: Guia completo para cultivo de laranjeira em Portugal e Açores - clima subtropical, variedades, cuidados e doenças típicas
+description: "Cultivo de laranjeiras em Portugal. Variedades de laranja, cuidados com cítricos, doenças específicas, pragas e colheita de laranjas suculentas."
+keywords: "laranja, laranjeira, cultivo laranja Portugal, cítricos Portugal, variedades laranja, doenças cítricos, pragas cítricos, colheita laranja, pomar cítricos"
+og_title: "Cultivo de Laranja - Pomar.pt"
+og_description: "Tudo sobre cultivo de laranjeiras em Portugal. Variedades, doenças, pragas de cítricos e colheita. Guia técnico para produtores."
 ---
 
 ## 🌍 Clima Adequado {#clima}

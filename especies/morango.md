@@ -4,7 +4,10 @@ title: Morango
 nome_cientifico: Fragaria × ananassa
 emoji: 🍓
 tags: ["Pequeno Fruto", "Muito Adaptável", "Cultura Anual", "Todo Portugal"]
-description: Guia morango - muito adaptável, replanta 3-4 anos, cultura intensiva, produção elevada
+description: "Cultivo de morangos em Portugal. Variedades neutras, sistemas de produção, irrigação automatizada e colheita escalonada durante todo o ano."
+keywords: "morango, cultivo morango Portugal, variedades morango, morango dia neutro, irrigação morango, colheita morango, pomar morango, frutas vermelhas Portugal"
+og_title: "Cultivo de Morango - Pomar.pt"
+og_description: "Cultive morangos em Portugal. Variedades, sistemas de rega, cuidados técnicos e colheita contínua. Guia para produtores."
 ---
 
 ## 🌍 Clima Adequado {#clima}

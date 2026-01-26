@@ -2,7 +2,6 @@
 layout: pratica
 title: Podas
 icon: ✂️
-description: Guia completo de poda - 5 tipos essenciais, técnicas por espécie, ferramentas e timing correto para árvores de fruto produtivas
 tags: ["Essencial", "Anual", "Técnica"]
 nav_items:
   - {id: "principios", title: "Princípios Gerais", icon: "fas fa-lightbulb"}
@@ -10,6 +9,10 @@ nav_items:
   - {id: "especies", title: "Poda por Espécie", icon: "fas fa-tree"}
   - {id: "tecnica", title: "Técnica Corte", icon: "fas fa-cut"}
   - {id: "ferramentas", title: "Ferramentas", icon: "fas fa-tools"}
+description: "Técnicas de poda para árvores frutíferas em Portugal. Formação de copa, poda de frutificação, poda verde, épocas e ferramentas recomendadas."
+keywords: "poda árvores frutíferas, formação copa, poda frutificação, poda verde, época poda, ferramentas poda, tesoura poda, guia poda Portugal"
+og_title: "Podas e Formação - Guia Técnico Pomar.pt"
+og_description: "Técnicas completas de poda para pomares. Formação, frutificação, verde e épocas. Saiba quando e como podar corretamente."
 ---
 
 ## 🎯 Princípios Gerais - Porquê Podar? {#principios}

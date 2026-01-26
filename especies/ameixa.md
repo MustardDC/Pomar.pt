@@ -4,7 +4,10 @@ title: Ameixa
 nome_cientifico: Prunus domestica
 emoji: 🫐
 tags: ["Subtropical", "Sul Portugal", "Adaptável"]
-description: Guia cultivo ameixeira - similar ao pessego, variedades portuguesas, poda e cuidados
+description: "Cultivo de ameixoeiras em Portugal. Variedades de ameixa japonesa e europeia, técnicas culturais, polinização e colheita escalonada de ameixas."
+keywords: "ameixa, ameixoeira, cultivo ameixa Portugal, variedades ameixa, poda ameixoeira, colheita ameixa, ameixa europeia japonesa, pomar ameixa, fruticultura"
+og_title: "Cultivo de Ameixa - Guia Técnico Pomar.pt"
+og_description: "Saiba como cultivar ameixoeiras em Portugal. Variedades, plantação, polinização e colheita de ameixas de qualidade."
 ---
 
 ## 🌍 Clima {#clima}

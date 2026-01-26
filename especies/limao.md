@@ -4,7 +4,10 @@ title: Limão
 nome_cientifico: Citrus limon
 emoji: 🍋
 tags: ["Subtropical", "Sul Portugal", "Açores", "Citrinos"]
-description: Guia cultivo limoeiro - clima subtropical, mais resistente que laranja, produção contínua
+description: "Cultivo de limoeiros em Portugal. Variedades de limão, adaptação climática, rega e fertirrigação, tratamento de pragas e colheita contínua de limões."
+keywords: "limão, limoeiro, cultivo limão Portugal, variedades limão, cítricos Portugal, rega limoeiro, doenças limoeiro, pomar cítricos, colheita limão"
+og_title: "Cultivo de Limão em Portugal | Pomar.pt"
+og_description: "Cultive limoeiros com sucesso. Variedades, rega, nutrição, pragas e doenças. Guia técnico para cítricos em Portugal."
 ---
 
 ## 🌍 Clima {#clima}

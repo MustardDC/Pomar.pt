@@ -1,8 +1,10 @@
 ---
 layout: default
 title: Recursos e Links Úteis
-description: Instituições oficiais, universidades, vídeos educacionais, PDFs gratuitos e recursos credíveis para fruticultura em Portugal e Açores
-keywords: recursos, DRAAC, INIAV, UTAD, links úteis, instituições, vídeos fruticultura, manuais PDF
+description: "Links, contactos e recursos úteis para produtores de fruta em Portugal. Entidades reguladoras, escolas agrícolas, fornecedores e associações."
+keywords: "recursos fruticultura, contactos agricultores, entidades agrícolas Portugal, fornecedores pomares, escolas agrícolas, associações fruticultores"
+og_title: "Recursos Úteis - Pomar.pt"
+og_description: "Recursos essenciais para fruticultores. Contactos, entidades reguladoras, escolas agrícolas e fornecedores em Portugal."
 ---
 
 <div class="page-header">

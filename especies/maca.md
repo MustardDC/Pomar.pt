@@ -4,7 +4,10 @@ title: Maçã
 nome_cientifico: Malus domestica
 emoji: 🍎
 tags: ["Temperada", "Norte Portugal", "Centro"]
-description: Guia completo para cultivo de macieiras em Portugal - clima, variedades, plantação, poda e cuidados
+description: "Guia completo para cultivo de macieiras em Portugal. Variedades, clima, plantação, poda, doenças e colheita. Tudo que precisa saber para o seu pomar."
+keywords: "maçã, macieira, cultivo maçã Portugal, variedades maçã, poda macieira, doenças maçã, colheita maçã, pomar maçã, Gala Fuji, árvore frutífera"
+og_title: "Cultivo de Maçã em Portugal | Guia Completo Pomar.pt"
+og_description: "Saiba como cultivar macieiras em Portugal. Variedades, plantação, cuidados, doenças e colheita. Guia técnico para pomares."
 ---
 
 ## 🌍 Clima Adequado {#clima}

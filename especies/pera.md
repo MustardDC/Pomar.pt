@@ -4,7 +4,10 @@ title: Pera
 nome_cientifico: Pyrus communis
 emoji: 🍐
 tags: ["Temperada", "Norte Portugal", "Centro"]
-description: Guia completo para cultivo de pereiras em Portugal - variedades, amadurecimento pós-colheita, poda e cuidados específicos
+description: "Cultivo de pereiras em Portugal. Variedades recomendadas, técnicas de poda, tratamento de doenças e colheita de peras. Guia prático para produtores."
+keywords: "pera, pereira, cultivo pera Portugal, variedades pera, poda pereira, doenças pera, colheita pera, pomar pera, Rocha Abate, fruticultura"
+og_title: "Cultivo de Pera - Guia Prático Pomar.pt"
+og_description: "Tudo sobre cultivo de pereiras em Portugal. Variedades, clima, cuidados técnicos e colheita. Guia completo para pomares."
 ---
 
 ## 🌍 Clima Adequado {#clima}

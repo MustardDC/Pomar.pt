@@ -2,7 +2,6 @@
 layout: pratica
 title: Plantação e Estabelecimento
 icon: 🌱
-description: Como plantar corretamente árvores de fruto - seleção do local, preparação do solo, técnica de plantação e cuidados do primeiro ano
 tags: ["Essencial", "Iniciantes", "Passo-a-passo"]
 nav_items:
   - {id: "local", title: "Seleção do Local", icon: "fas fa-map-marker-alt"}
@@ -10,6 +9,10 @@ nav_items:
   - {id: "material", title: "Material Plantação", icon: "fas fa-shopping-cart"}
   - {id: "tecnica", title: "Técnica Plantação", icon: "fas fa-hands"}
   - {id: "ano1", title: "Cuidados Ano 1", icon: "fas fa-calendar"}
+description: "Guia prático de plantação de árvores frutíferas em Portugal. Seleção do local, preparação do solo, técnica de plantação e cuidados do primeiro ano."
+keywords: "plantação árvores frutíferas, preparação solo, técnica plantação, seleção local pomar, drenagem solo, rega primeiro ano, pomar novo, Portugal"
+og_title: "Plantação de Árvores Frutíferas - Pomar.pt"
+og_description: "Como plantar corretamente árvores de fruto em Portugal. Local, solo, técnica e cuidados do primeiro ano. Guia passo-a-passo."
 ---
 
 ## 🎯 Seleção do Local (CRÍTICA!) {#local}

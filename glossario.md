@@ -1,8 +1,10 @@
 ---
 layout: default
 title: Glossário de Termos Técnicos
-description: Dicionário completo de termos técnicos de fruticultura - definições claras e práticas para iniciantes e profissionais
-keywords: glossário, termos técnicos, fruticultura, dicionário pomar, vocabulário agrícola
+description: "Dicionário técnico de fruticultura em português. Definições de termos agrícolas, fenológicos e técnicos específicos de pomares e árvores frutíferas."
+keywords: "glossário fruticultura, termos técnicos agricultura, dicionário pomares, fenologia plantas, vocabulário agrícola, termos fruticultura, Portugal"
+og_title: "Glossário Técnico | Pomar.pt"
+og_description: "Dicionário de termos técnicos em fruticultura. Definições de conceitos agrícolas específicos para pomares em português."
 ---
 
 <div class="page-header">

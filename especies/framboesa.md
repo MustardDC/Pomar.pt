@@ -4,7 +4,10 @@ title: Framboesa
 nome_cientifico: Rubus idaeus
 emoji: 🍓
 tags: ["Pequeno Fruto", "Canas", "Todo Portugal", "Poda Especial"]
-description: Guia framboesa - sistema de canas bienal, poda pós-colheita crítica, variedades biferas, cultura intensiva
+description: "Cultivo de framboeseiras em Portugal. Sistemas de treliçado, poda de ramos, tratamento de pragas específicas e colheita contínua de framboesas."
+keywords: "framboesa, framboeseira, cultivo framboesa Portugal, variedades framboesa, poda framboeseira, treliçado framboesa, colheita framboesa, frutas vermelhas"
+og_title: "Cultivo de Framboesa | Guia Técnico Pomar.pt"
+og_description: "Saiba como cultivar framboeseiras. Sistemas de suporte, poda, pragas e colheita escalonada. Guia completo para Portugal."
 ---
 
 ## 🌍 Clima Adequado {#clima}

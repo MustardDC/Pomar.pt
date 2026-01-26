@@ -4,7 +4,10 @@ title: Videira
 nome_cientifico: Vitis vinifera
 emoji: 🍇
 tags: ["Adaptável", "Todo Portugal", "Vinho", "Mesa"]
-description: Guia completo para cultivo de videira em Portugal - variedades, poda, enxertos e produção de vinho e uva de mesa
+description: "Cultivo de uva em Portugal. Variedades de mesa e vinho, treliçado, poda em verde, tratamento de doenças da videira e colheita de cachos de qualidade."
+keywords: "videira, uva, cultivo videira Portugal, variedades uva, poda videira, treliçado uva, doenças videira, vinha, vinha Portugal, colheita uva"
+og_title: "Cultivo de Uva - Guia Completo Pomar.pt"
+og_description: "Cultivo de videiras em Portugal. Variedades de mesa e vinho, sistemas de suporte, poda e colheita. Guia técnico completo."
 ---
 
 ## 🌍 Clima Adequado {#clima}

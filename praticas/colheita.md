@@ -2,7 +2,6 @@
 layout: pratica
 title: Colheita e Armazenamento
 icon: 🍎
-description: Guia completo de colheita - índices de maturidade, timing perfeito, técnicas por espécie e armazenamento pós-colheita para máxima durabilidade
 tags: ["Essencial", "Sazonal", "Pós-Colheita"]
 nav_items:
   - {id: "indices", title: "Índices Maturidade", icon: "fas fa-clipboard-check"}
@@ -10,6 +9,10 @@ nav_items:
   - {id: "climaterico", title: "Climatérico vs Não", icon: "fas fa-seedling"}
   - {id: "armazenamento", title: "Armazenamento", icon: "fas fa-warehouse"}
   - {id: "especies", title: "Por Espécie", icon: "fas fa-apple-alt"}
+description: "Épocas de colheita por espécie em Portugal. Técnicas de colheita, armazenamento, conservação e comercialização de frutos de qualidade."
+keywords: "colheita frutos, época colheita, armazenamento frutos, conservação pós-colheita, comercialização frutos, qualidade frutos, Portugal"
+og_title: "Colheita e Pós-colheita | Pomar.pt"
+og_description: "Guia de colheita para todas as espécies. Épocas, técnicas, armazenamento e conservação. Maximize a qualidade dos seus frutos."
 ---
 
 ## 📊 Índices de Maturidade - Quando Colher? {#indices}

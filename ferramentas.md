@@ -1,8 +1,10 @@
 ---
 layout: default
 title: Ferramentas e Calculadoras
-description: Ferramentas práticas para o seu pomar - calculadoras de adubação, calendários regionais, diagnóstico de doenças e tabelas comparativas
-keywords: calculadora, calendário, ferramentas pomar, diagnóstico doenças, tabelas comparativas
+description: "Ferramentas e equipamentos essenciais para pomares em Portugal. Tesouras, serras, pulverizadores, sistemas de rega e manutenção de ferramentas."
+keywords: "ferramentas pomar, tesoura poda, serra fruticultura, pulverizador, sistema rega, equipamentos pomar, manutenção ferramentas, Portugal"
+og_title: "Ferramentas e Equipamentos - Pomar.pt"
+og_description: "Ferramentas essenciais para pomares. Seleção, uso e manutenção de tesouras, serras, pulverizadores e sistemas de rega."
 ---
 
 <div class="page-header">

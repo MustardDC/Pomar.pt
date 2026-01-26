@@ -2,7 +2,6 @@
 layout: pratica
 title: Doenças e Pragas
 icon: 🐛
-description: Guia completo de proteção fitossanitária - identificação, prevenção e tratamento de doenças fúngicas, bacterianas e pragas comuns
 tags: ["Essencial", "Prevenção", "Tratamento"]
 nav_items:
   - {id: "protocolo", title: "Protocolo Integrado", icon: "fas fa-shield-alt"}
@@ -10,6 +9,10 @@ nav_items:
   - {id: "bacterianas", title: "Doenças Bacterianas", icon: "fas fa-bacteria"}
   - {id: "pragas", title: "Pragas Comuns", icon: "fas fa-bug"}
   - {id: "receitas", title: "Receitas Caseiras", icon: "fas fa-mortar-pestle"}
+description: "Principais doenças e pragas em pomares portugueses. Identificação, ciclos de vida, tratamento orgânico e convencional com fungicidas e inseticidas."
+keywords: "doenças pomares, pragas árvores frutíferas, tratamento orgânico, fungicida inseticida, identificação pragas, controle biológico, Portugal"
+og_title: "Doenças e Pragas - Pomar.pt"
+og_description: "Identifique e controle doenças e pragas em pomares. Tratamentos orgânicos e convencionais. Guia técnico para proteção das culturas."
 ---
 
 ## 🛡️ Protocolo de Manejo Integrado {#protocolo}

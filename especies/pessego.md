@@ -4,7 +4,10 @@ title: Pessego
 nome_cientifico: Prunus persica
 emoji: 🍑
 tags: ["Subtropical", "Sul Portugal", "Açores", "Poda Agressiva"]
-description: Guia cultivo de pessegueiro - clima subtropical, poda agressiva essencial, cancro bacteriano e variedades portuguesas
+description: "Guia técnico de cultivo de pessegueiros em Portugal. Variedades resistentes, manejo de pragas, tratamento de doenças e colheita de pêssegos frescos."
+keywords: "pêssego, pessegueiro, cultivo pêssego Portugal, variedades pêssego, poda pessegueiro, pragas pêssego, colheita pêssego, pomar pêssego, fruticultura"
+og_title: "Cultivo de Pêssego em Portugal | Pomar.pt"
+og_description: "Como cultivar pessegueiros com sucesso. Variedades nacionais, doenças, pragas e colheita. Guia técnico para produtores."
 ---
 
 ## 🌍 Clima Adequado {#clima}
