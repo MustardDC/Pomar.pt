@@ -1,0 +1,60 @@
+Gera meta tags SEO para o site Pomar.pt (português).
+Retorna EXATAMENTE neste formato para CADA página (sem explicações extras):
+
+=== maca.md ===
+description: [160 chars max]
+keywords: [10 keywords separadas por vírgulas]
+og_title: [60 chars max]
+og_description: [160 chars max]
+---
+
+PÁGINAS:
+
+1. PÁGINA: maca.md | TÍTULO: Maçã | TEMA: Cultivo de macieiras em Portugal, variedades, clima, plantação, poda, doenças e colheita. Guia completo para pomares.
+
+2. PÁGINA: pera.md | TÍTULO: Pera | TEMA: Cultivo de pereiras em Portugal, variedades nacionais, cuidados, práticas essenciais e colheita. Guia técnico para produtores.
+
+3. PÁGINA: pessego.md | TÍTULO: Pêssego | TEMA: Cultivo de pessegueiros em Portugal, variedades resistentes, clima, pragas e doenças específicas da espécie.
+
+4. PÁGINA: ameixa.md | TÍTULO: Ameixa | TEMA: Cultivo de ameixoeiras em Portugal, variedades de ameixa japonesa e europeia, técnicas culturais e colheita.
+
+5. PÁGINA: videira.md | TÍTULO: Videira | TEMA: Cultivo de uva em Portugal, variedades de mesa e vinho, treliçado, poda em verde e colheita de cachos.
+
+6. PÁGINA: laranja.md | TÍTULO: Laranja | TEMA: Cultivo de laranjeiras em Portugal, cuidados com cítricos, variedades nacionais, doenças e pragas.
+
+7. PÁGINA: limao.md | TÍTULO: Limão | TEMA: Cultivo de limoeiros em Portugal, variedades de limão, adaptação climática, rega e fertilização de cítricos.
+
+8. PÁGINA: mirtilo.md | TÍTULO: Mirtilo | TEMA: Cultivo de mirtileiros em Portugal, acidez do solo, variedades americanas, colheita e processamento de mirtilos.
+
+9. PÁGINA: framboesa.md | TÍTULO: Framboesa | TEMA: Cultivo de framboeseiras em Portugal, treliçado, poda de ramos, pragas específicas e colheita contínua.
+
+10. PÁGINA: morango.md | TÍTULO: Morango | TEMA: Cultivo de morangos em Portugal, variedades neutras, sistemas de produção, irrigação e colheita escalonada.
+
+11. PÁGINA: plantacao.md | TÍTULO: Plantação e Estabelecimento | TEMA: Guia prático de plantação de árvores frutíferas, seleção do local, preparação solo, técnica plantação, cuidados primeiro ano.
+
+12. PÁGINA: podas.md | TÍTULO: Podas e Formação | TEMA: Técnicas de poda para árvores frutíferas, formação de copa, poda de frutificação, poda verde, época e ferramentas.
+
+13. PÁGINA: adubacao.md | TÍTULO: Adubação e Nutrição | TEMA: Programa de adubação para pomares, necessidades nutricionais por espécie, adubo orgânico e mineral, análise foliar.
+
+14. PÁGINA: enxertos.md | TÍTULO: Enxertos e Propagação | TEMA: Técnicas de enxertia em árvores frutíferas, porta-enxertos recomendados, épocas, métodos de enxerto.
+
+15. PÁGINA: doencas.md | TÍTULO: Doenças e Pragas | TEMA: Principais doenças e pragas em pomares portugueses, identificação, tratamento orgânico e convencional.
+
+16. PÁGINA: colheita.md | TÍTULO: Colheita e Pós-colheita | TEMA: Época de colheita por espécie, técnicas de colheita, armazenamento, conservação e comercialização de frutos.
+
+17. PÁGINA: ferramentas.md | TÍTULO: Ferramentas e Equipamentos | TEMA: Ferramentas essenciais para pomares, tesouras, serras, pulverizadores, rega, seleção e manutenção de equipamentos.
+
+18. PÁGINA: glossario.md | TÍTULO: Glossário Técnico | TEMA: Dicionário de termos técnicos em fruticultura, definições de conceitos agrícolas e fenológicos específicos.
+
+19. PÁGINA: recursos.md | TÍTULO: Recursos Úteis | TEMA: Links, contactos e recursos para produtores de fruta em Portugal, entidades reguladoras, escolas agrícolas e fornecedores.
+
+20. PÁGINA: README.md (Homepage) | TÍTULO: Pomar.pt - Guia Completo de Fruticultura | TEMA: Site sobre cultivo de árvores frutíferas em Portugal, 10 espécies, 6 práticas essenciais, informação técnica completa para produtores e iniciantes.
+
+REGRAS:
+- description: Máximo 160 caracteres, em português, otimizado SEO, persuasivo
+- keywords: Exatamente 10 keywords separadas por vírgula, incluir termo-chave principal, variações
+- og_title: Máximo 60 caracteres, incluir marca "Pomar.pt" onde possível
+- og_description: Máximo 160 caracteres, resumo atrativo para redes sociais
+- Não incluir markdown, asteriscos, formatação especial
+- Cada campo numa linha separada
+- Separar páginas com "---"

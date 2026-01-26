@@ -1,0 +1,19 @@
+Loaded cached credentials.
+=== maca.md ===
+description: Aprenda a cultivar macieiras em Portugal. Guia completo sobre variedades, clima ideal, plantação, poda, tratamento de doenças e colheita de maçãs sumarentas.
+keywords: cultivo de macieiras, plantar macieiras, poda de macieiras, doenças macieiras, colheita de maçãs, variedades de maçã, macieiras em Portugal, pomar, fruticultura, agricultura biológica
+og_title: Guia Completo para o Cultivo de Macieiras | Pomar.pt
+og_description: Tudo sobre o cultivo de macieiras: da escolha da variedade e plantação à poda, controlo de pragas e colheita. Tenha maçãs perfeitas no seu pomar!
+---
+=== pera.md ===
+description: Descubra como cultivar pereiras com sucesso. Conheça as variedades nacionais como a Pêra Rocha e aprenda os cuidados técnicos essenciais para um pomar saudável.
+keywords: cultivo de pereiras, pereira rocha, plantar pereiras, poda de pereiras, doenças pereiras, colheita de peras, variedades de pera, pereiras em Portugal, fruticultura, pomar
+og_title: Cultivo de Pereiras: Variedades Nacionais e Cuidados | Pomar.pt
+og_description: Guia prático para o cultivo de pereiras em Portugal. Foco nas variedades nacionais e nos cuidados técnicos de manutenção, poda e tratamentos.
+---
+=== plantacao.md ===
+description: O guia essencial para a plantação de árvores de fruto. Saiba como escolher o local, preparar o solo, a técnica correta e os cuidados no primeiro ano de vida.
+keywords: plantar árvores de fruto, plantação de pomar, solo para fruteiras, compasso de plantação, cuidados pós-plantação, rega, fertilização, tutoragem, fruticultura, jardinagem
+og_title: Como Plantar Árvores de Fruto: Guia Passo a Passo | Pomar.pt
+og_description: Aprenda a plantar as suas árvores de fruto. Dicas sobre a escolha do local, preparação do solo e todos os cuidados essenciais durante o primeiro ano.
+---

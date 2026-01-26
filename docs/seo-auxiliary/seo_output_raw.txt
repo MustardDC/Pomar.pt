@@ -1,0 +1,121 @@
+Loaded cached credentials.
+=== maca.md ===
+description: Aprenda a cultivar macieiras em Portugal com o nosso guia completo. Descubra as melhores variedades, técnicas de plantação, poda, tratamento de doenças e colheita.
+keywords: cultivo de maçã, macieiras em portugal, poda de macieira, doenças da macieira, colheita de maçã, variedades de maçã, plantar macieiras, pomar de macieiras, fruticultura, maçã bravo esmolfe
+og_title: Cultivo de Maçã em Portugal | Guia Completo | Pomar.pt
+og_description: Tudo sobre o cultivo de macieiras em Portugal. Desde a plantação à colheita, aprenda as técnicas essenciais para ter um pomar de sucesso.
+---
+=== pera.md ===
+description: Guia técnico para o cultivo de pereiras em Portugal. Conheça as variedades nacionais, como a pera rocha, e as práticas essenciais para uma colheita de sucesso.
+keywords: cultivo de pera, pereiras em portugal, pera rocha, podar pereiras, doenças de pereiras, colheita de peras, como plantar pereiras, adubação de pereiras, fruticultura, pereira
+og_title: Cultivo de Pera em Portugal | Guia Técnico | Pomar.pt
+og_description: Domine o cultivo de pereiras em Portugal. Um guia técnico com informação sobre variedades, cuidados, poda e colheita para produtores.
+---
+=== pessego.md ===
+description: Descubra como cultivar pessegueiros em Portugal. Aprenda sobre as variedades mais resistentes, o clima ideal e como combater as pragas e doenças específicas.
+keywords: cultivo de pêssego, pessegueiro em portugal, podar pessegueiro, doenças do pessegueiro, pragas do pessegueiro, plantar pessegueiros, colheita de pêssego, variedades de pêssego, fruticultura, pêssego
+og_title: Cultivo de Pêssego em Portugal | Dicas e Cuidados | Pomar.pt
+og_description: Quer plantar pessegueiros? Encontre aqui toda a informação sobre o cultivo de pêssegos em Portugal, desde as variedades ao controlo de pragas.
+---
+=== ameixa.md ===
+description: Guia completo para cultivar ameixoeiras em Portugal. Conheça as diferenças entre ameixas japonesas e europeias, as técnicas culturais e a época de colheita.
+keywords: cultivo de ameixa, ameixoeira em portugal, ameixa rainha cláudia, podar ameixoeira, doenças da ameixoeira, plantar ameixoeira, colheita de ameixa, variedades de ameixa, fruticultura, ameixa
+og_title: Cultivo de Ameixa em Portugal | Guia Completo | Pomar.pt
+og_description: Aprenda tudo sobre o cultivo de ameixoeiras em Portugal. Explore variedades, técnicas de poda, tratamentos e como garantir uma colheita abundante.
+---
+=== videira.md ===
+description: Domine a arte de cultivar videiras em Portugal. Guia sobre uvas de mesa e de vinho, sistemas de condução, poda em verde, tratamentos e colheita dos cachos.
+keywords: cultivo de videira, uva de mesa, uva de vinho, podar videira, doenças da videira, míldio, oídio, sistema de treliça, colheita de uva, viticultura
+og_title: Cultivo de Videira (Uva) em Portugal | Guia Prático | Pomar.pt
+og_description: Guia prático para cultivar uvas de mesa e de vinho em Portugal. Aprenda sobre poda, tratamentos e técnicas de colheita para a sua videira.
+---
+=== laranja.md ===
+description: Aprenda a cultivar laranjeiras em Portugal com o nosso guia. Descubra os cuidados essenciais com citrinos, variedades, doenças e controlo de pragas comuns.
+keywords: cultivo de laranja, laranjeiras em portugal, citrinos, podar laranjeira, doenças dos citrinos, pragas dos citrinos, plantar laranjeiras, colheita de laranja, laranja do algarve, fruticultura
+og_title: Cultivo de Laranjeiras em Portugal | Cuidados Essenciais
+og_description: Tudo o que precisa saber para cultivar laranjas saborosas. Dicas sobre plantação, rega, adubação e combate a pragas em laranjeiras.
+---
+=== limao.md ===
+description: Guia completo para o cultivo de limoeiros em Portugal. Conheça as variedades de limão, a sua adaptação ao clima, e as melhores práticas de rega e fertilização.
+keywords: cultivo de limão, limoeiro em portugal, podar limoeiro, doenças dos citrinos, rega de limoeiro, adubação de limoeiro, plantar limoeiro, limão 4 estações, colheita de limão, citrinos
+og_title: Cultivo de Limoeiros em Portugal | Guia Completo | Pomar.pt
+og_description: Quer ter limões frescos todo o ano? Aprenda a plantar e cuidar de limoeiros em Portugal com as nossas dicas sobre rega, fertilização e poda.
+---
+=== mirtilo.md ===
+description: Aprenda a cultivar mirtilos em Portugal. Guia essencial sobre a preparação de solo ácido, variedades, técnicas de colheita e processamento deste superfruto.
+keywords: cultivo de mirtilo, mirtileiros em portugal, solo para mirtilos, ph do solo, podar mirtileiros, colheita de mirtilo, variedades de mirtilo, plantar mirtilos, pequenos frutos, agricultura biológica
+og_title: Cultivo de Mirtilo em Portugal | Solo, Poda e Colheita
+og_description: Guia completo para iniciar a sua plantação de mirtilos. Dicas essenciais sobre a acidez do solo, poda, rega e colheita para ter sucesso.
+---
+=== framboesa.md ===
+description: Guia prático para cultivar framboesas em Portugal. Aprenda a montar o sistema de treliça, a podar os ramos corretamente e a garantir uma colheita contínua.
+keywords: cultivo de framboesa, framboeseiras em portugal, podar framboeseiras, treliça para framboesas, pragas da framboeseira, colheita de framboesa, plantar framboesas, pequenos frutos, framboesa remontante, fruticultura
+og_title: Cultivo de Framboesa em Portugal | Dicas Essenciais | Pomar.pt
+og_description: Descubra como é fácil cultivar framboesas! O nosso guia ensina sobre o sistema de treliça, poda e colheita para ter frutos deliciosos.
+---
+=== morango.md ===
+description: Aprenda tudo sobre o cultivo de morangos em Portugal. Guia completo sobre variedades, sistemas de produção (solo ou hidroponia), rega e colheita escalonada.
+keywords: cultivo de morango, morangueiros em portugal, plantar morangos, variedades de morango, colheita de morango, hidroponia de morango, rega de morangueiros, pragas dos morangos, pequenos frutos, agricultura
+og_title: Cultivo de Morangos em Portugal | Guia para Iniciantes | Pomar.pt
+og_description: Guia completo para cultivar morangos em casa ou profissionalmente. Dicas sobre variedades, sistemas de produção e colheita para frutos perfeitos.
+---
+=== plantacao.md ===
+description: O guia essencial para plantar árvores de fruto com sucesso. Aprenda a escolher o local, preparar o solo, a técnica de plantação e os cuidados no primeiro ano.
+keywords: plantar árvores de fruto, preparação do solo, compasso de plantação, rega após plantação, tutoramento de árvores, cuidados no primeiro ano, estabelecer pomar, como plantar, fruticultura, pomar
+og_title: Como Plantar Árvores de Fruto | Guia de Plantação | Pomar.pt
+og_description: Guia passo a passo para a plantação de árvores frutíferas. As melhores dicas para garantir o sucesso do seu pomar desde o primeiro dia.
+---
+=== podas.md ===
+description: Aprenda a podar as suas árvores de fruto. Guia completo sobre poda de formação e de frutificação, poda em verde, a melhor época e as ferramentas certas.
+keywords: poda de árvores de fruto, podar árvores, poda de formação, poda de frutificação, poda em verde, quando podar, ferramentas de poda, como podar macieira, poda de inverno, fruticultura
+og_title: Poda de Árvores de Fruto | Técnicas e Épocas | Pomar.pt
+og_description: Domine as técnicas de poda para árvores mais saudáveis e produtivas. Aprenda a fazer a poda de formação, frutificação e a poda em verde.
+---
+=== adubacao.md ===
+description: Guia de adubação para pomares saudáveis e produtivos. Conheça as necessidades nutricionais das árvores de fruto, adubos orgânicos vs minerais e análise foliar.
+keywords: adubação de árvores de fruto, fertilização de pomares, adubo orgânico, adubo NPK, análise de solo, necessidades nutricionais, adubar macieiras, fertilizante para citrinos, correção de solo, fruticultura
+og_title: Adubação de Árvores de Fruto | Guia de Nutrição | Pomar.pt
+og_description: Nutrição completa para o seu pomar. Aprenda a criar um programa de adubação eficaz para árvores de fruto, com dicas sobre adubos e análise foliar.
+---
+=== enxertos.md ===
+description: Aprenda as técnicas de enxertia para propagar as suas árvores de fruto. Guia sobre os melhores porta-enxertos, épocas e métodos de enxerto (garfo, borbulha).
+keywords: enxertia de árvores, como enxertar, porta-enxerto, enxerto de garfo, enxerto de borbulha, propagação de plantas, quando enxertar, enxertar citrinos, clonagem de plantas, fruticultura
+og_title: Enxertia de Árvores de Fruto | Técnicas e Dicas | Pomar.pt
+og_description: Multiplique as suas árvores favoritas! Guia prático de enxertia com as melhores técnicas, épocas e porta-enxertos para garantir o sucesso.
+---
+=== doencas.md ===
+description: Identifique e trate as principais doenças e pragas do seu pomar em Portugal. Guia com fotos, sintomas e soluções de tratamento biológico e convencional.
+keywords: doenças de árvores de fruto, pragas de pomares, tratamento biológico, pedrado da macieira, mosca da fruta, pulgão, míldio, oídio, tratamentos fitossanitários, fungicida
+og_title: Doenças e Pragas em Árvores de Fruto | Guia | Pomar.pt
+og_description: Proteja o seu pomar! Aprenda a identificar e combater as doenças e pragas mais comuns em árvores de fruto com tratamentos eficazes e sustentáveis.
+---
+=== colheita.md ===
+description: Otimize a sua colheita e pós-colheita de fruta. Saiba a época ideal de colheita por espécie, técnicas, e como armazenar e conservar os frutos por mais tempo.
+keywords: colheita de fruta, quando colher maçãs, armazenamento de fruta, pós-colheita, conservação de peras, ponto de maturação, como colher, comercialização de fruta, calendário de colheita, fruticultura
+og_title: Colheita e Pós-Colheita de Fruta | Guia Prático | Pomar.pt
+og_description: Da árvore para a mesa. Aprenda as melhores técnicas de colheita, armazenamento e conservação para aumentar a durabilidade e qualidade dos seus frutos.
+---
+=== ferramentas.md ===
+description: Conheça as ferramentas essenciais para cuidar do seu pomar. Guia de seleção e manutenção de tesouras de poda, serrotes, pulverizadores e sistemas de rega.
+keywords: ferramentas de jardinagem, tesoura de poda, serrote de poda, pulverizador agrícola, sistema de rega, ferramentas para pomar, manutenção de ferramentas, equipamento agrícola, motoenxada, motocultivador
+og_title: Ferramentas Essenciais para Pomar e Jardim | Pomar.pt
+og_description: As ferramentas certas fazem toda a diferença. Descubra quais são os equipamentos essenciais para a manutenção do seu pomar e como cuidar deles.
+---
+=== glossario.md ===
+description: O dicionário completo da fruticultura. Consulte o nosso glossário técnico para perceber o significado de termos sobre agricultura, fenologia e cultivo de pomares.
+keywords: glossário de agricultura, termos de fruticultura, dicionário agrícola, fenologia da videira, o que é abrolhamento, gomo terminal, compasso de plantação, porta-enxerto, cultivar, agricultura
+og_title: Glossário de Fruticultura | Termos Técnicos | Pomar.pt
+og_description: Não se perca nos termos técnicos! O nosso glossário de fruticultura explica de forma simples os conceitos mais importantes do cultivo de fruta.
+---
+=== recursos.md ===
+description: Encontre aqui uma lista de recursos úteis para fruticultores em Portugal. Links para entidades, associações do setor, escolas agrícolas e fornecedores de material.
+keywords: recursos agricultura portugal, DGAV, DRAP, escolas agrícolas, associações de produtores, apoios à agricultura, fornecedores agrícolas, legislação agrícola, fruticultura, agronomia
+og_title: Recursos para Fruticultores em Portugal | Links Úteis | Pomar.pt
+og_description: Uma lista completa de links, contactos e recursos para produtores de fruta em Portugal. Encontre aqui a ajuda que precisa para o seu negócio.
+---
+=== README.md ===
+description: Bem-vindo ao Pomar.pt, o seu guia completo para o cultivo de árvores de fruto em Portugal. Informação técnica para produzir maçãs, peras, citrinos e mais.
+keywords: fruticultura, árvores de fruto, cultivo de fruta, pomar, agricultura em portugal, podar árvores de fruto, plantar árvores, guia de agricultura, doenças de árvores, colheita de fruta
+og_title: Pomar.pt - Guia Completo para o Cultivo de Árvores de Fruto
+og_description: Aprenda a cultivar árvores de fruto em Portugal. Guias sobre 10 espécies, poda, adubação, controlo de pragas e muito mais. Para iniciantes e produtores.
+---
